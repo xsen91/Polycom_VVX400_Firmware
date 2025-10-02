@@ -1,0 +1,3569 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dictionary>
+	<pageHelpPhrases>
+		<phrase i="0" t="本頁顯示電話目前的設定。"/>
+		<phrase i="1" t="您可將各種事件記錄到快閃記憶體檔案系統和設置伺服器。您可設定記錄的資訊量、類型、頻率，以及要記錄哪些軟體子系統元件的事件。&lt;br/&gt;&lt;br/&gt;[整體設定] 讓您決定所有記錄類型的設定值，[上傳記錄檔案] 讓您指定記錄頻率以及內容的附加選項。[模組記錄等級限制] 讓您指定每種記錄檔的記錄等級。修改個別軟體元件的記錄等級後，就能針對應用程式某元件擷取嚴重性低的事件，針對其他元件擷取嚴重性高的事件。請注意，選擇記錄等級後會涵蓋嚴重性較高的所有事件，排除嚴重性較低的事件。您選擇的記錄等級，決定所記錄事件的最低嚴重性。&lt;br/&gt;&lt;br/&gt;[模組記錄等級限制] 中的個別記錄等級設定值，不得低於 [整體記錄等級限制] 中設定的嚴重性等級。請注意，通常只有在疑難排解時，才需要變更個別子系統的預設記錄等級。若設定的記錄等級過低（例如 Event 1 或 Debug），可能導致電話效能降低。除非 Poly 技術支援部門要求，否則請勿變更預設的記錄等級。"/>
+		<phrase i="2" t="[簡單設定] 功能表提供最基本的必要組態選項，供您設定電話以便正常使用。只要按一下主導覽功能表列的 [簡單設定] 功能表，就能顯示 [語言]、[時間同步]、[SIP 伺服器]、[SIP 外撥代理伺服器]、[SIP 線路識別]、[基本設定檔] 等選項。[網路組態公用程式] 的其他地方也有這些選項。您在 [簡單設定] 功能表中套用的設定值或選項，都會自動套用到其他區域。"/>
+		<phrase i="3" t="您可設定以下組態：&lt;br/&gt;&lt;b&gt;語言&lt;/b&gt;：設定電話機顯示的語言。&lt;br/&gt;&lt;b&gt;使用者選項設定&lt;/b&gt;：啟用/停用電話的基本選項設定。" t.VVX_600="您可設定以下組態：&lt;br/&gt;&lt;b&gt;語言&lt;/b&gt;：設定電話機顯示的語言。&lt;br/&gt;&lt;b&gt;使用者選項設定&lt;/b&gt;：啟用/停用電話的基本選項設定。&lt;br/&gt;&lt;b&gt;藍牙&lt;/b&gt;：讓您開/關藍牙模組和藍牙無線傳輸功能。"/>
+		<phrase i="4" t="顯示未接、已接、已撥電話的過往記錄。"/>
+		<phrase i="5" t="您可將自訂鈴聲加入電話，亦可針對某些聯絡人或電話線路自訂鈴聲。電話機支援以下 .wav 檔案格式：G.711u-law、G.711a-law、G.722、G.729AB、Lin16、iLBC。&lt;br/&gt;&lt;br/&gt;若要將音效檔加入清單，請按一下 &lt;b&gt;[新增音效檔]&lt;/b&gt; 圖示。您可以上傳電腦的音效檔，也可以輸入音效檔的 URL。音效檔的副檔名必須是 .wav。若選取檔案，則系統會將檔案儲存到電話機的快閃記憶體中，佈建伺服器也會有一份拷貝。若選取 URL，則電話機將從該 URL 下載音效檔。您最多可儲存 23 個音效檔，或儲存到電話機的記憶體用完為止。&lt;br/&gt;&lt;br/&gt;您上傳的音效檔會出現在清單中。若要移除音效檔，請在清單中選取音效檔名稱，然後按一下 &lt;b&gt;[刪除音效檔]&lt;/b&gt; 圖示。若要播放音效檔，請選取音效檔名稱，然後按一下 &lt;b&gt;[播放音效檔]&lt;/b&gt; 圖示。&lt;br/&gt;&lt;br/&gt;您可在 [開機音效] 清單方塊中，將自訂鈴聲設定成開機音效，並使用 [鈴聲類型] 下拉式方塊設定來電鈴聲。若要設定某些聯絡人的自訂鈴聲，請在電話上前往 [功能表] &gt; [功能] &gt; [聯絡人通訊錄]，選取聯絡人，按下 [編輯] 功能鍵，並選擇 [鈴聲類型]。&lt;br/&gt;&lt;br/&gt;若要設定某線路的自訂鈴聲，請在電話上前往 [公用程式] &gt; [功能鍵] 和 [線路鍵組態]，選取要設定自訂鈴聲的線路，然後選擇 [編輯快速撥號聯絡人資訊] 選項中的鈴聲類型。&lt;br/&gt;&lt;br/&gt;注意︰若設定不支援的音效檔，則電話機會使用預設鈴聲。"/>
+		<phrase i="6" t="您可設定讓電話定時傳送訊息到佈建伺服器，確保兩者連線正常。這些「保持連線」訊息讓電話偵測到失敗的連線，並且重新向佈建伺服器註冊。"/>
+		<phrase i="7" t="本頁包含一組低階視訊轉碼程式參數的設定，預設值在大部分的情況下就已經夠用。除非 Poly 有特別指示，否則我們不建議您變更預設值。"/>
+		<phrase i="8" t="服務品質 (QoS) 設定能以保證的方式傳送網路流量。舉例來說，QoS 設定決定資料流中的哪些資料封包要優先處理，或是哪些封包應該到達目的地而無須重新傳送。"/>
+		<phrase i="9" t="您可選擇電話機和擴充模組顯示的背景圖案。您可使用 JPEG、BMP 或 PNG 格式的檔案，而且最多能儲存六個圖案。系統會將您上傳的圖案儲存到 [背景圖案] 清單方塊中。儲存的圖案數達到上限後，您必須先移除清單方塊中的圖案，才能上傳新圖案。&lt;br/&gt;&lt;br/&gt;若要將圖案加入清單，請選擇 [加入新的背景圖案]。這時會顯示 [新增背景] 對話方塊。您可選擇上傳開機伺服器或本機電腦中的圖案。您上傳的圖案會顯示在 [背景圖案] 清單中。若要預覽清單中的圖案，請按一下圖案名稱。[預覽電話] 隨即會顯示預覽畫面。若要刪除圖案，請按一下清單中的圖案，然後選擇 [刪除背景圖案]。在出現確認對話方塊後選擇 [是]。若要清除已儲存背景圖案的清單內容，請選擇畫面最下方的 [重設為預設值]。"/>
+		<phrase i="10" t="[時間與日期] 功能表的設定，讓您設定電話顯示的時間與日期。您可選擇電話使用的 SNTP 伺服器以取得時間與日期、時間與日期的顯示格式，以及電話為計算日光節約時間所用的開始/結束日期。"/>
+		<phrase i="11" t="您可鎖住電話，使所有電話鍵失去作用。本功能可避免他人擅自撥出電話、只讓獲得許可的人接聽電話，並讓他人無法查閱電話資訊。您可選擇何時鎖住電話鍵，並指定鎖住後的電話可撥到哪些電話號碼。若啟用鎖住電話功能，電話上會有功能鍵要求您輸入使用者密碼。預設的使用者密碼是 123。"/>
+		<phrase i="12" t="將電話重開機的動作可更新電話組態、清除所有通話記錄，並且重新啟動電話。"/>
+		<phrase i="13" t="若是使用 Transport Layer Security (TLS) 的電話，則可利用加密套件協調網路連線的安全性設定。加密套件結合了身分驗證、加密和訊息驗證碼演算法。"/>
+		<phrase i="14" t="您可利用電話機查詢下列的應用程式和電話資訊：&lt;br/&gt;&lt;br/&gt;&lt;b&gt;電話語音事件通知&lt;/b&gt;：您可選擇傳送各種電話語音事件的通知。系統將以 XML 格式把通知傳送到登記的 URL。&lt;br/&gt;&lt;br/&gt;&lt;b&gt;電話狀態輪詢&lt;/b&gt;：您可將網路、通話、裝置資訊以 XML 格式傳送到輪詢 URL。&lt;br/&gt;&lt;br/&gt;&lt;b&gt;推轉訊息&lt;/b&gt;：您可以讓推轉訊息顯示在電話機的瀏覽器上。&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Polycom Desktop Connector 用戶端&lt;/b&gt;：您可以將電話的螢幕連接到電腦，使用電腦的滑鼠、鍵盤操作電話。&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Exchange 應用程式&lt;/b&gt;：使用這些欄位來管理 Exchange 應用程式，例如 Exchange 行事曆。&lt;br/&gt;&lt;br/&gt;&lt;b&gt;REST API&lt;/b&gt;：您可以執行多種 API 以透過遠端來在電話上擷取資訊或執行許多操作。" t.CX5500="您可利用電話機查詢下列的應用程式和電話資訊：&lt;br/&gt;&lt;br/&gt;&lt;b&gt;電話語音事件通知&lt;/b&gt;：您可選擇傳送各種電話語音事件的通知。系統將以 XML 格式把通知傳送到登記的 URL。&lt;br/&gt;&lt;br/&gt;&lt;b&gt;電話狀態輪詢&lt;/b&gt;：您可將網路、通話、裝置資訊以 XML 格式傳送到輪詢 URL。&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Exchange 應用程式&lt;/b&gt;：使用這些欄位來管理 Exchange 應用程式，例如 Exchange 行事曆。"/>
+		<phrase i="15" t="電話內建 HTML 瀏覽器，讓您閱覽網頁。電話內建兩個瀏覽器，一個是非互動式的閒置瀏覽器，一個是互動式的主要瀏覽器。您可設定兩個瀏覽器的首頁 URL，以便顯示 HTML 內容。"/>
+		<phrase i="16" t="您可設定電話線路的詳細資料。請在最左邊視窗的清單中設定線路，並在主視窗中設定詳細資料。"/>
+		<phrase i="17" t="歡迎使用 %s 組態公用程式。"/>
+		<phrase i="18" t="您可以把聯絡人通訊錄（電話簿）匯入電話，或將 CSV 格式的聯絡人通訊錄匯出到其他電話。"/>
+		<phrase i="19" t="您在使用 SIP 通訊協定打電話以前，必須先設定某些 SIP 選項，包括本機 SIP 連接埠的位址、每個線路鍵容許的總通話數、要套用的數字規則表規則，以及伺服器詳細資料，例如外撥代理伺服器和伺服器位址。"/>
+		<phrase i="20" t="您可啟用或停用電話機的省電功能。過了閒置時間（稱為閒置逾時）或電話的攝影機偵測不到動作時，電話的觸控式螢幕就會關閉以省電，並延長電話顯示幕的壽命。您可設定閒置逾時和攝影機逾時這兩個選項。"/>
+		<phrase i="21" t="本頁讓您設定電話的線路鍵。若要新增和編輯線路鍵，您必須利用組態檔啟用 EFK 功能：features.cfg &gt; feature &gt; feature.enhancedFeatureKeys（輸入 1 即可啟用）。您可設定只在電話閒置時顯示線路鍵。&lt;br/&gt;&lt;br/&gt;若要編輯已註冊線路，請按一下 &lt;b&gt;[使用中線路鍵和快速撥號鍵]&lt;/b&gt; 清單中的線路，此時會顯示編輯欄位，修改後請按 &lt;b&gt;[儲存]&lt;/b&gt;。&lt;br/&gt;&lt;br/&gt;若要新增線路鍵，請按 &lt;b&gt;[新增線路鍵功能]&lt;/b&gt;。此時依預設將顯示 [線路註冊] 和 [快速撥號]。若系統管理員已經啟用 EFK 功能和靜態 BLF 線路，則亦可設定顯示這些功能。選擇線路鍵類型，並在各欄位中輸入相關資訊，以便設定線路鍵。請注意，若您選取 [線路註冊]，則會前往其他頁：[設定] &gt; [線路]。按一下 &lt;b&gt;[預覽]&lt;/b&gt; 按鈕，查看您的線路鍵組態。按 &lt;b&gt;[儲存]&lt;/b&gt; 即可設定新的線路鍵。若要變更您輸入的資訊，請按一下 &lt;b&gt;[重設]&lt;/b&gt;。若要取消剛剛新建的線路鍵組態，請按 &lt;b&gt;[取消]&lt;/b&gt;。[使用中線路鍵和快速撥號鍵] 清單會顯示新的線路鍵。&lt;br/&gt;&lt;br/&gt;建立新的線路鍵功能後，可將該功能指定到電話的其他線路鍵。按一下左右箭頭即可指定或刪除線路鍵功能。按上下箭頭即可將線路鍵功能移到電話的其他線路鍵。請注意，您不能將已註冊線路移到 [非使用中] 清單。&lt;br/&gt;若要編輯線路鍵，請按一下 [使用中線路鍵和快速撥號鍵] 清單中的線路鍵，然後編輯各個欄位。"/>
+		<phrase i="22" t="「轉碼程式優先級」可決定在 Session Description Protocol (SDP) 協調時，要使用的轉碼程式優先順序。請在 [使用中] 清單設定優先順序。轉碼程式清單中的第一個轉碼程式優先順序最高。SDP 協調期間，不會用到 [未使用] 清單中的轉碼程式。&lt;br/&gt;注意︰系統在 SDP 協調期間，不會考量到所用裝置不支援的轉碼程式。"/>
+		<phrase i="23" t="您可根據 IP 位址或連接埠過濾電話的內送 RTP 封包，並捨棄從非協調 IP 位址或連接埠送來的封包。您也可以強迫電話設定特定的目標連接埠，忽略當初協調的連接埠。本功能在透過防火牆進行通訊時特別有用。由於本電話支援會議功能和多個 RTP 傳送方式，因此您可同時指定多個連接埠範圍。本電話與 RFC 1889、更新版的 RFC 3550 和 RFC 3551 相容。"/>
+		<phrase i="24" t="若要更新電話組態並清除所有通話記錄，請重新啟動電話。"/>
+		<phrase i="25" t="您可更新管理密碼和使用者密碼。您在這裡設定的密碼可用於登入 [網路組態公用程式]，以及使用 [鎖住電話] 功能。管理密碼可讓您進入管理設定畫面。使用者密碼讓使用者能登入電話，以便鎖住電話或將電話解鎖。&lt;br/&gt;&lt;br/&gt;您不能在密碼欄位中輸入以下字元：&lt;&gt;`&quot;[]{}()。"/>
+		<phrase i="26" t="本頁包含一組低階音效轉碼程式參數的設定，預設值在大部分的情況下就已經夠用。除非 Poly 有特別指示，否則我們不建議您變更預設值。"/>
+		<phrase i="27" t="本電話能搭配某些類型的網路位址轉譯 (NAT) 系統。接下來，電話的訊號和 RTP 流量會使用對稱的連接埠，也就是送出封包的來源連接埠，與接收封包時所用的對應監聽連接埠相同。&lt;br/&gt;&lt;br/&gt;您可設定這個連接埠、外部 IP 位址、多媒體連接埠範圍，以及 NAT 使用的保持連線間隔。"/>
+		<phrase i="28" t="請用本頁設定雙音多頻 (DTMF) 訊號模式、要用的連接埠、閘道管理員伺服器位址設定，以及 H.323 線路的即時傳輸通訊協定 (RTP) 媒體加密方式。"/>
+		<phrase i="29" t="若您啟用電話視訊功能，則可設定幾個視訊設定值。舉例來說，您可設定是否要在所有通話的一開始就傳送視訊、近端站台視訊和遠端站台視訊在螢幕上的顯示方式，以及近端站台視訊的清晰度。"/>
+		<phrase i="30" t="本頁讓您自訂電話功能鍵。若要新增和編輯功能鍵，您必須利用組態檔啟用 EFK 功能：features.cfg &gt; feature &gt; feature.enhancedFeatureKeys（輸入 1 即可啟用）。您可設定只在電話閒置時顯示功能鍵。&lt;br/&gt;&lt;br/&gt;若要將功能指定給功能鍵，請按 &lt;b&gt;[新增功能鍵]&lt;/b&gt;。功能鍵欄位出現時，輸入新功能鍵的標籤。新增 EFK 功能的方法有兩種。您可在 &lt;b&gt;[動作]&lt;/b&gt; 清單方塊中選取 EFK 功能，然後按一下 &lt;b&gt;[新增]&lt;/b&gt; 按鈕。您也可以勾選 &lt;b&gt;[編輯巨集程式碼]&lt;/b&gt;，然後輸入功能鍵功能的巨集程式碼。若要重新開始，請按 &lt;b&gt;[重設]&lt;/b&gt;；若要取消功能鍵巨集，請按 &lt;b&gt;[取消]&lt;/b&gt;。您可建立新的功能鍵，也可以把功能依附到現有功能鍵的功能。按一下 &lt;b&gt;[預覽]&lt;/b&gt; 按鈕，查看您的功能鍵組態。按 &lt;b&gt;[儲存]&lt;/b&gt; 即可建立功能鍵。若要取消剛剛新建的功能鍵，請按 [取消]。[使用中功能鍵] 選取方塊中會顯示新的功能鍵。&lt;br/&gt;&lt;br/&gt;建立新的功能鍵後，即可在電話螢幕上安排功能鍵。[使用中功能鍵] 選取方塊最上方的功能鍵，會出現在電話機的最左邊。按向上箭頭可將功能鍵移到左邊；按向下箭頭可將功能鍵移到右邊。&lt;br/&gt;若要刪除自訂功能鍵，請按一下 &lt;b&gt;[恢復]&lt;/b&gt;。&lt;br/&gt;&lt;br/&gt;若要刪除電話以及 [使用中功能鍵] 選取方塊中的預設功能鍵，請勾選 &lt;b&gt;[停用預設功能鍵]&lt;/b&gt;。"/>
+		<phrase i="31" t="您可將組態檔從電腦匯入到電話機，也可以將組態檔從電話機匯出到電腦。&lt;br/&gt;&lt;br/&gt;&lt;b&gt;匯入組態&lt;/b&gt;：您可瀏覽、選取電腦儲存的組態檔，也可以將組態檔上傳到電話機。&lt;br/&gt;&lt;br/&gt;&lt;b&gt;匯出組態&lt;/b&gt;：您可從特定來源建立組態檔，然後用這個檔案設定其他電話機。"/>
+		<phrase i="32" t="本組態可針對 H.323 線路設定 RTP 媒體加密功能。"/>
+		<phrase i="33" t="PSTN 模式的相關參數。"/>
+		<phrase i="34" t="「IP 設定」讓您指定 SNTP 伺服器、所在位置時區、DNS 伺服器、DNS 備用伺服器，以及 DNS 網域。您也可以啟用或停用序列連接埠。"/>
+		<phrase i="35" t="本組態可指定要從哪個設置伺服器下載軟體和組態，並可指定電話機要將記錄檔與組態檔上傳到哪裡。"/>
+		<phrase i="36" t="動態主機組態通訊協定 (DHCP) 是極為普及的 TCP/IP 通訊協定，可將 IP 位址動態指定給網路上的裝置。"/>
+		<phrase i="37" t="「乙太網路」設定可決定如何在區域網路上收發資料。"/>
+		<phrase i="38" t="USB 是一般用途的主機對裝置 (主從式) I/O 匯流排通訊協定，可輕易傳送網路流量，並與其他匯流排流量進行多工處理。您可直接進行多工處理，亦可利用乙太網路、ATM、DSL、POTS、ISDN、有線電視網路這類網路的 USB 網路轉接卡產品。"/>
+		<phrase i="39" t="本電話機與無線區域網路相容 (WLAN)，並可偵測附近與本電話設定相同的 WLAN，同時建立連線。"/>
+		<phrase i="40" t="您可設定 TLS 連線期間必須使用的加密套件，Null 加密套件在疑難排解時特別有用。"/>
+		<phrase i="41" t="請利用這套工具查閱電話記錄檔案、匯出記錄檔案、清除電話記錄檔案。選擇記錄檔案類型與記錄等級過濾條件後，請按一下 [重新整理]，以查閱最新的電話記錄檔案。按一下 [清除]，刪除檢視視窗中的電話記錄檔案。按一下 [匯出]，即可將視窗中顯示的電話記錄檔案以 XML 格式匯出。"/>
+		<phrase i="42" t="您可從 Poly 代管伺服器或指定自訂伺服器升級（或降級）電話機的軟體。[可用軟體版本] 下拉式清單會顯示您選擇的伺服器軟體版本。目前安裝的版本以藍色顯示、舊版以紅色顯示、新版以綠色顯示。&lt;br/&gt;若要檢查 Poly 代管伺服器有無更新檔，請選擇 [Poly 代管伺服器]，然後按一下 &lt;b&gt;[檢查有無更新]&lt;/b&gt;。下拉式清單會顯示可用軟體版本。在下拉式清單中選擇軟體版本，然後按一下 &lt;b&gt;[安裝]&lt;/b&gt; 按鈕。&lt;br/&gt;&lt;br/&gt;檢查自訂伺服器上有無更新檔時，您儲存在伺服器上的 XML 檔案，會讓電話機知道更新檔的尋找位置。XML 可指定資料夾名稱，也可以指定完整的資料夾檔案路徑。若 XML 指定完整的檔案路徑，電話機就會檢查檔案是否相容，然後電話機將自動重開機，並更新電話圖案。若 XML 指定資料夾，則電話將在資料夾中尋找有無「sip.ld」或「&lt;&lt;i&gt;零件號&lt;/i&gt;&gt;.sip.ld」。"/>
+		<phrase i="43" t="您可設定以下組態：&lt;br/&gt;&lt;b&gt;語言&lt;/b&gt;：設定電話機顯示的語言。&lt;br/&gt;&lt;b&gt;使用者選項設定&lt;/b&gt;：啟用/停用電話的基本功能。&lt;br/&gt;&lt;b&gt;相框設定&lt;/b&gt;：您可將 USB 隨身碟儲存的圖片逐一播放、顯示為縮圖，或播放成幻燈片秀。&lt;br/&gt;&lt;b&gt;螢幕保護程式&lt;/b&gt;：您可設定螢幕保護程式，顯示 USB 隨身碟儲存的圖片。只要電話閒置一段特定時間，螢幕保護程式就會自動執行。&lt;br/&gt;&lt;b&gt;自動接聽&lt;/b&gt;：您可設定電話自動接聽來電的方式。&lt;br/&gt;&lt;b&gt;通訊協定路徑&lt;/b&gt;：您可設定電話通訊協定的選取方式。&lt;br/&gt;"/>
+		<phrase i="44" t="您可設定並安裝平台和應用程式安全憑證。您可自訂安全憑證，以便當作平台和應用程式的設定檔，也可以針對特定平台和應用程式，將設定檔客製化。"/>
+		<phrase i="45" t="電話備份還原功能讓您產生內有電話組態設定的備份檔案。您可利用這個檔案來記錄電話設定，或在設定遺失或變更時予以還原。"/>
+		<phrase i="46" t="對講群呼功能支援兩種作業模式：對講模式和群呼模式。兩者可獨立運作，亦可同時運作。"/>
+		<phrase i="47" t="系統記錄是在 IP 網路中轉送記錄訊息的一項標準。您可在本頁指定系統記錄詳細資料，例如 IP 位址或主機名稱、伺服器類型、功能，以及您要記錄的事件等級。您也可以選擇將電話的 MAC 位址，加入記錄訊息的前方。系統是以明碼傳送資料。RFC 3164 中有系統記錄通訊協定的定義。"/>
+		<phrase i="48" t="「目前狀態」設定讓您在電話機閒置時顯示成「離開」狀態。您可設定過多久後要將狀態顯示成「離開」。" t.VVX_1500="「目前狀態」設定讓您在電話機閒置時顯示成「離開」狀態。您可設定過多久後要將狀態顯示成「離開」。您亦可選擇要系統先詢問您是否接受邀請，還是自動接受邀請。" t.VVX_500="「目前狀態」設定讓您在電話機閒置時顯示成「離開」狀態。您可設定過多久後要將狀態顯示成「離開」。您亦可選擇要系統先詢問您是否接受邀請，還是自動接受邀請。" t.VVX_600="「目前狀態」設定讓您在電話機閒置時顯示成「離開」狀態。您可設定過多久後要將狀態顯示成「離開」。您亦可選擇要系統先詢問您是否接受邀請，還是自動接受邀請。"/>
+		<phrase i="49" t="商務用 Skype 狀態詳細資料。"/>
+		<phrase i="50" t="系統狀態詳細資料。"/>
+		<phrase i="51" t="裝置屬性。"/>
+		<phrase i="52" t="設定日期和時間。"/>
+		<phrase i="53" t="商務用 Skype 登入頁面"/>
+		<phrase i="54" t="這個頁面包含各種 BroadSoft UC-One 功能的設定。"/>
+		<phrase i="55" t="您可以在 VVX D60 設定頁中將基地台與 VVX 配對，並且設定話筒線路"/>
+		<phrase i="56" t="VVX D60 狀態詳細資料。"/>
+		<phrase i="57" t="內容參數。"/>
+		<phrase i="58" t="行事曆參數。"/>
+		<phrase i="59" t="網路裝置參數。"/>
+		<phrase i="60" t="電源管理參數。"/>
+		<phrase i="61" t="配對參數。"/>
+		<phrase i="62" t="Poly Experience Cloud 參數。"/>
+		<phrase i="63" t="系統參數。"/>
+		<phrase i="64" t="BToE 電腦配對頁面"/>
+		<phrase i="65" t="您可在此頁面中變更網路介面的最大傳輸單位 (MTU)。"/>
+		<phrase i="66" t="您可以在本頁面設定與安全性橫幅相關的設定。"/>
+		<phrase i="67" t="網路裝置狀態詳細資料。"/>
+		<phrase i="68" t="此頁面顯示公共區域電話設定。"/>
+		<phrase i="69" t="您可以在此頁面設定 SCEP 功能及更新其參數"/>
+		<phrase i="70" t="您可以在本頁面中設定電話的線路鍵。如要新增或編輯線路鍵，請使用組態檔來啟用 EFK 功能：features.cfg &gt; feature &gt; feature.enhancedFeatureKeys（輸入 1 來啟用）。您可以設定線路鍵來只顯示電話的閒置狀態。&lt;br/&gt;&lt;br/&gt;如要編輯一個註冊的線路，按一下&lt;b&gt;使用中線路鍵&lt;/b&gt;清單中的線路。接著會顯示一個編輯欄位。在您變更之後，按下 &lt;b&gt;[儲存]&lt;/b&gt;。&lt;br/&gt;&lt;br/&gt;如要新增一個線路鍵，按下 &lt;b&gt;[新增線路鍵功能]&lt;/b&gt;。預設會顯示線路註冊。若系統管理員有啟用這項功能，也可設定為顯示 EFK 功能和靜態 BLF 線路。選擇一個線路鍵類型，然後在可用的欄位中輸入資訊來設定線路鍵。請注意如果您選取線路註冊，您將會被導向到另一個頁面：[設定] &gt; [線路]。按一下&lt;b&gt;預覽&lt;/b&gt;按鍵來檢視您的線路鍵組態。按下 &lt;b&gt;[儲存]&lt;/b&gt; 來建立新的線路鍵。如果您想要變更所輸入的資訊，請按一下 &lt;b&gt;[重設]&lt;/b&gt;。如果您想要取消建立一個新的線路鍵組態，請按一下 &lt;b&gt;[取消]&lt;/b&gt;。新的線路鍵會顯示在使用中線路鍵清單中。&lt;br/&gt;&lt;br/&gt;一旦您建立了一個新的線路鍵功能之後，您可以在電話上指定功能給不同的線路鍵。按一下左右箭號來指定或移除一個線路鍵功能。按一下上下箭號來將一個線路鍵功能移動到電話上的另一個線路鍵上。請注意無法將已註冊線路移動到非使用中清單。&lt;br/&gt;&lt;br/&gt;如要編輯一個線路鍵，請在使用中線路鍵清單中按一下一個線路鍵，然後編輯可用的欄位。"/>
+		<phrase i="71" t="您可以在此頁面設定 Alexa for Business 功能及更新其參數"/>
+		<phrase i="72" t="雲端狀態詳細資料。"/>
+		<phrase i="73" t="攝影機設定"/>
+		<phrase i="74" t="Exchange 狀態詳細資料"/>
+		<phrase i="75" t="網路代理伺服器自動偵測 (WPAD) 狀態詳細資料"/>
+	</pageHelpPhrases>
+	<labels>
+		<phrase i="0" t="802.1Q 使用者優先級"/>
+		<phrase i="1" t="ARES"/>
+		<phrase i="2" t="位址"/>
+		<phrase i="3" t="允許推轉訊息"/>
+		<phrase i="4" t="Annex"/>
+		<phrase i="5" t="上傳時加到檔尾"/>
+		<phrase i="6" t="應用程式"/>
+		<phrase i="7" t="應用程式伺服器根 URL"/>
+		<phrase i="8" t="應用程式"/>
+		<phrase i="9" t="音效"/>
+		<phrase i="10" t="SIP 外撥代理伺服器"/>
+		<phrase i="11" t="音效轉碼程式設定檔"/>
+		<phrase i="12" t="音效轉碼程式優先級"/>
+		<phrase i="13" t="音效 RTP"/>
+		<phrase i="14" t="驗證密碼"/>
+		<phrase i="15" t="驗證使用者 ID"/>
+		<phrase i="16" t="授權號碼說明"/>
+		<phrase i="17" t="授權電話號碼"/>
+		<phrase i="18" t="自動接聽"/>
+		<phrase i="19" t="自動接聽 H.323 通話"/>
+		<phrase i="20" t="自動接聽 SIP 通話"/>
+		<phrase i="21" t="自動偵測閘道管理員"/>
+		<phrase i="22" t="自動路由選項設定"/>
+		<phrase i="23" t="自動啟動視訊"/>
+		<phrase i="24" t="背景"/>
+		<phrase i="25" t="設定 URL"/>
+		<phrase i="26" t="亮度"/>
+		<phrase i="27" t="瀏覽器加密清單"/>
+		<phrase i="28" t="鎖住時顯示的瀏覽器"/>
+		<phrase i="29" t="瀏覽器代理伺服器"/>
+		<phrase i="30" t="忙線時轉送給聯絡人"/>
+		<phrase i="31" t="忽略即時訊息"/>
+		<phrase i="32" t="CDP"/>
+		<phrase i="33" t="CURL"/>
+		<phrase i="34" t="緩衝記憶體限制" units="KB"/>
+		<phrase i="35" t="通話控制"/>
+		<phrase i="36" t="指定轉接"/>
+		<phrase i="37" t="通話速率" units="Kbps"/>
+		<phrase i="38" t="通話摘要"/>
+		<phrase i="39" t="回撥聯絡人"/>
+		<phrase i="40" t="回撥模式"/>
+		<phrase i="41" t="每條線路通話數"/>
+		<phrase i="42" t="每條代表線通話數"/>
+		<phrase i="43" t="攝影機的設定"/>
+		<phrase i="44" t="加密清單"/>
+		<phrase i="45" t="轉碼程式優先級"/>
+		<phrase i="46" t="轉碼程式設定檔"/>
+		<phrase i="47" t="通用影像傳輸格式 (CIF) 最小圖案間隔值 (MPI)"/>
+		<phrase i="48" t=""/>
+		<phrase i="49" t="對比"/>
+		<phrase i="50" t="網頁內容顯示模式"/>
+		<phrase i="51" t="複製公用程式"/>
+		<phrase i="52" t="目前網頁內容顯示"/>
+		<phrase i="53" t="DNS"/>
+		<phrase i="54" t="DTMF 訊號頻道"/>
+		<phrase i="55" t="DTMF 訊號頻道字母數字模式"/>
+		<phrase i="56" t="DTMF 訊號頻道訊號模式"/>
+		<phrase i="57" t="日期與時間"/>
+		<phrase i="58" t="日期格式"/>
+		<phrase i="59" t="時間與日期"/>
+		<phrase i="60" t="一週特定日期/月份/日期/時間"/>
+		<phrase i="61" t="日光節約"/>
+		<phrase i="62" t="測試"/>
+		<phrase i="63" t="數字規則表"/>
+		<phrase i="64" t="數字規則表不符"/>
+		<phrase i="65" t="數字規則表逾時"/>
+		<phrase i="66" t="停用共用線路轉送功能"/>
+		<phrase i="67" t="顯示格式"/>
+		<phrase i="68" t="顯示名稱"/>
+		<phrase i="69" t="一律轉送給聯絡人"/>
+		<phrase i="70" t="鎖定時請勿打擾"/>
+		<phrase i="71" t="請勿打擾時轉送給聯絡人"/>
+		<phrase i="72" t="過期" units="秒"/>
+		<phrase i="73" t="依 IP 位址過濾"/>
+		<phrase i="74" t="依連接埠過濾"/>
+		<phrase i="75" t="固定日期"/>
+		<phrase i="76" t="避免閃爍"/>
+		<phrase i="77" t="資料夾路徑"/>
+		<phrase i="78" t="強制連接埠"/>
+		<phrase i="79" t="一律轉送"/>
+		<phrase i="80" t="畫面速率" units="fps"/>
+		<phrase i="81" t="星期五"/>
+		<phrase i="82" t="全螢幕"/>
+		<phrase i="83" t="全螢幕模式"/>
+		<phrase i="84" t="閘道管理員位址"/>
+		<phrase i="85" t="閘道管理員設定"/>
+		<phrase i="86" t="一般"/>
+		<phrase i="87" t="整體記錄等級限制"/>
+		<phrase i="88" t="整體設定"/>
+		<phrase i="89" t="H.323 整體閘道管理員設定"/>
+		<phrase i="90" t="H.323 本機連接埠設定"/>
+		<phrase i="91" t=""/>
+		<phrase i="92" t="H.323 通訊協定"/>
+		<phrase i="93" t="H.323 設定"/>
+		<phrase i="94" t="HTTP 伺服器"/>
+		<phrase i="95" t="耳機記憶模式"/>
+		<phrase i="96" t="主畫面"/>
+		<phrase i="97" t="IP 位址"/>
+		<phrase i="98" t="IP DSCP (取代 IP ToS)"/>
+		<phrase i="99" t="IP ToS 提高穩定性"/>
+		<phrase i="100" t="IP ToS 提高輸送量"/>
+		<phrase i="101" t="IP ToS 降低成本"/>
+		<phrase i="102" t="IP ToS 減少延遲"/>
+		<phrase i="103" t="IP ToS 優先順序"/>
+		<phrase i="104" t="識別碼"/>
+		<phrase i="105" t="瀏覽器閒置"/>
+		<phrase i="106" t="閒置顯示主畫面"/>
+		<phrase i="107" t="閒置顯示重新整理時間" units="秒"/>
+		<phrase i="108" t="閒置逾時設定（分鐘）"/>
+		<phrase i="109" t="閒置傳輸間隔" units="秒"/>
+		<phrase i="110" t="等候時間" units="分"/>
+		<phrase i="111" t="匯入/匯出組態"/>
+		<phrase i="112" t="匯入/匯出電話簿"/>
+		<phrase i="113" t="最大抖動 (Jitter) 緩衝區" units="毫秒"/>
+		<phrase i="114" t="最小抖動 (Jitter) 緩衝區" units="毫秒"/>
+		<phrase i="115" t="抖動 (Jitter) 緩衝區縮減" units="毫秒"/>
+		<phrase i="116" t="保持連線間隔" units="秒"/>
+		<phrase i="117" t="主要觀察系統"/>
+		<phrase i="118" t="LDAP 加密清單"/>
+		<phrase i="119" t=""/>
+		<phrase i="120" t=""/>
+		<phrase i="121" t="標籤"/>
+		<phrase i="122" t="語言"/>
+		<phrase i="123" t="線路"/>
+		<phrase i="124" t="線路擷取逾時" units="秒"/>
+		<phrase i="125" t="線路"/>
+		<phrase i="126" t="支援 Live Communication Server"/>
+		<phrase i="127" t="本地攝影機檢視設定"/>
+		<phrase i="128" t="本機 H.323 連接埠"/>
+		<phrase i="129" t="本機 SIP 連接埠"/>
+		<phrase i="130" t="本機設定"/>
+		<phrase i="131" t="記錄檔案大小" units="KB"/>
+		<phrase i="132" t="上傳記錄檔案"/>
+		<phrase i="133" t="記錄到檔案"/>
+		<phrase i="134" t="記錄到標準輸出"/>
+		<phrase i="135" t="記錄"/>
+		<phrase i="136" t=""/>
+		<phrase i="137" t="主瀏覽器首頁"/>
+		<phrase i="138" t="主瀏覽器網頁逾時" units="秒"/>
+		<phrase i="139" t="主瀏覽器狀態列"/>
+		<phrase i="140" t="手動控制通訊協定路徑"/>
+		<phrase i="141" t="最快通話速率" units="Kbps"/>
+		<phrase i="142" t="最長閒置逾時"/>
+		<phrase i="143" t="多媒體連接埠開始號碼"/>
+		<phrase i="144" t="訊息中心"/>
+		<phrase i="145" t="迷你瀏覽器"/>
+		<phrase i="146" t="迷你瀏覽器"/>
+		<phrase i="147" t="麥克風靜音"/>
+		<phrase i="148" t="模組記錄等級限制"/>
+		<phrase i="149" t="星期一"/>
+		<phrase i="150" t="NAT"/>
+		<phrase i="151" t="名稱"/>
+		<phrase i="152" t="網路"/>
+		<phrase i="153" t="預設鈴聲"/>
+		<phrase i="154" t=""/>
+		<phrase i="155" t="新增 SDP 類型"/>
+		<phrase i="156" t="無人接聽時轉送給聯絡人"/>
+		<phrase i="157" t="無人接聽時在鈴聲響起指定次數後轉送"/>
+		<phrase i="158" t="無回應傳輸間隔" units="秒"/>
+		<phrase i="159" t="非標準線路擷取"/>
+		<phrase i="160" t="線路鍵數目"/>
+		<phrase i="161" t="下班時間"/>
+		<phrase i="162" t="辦公時間"/>
+		<phrase i="163" t="辦公時間：期間（小時）"/>
+		<phrase i="164" t="辦公時間：起始時間"/>
+		<phrase i="165" t="忙線時轉送"/>
+		<phrase i="166" t="請勿打擾時轉送"/>
+		<phrase i="167" t="無人接聽時轉送"/>
+		<phrase i="168" t="轉送特定呼叫者"/>
+		<phrase i="169" t="單鍵語音信箱"/>
+		<phrase i="170" t="其他通訊協定"/>
+		<phrase i="171" t="其他選項設定"/>
+		<phrase i="172" t="外撥代理伺服器"/>
+		<phrase i="173" t="PMT"/>
+		<phrase i="174" t="PPS"/>
+		<phrase i="175" t="密碼"/>
+		<phrase i="176" t="裝載大小" units="毫秒"/>
+		<phrase i="177" t="電話備份/還原"/>
+		<phrase i="178" t="鎖住電話"/>
+		<phrase i="179" t="鎖住電話功能"/>
+		<phrase i="180" t="已鎖住電話"/>
+		<phrase i="181" t="電話狀態輪詢"/>
+		<phrase i="182" t="相框設定"/>
+		<phrase i="183" t="輪詢 URL"/>
+		<phrase i="184" t="連接埠"/>
+		<phrase i="185" t="連接埠範圍開始號碼"/>
+		<phrase i="186" t="省電"/>
+		<phrase i="187" t="省電功能"/>
+		<phrase i="188" t=""/>
+		<phrase i="189" t="解除開啟電源鎖死功能"/>
+		<phrase i="190" t="選項設定"/>
+		<phrase i="191" t="偏好通訊協定"/>
+		<phrase i="192" t="簡報"/>
+		<phrase i="193" t="設定檔等級"/>
+		<phrase i="194" t="通訊協定路徑"/>
+		<phrase i="195" t="設置加密清單"/>
+		<phrase i="196" t="推轉"/>
+		<phrase i="197" t="QoS"/>
+		<phrase i="198" t="品質"/>
+		<phrase i="199" t="Exchange Server URL"/>
+		<phrase i="200" t="Quarter CIF MPI"/>
+		<phrase i="201" t="簡單設定"/>
+		<phrase i="202" t="RAM 磁碟"/>
+		<phrase i="203" t="RTOS"/>
+		<phrase i="204" t="RTP"/>
+		<phrase i="205" t="RTP 媒體加密"/>
+		<phrase i="206" t="RTP 媒體加密建議"/>
+		<phrase i="207" t="需要 RTP 媒體加密"/>
+		<phrase i="208" t="應用程式 URL"/>
+		<phrase i="209" t="電話重開機"/>
+		<phrase i="210" t="註冊"/>
+		<phrase i="211" t="註冊時間"/>
+		<phrase i="212" t="移除撥號結束標記"/>
+		<phrase i="213" t="資源尋找"/>
+		<phrase i="214" t="重新啟動電話"/>
+		<phrase i="215" t="重試最多次數"/>
+		<phrase i="216" t="重試逾時" units="毫秒"/>
+		<phrase i="217" t="鈴聲類別"/>
+		<phrase i="218" t="鈴聲"/>
+		<phrase i="219" t="SIP 加密清單"/>
+		<phrase i="220" t="SIP 線路識別"/>
+		<phrase i="221" t=""/>
+		<phrase i="222" t="SIP 通訊協定"/>
+		<phrase i="223" t="SIP 伺服器"/>
+		<phrase i="224" t="應用程式名稱"/>
+		<phrase i="225" t="SIP 訊號 TLS 傳輸"/>
+		<phrase i="226" t="SNTP 重新同步週期" units="秒"/>
+		<phrase i="227" t="SNTP 伺服器"/>
+		<phrase i="228" t="TLS"/>
+		<phrase i="229" t="SSPS"/>
+		<phrase i="230" t="SYSLOG 加密清單"/>
+		<phrase i="231" t="飽和度"/>
+		<phrase i="232" t="星期六"/>
+		<phrase i="233" t="排程"/>
+		<phrase i="234" t="螢幕模式"/>
+		<phrase i="235" t="螢幕模式（全螢幕）"/>
+		<phrase i="236" t="螢幕保護程式"/>
+		<phrase i="237" t="螢幕保護程式設定"/>
+		<phrase i="238" t="安全性"/>
+		<phrase i="239" t="安全設定"/>
+		<phrase i="240" t="伺服器"/>
+		<phrase i="241" t="伺服器"/>
+		<phrase i="242" t="設定"/>
+		<phrase i="243" t="清晰度"/>
+		<phrase i="244" t="訊號連接埠"/>
+		<phrase i="245" t="功能鍵控制"/>
+		<phrase i="246" t="軟體升級"/>
+		<phrase i="247" t="當月最後一天開始"/>
+		<phrase i="248" t="當月最後一天停止"/>
+		<phrase i="249" t="Sub Quarter CIF MPI"/>
+		<phrase i="250" t="訂閱位址"/>
+		<phrase i="251" t="星期日"/>
+		<phrase i="252" t="支援物件"/>
+		<phrase i="253" t="TCP"/>
+		<phrase i="254" t="電話語音事件通知"/>
+		<phrase i="255" t="協力廠商名稱"/>
+		<phrase i="256" t="星期四"/>
+		<phrase i="257" t="時間格式"/>
+		<phrase i="258" t="時間同步"/>
+		<phrase i="259" t="時區"/>
+		<phrase i="260" t="每張圖案顯示時間" units="秒"/>
+		<phrase i="261" t="升級伺服器"/>
+		<phrase i="262" t="運輸"/>
+		<phrase i="263" t="星期二"/>
+		<phrase i="264" t="類型"/>
+		<phrase i="265" t="啟用整合通訊桌面"/>
+		<phrase i="266" t="整合通訊桌面"/>
+		<phrase i="267" t="上傳附加限制模式"/>
+		<phrase i="268" t="上傳附加大小限制" units="KB"/>
+		<phrase i="269" t="上傳週期" units="秒"/>
+		<phrase i="270" t="使用目錄名稱"/>
+		<phrase i="271" t="變更密碼"/>
+		<phrase i="272" t="使用者偵測敏感度設定"/>
+		<phrase i="273" t="使用者輸入後閒置時間"/>
+		<phrase i="274" t="使用者名稱"/>
+		<phrase i="275" t="使用者選項設定"/>
+		<phrase i="276" t="公用程式"/>
+		<phrase i="277" t="視訊"/>
+		<phrase i="278" t="轉碼程式設定檔：視訊"/>
+		<phrase i="279" t="視訊暫停"/>
+		<phrase i="280" t="視訊轉碼程式優先級"/>
+		<phrase i="281" t="視訊處理"/>
+		<phrase i="282" t="視訊 RTP"/>
+		<phrase i="283" t="檢視與下載記錄"/>
+		<phrase i="284" t="檢視目前組態"/>
+		<phrase i="285" t="功能鍵組態"/>
+		<phrase i="286" t="星期三"/>
+		<phrase i="287" t="開機音效（冷開機）"/>
+		<phrase i="288" t="開機音效（暖開機）"/>
+		<phrase i="289" t="XMPP 加密清單"/>
+		<phrase i="290" t="iLBC"/>
+		<phrase i="291" t="電話資訊"/>
+		<phrase i="292" t="電話機型"/>
+		<phrase i="293" t="零件編號"/>
+		<phrase i="294" t="MAC 位址"/>
+		<phrase i="295" t="非標準線路擷取"/>
+		<phrase i="296" t="軟體版本"/>
+		<phrase i="297" t="更新程式版本"/>
+		<phrase i="298" t="舊密碼"/>
+		<phrase i="299" t="新密碼"/>
+		<phrase i="300" t="確認新密碼"/>
+		<phrase i="301" t="國家/地區"/>
+		<phrase i="302" t="預設值"/>
+		<phrase i="303" t="2.5 mm 模式"/>
+		<phrase i="304" t="操作模式"/>
+		<phrase i="305" t="PSTN 設定"/>
+		<phrase i="306" t="PSTN 分機"/>
+		<phrase i="307" t="本機轉接時間"/>
+		<phrase i="308" t="本機來電顯示"/>
+		<phrase i="309" t="IP"/>
+		<phrase i="310" t="IP 設定"/>
+		<phrase i="311" t="DNS 伺服器"/>
+		<phrase i="312" t="DNS 備用伺服器"/>
+		<phrase i="313" t="DNS 網域"/>
+		<phrase i="314" t="序列連接埠"/>
+		<phrase i="315" t="設置"/>
+		<phrase i="316" t="設置伺服器"/>
+		<phrase i="317" t="伺服器類型"/>
+		<phrase i="318" t="伺服器位址"/>
+		<phrase i="319" t="伺服器使用者"/>
+		<phrase i="320" t="伺服器密碼"/>
+		<phrase i="321" t="檔案傳輸重試次數"/>
+		<phrase i="322" t="重試等候時間" units="秒"/>
+		<phrase i="323" t="將序號加入 UA 表頭"/>
+		<phrase i="324" t="DHCP"/>
+		<phrase i="325" t="開機伺服器"/>
+		<phrase i="326" t="開機伺服器選項"/>
+		<phrase i="327" t="開機伺服器類型"/>
+		<phrase i="328" t="選項 60 格式"/>
+		<phrase i="329" t="乙太網路"/>
+		<phrase i="330" t="SIP 設定"/>
+		<phrase i="331" t="已啟用乙太網路"/>
+		<phrase i="332" t="DHCP 開機伺服器"/>
+		<phrase i="333" t="子網路遮罩"/>
+		<phrase i="334" t="IP 閘道"/>
+		<phrase i="335" t="802.1X 驗證"/>
+		<phrase i="336" t="廣播風暴過濾"/>
+		<phrase i="337" t="LAN 連接埠模式"/>
+		<phrase i="338" t="PC 連接埠模式"/>
+		<phrase i="339" t="乙太網路 802.1x"/>
+		<phrase i="340" t="EAP 驗證法"/>
+		<phrase i="341" t="識別"/>
+		<phrase i="342" t="TLS 設定檔"/>
+		<phrase i="343" t="匿名 ID"/>
+		<phrase i="344" t="PAC 檔案密碼"/>
+		<phrase i="345" t="安裝 PAC 檔案"/>
+		<phrase i="346" t="移除 PAC 檔案"/>
+		<phrase i="347" t="VLAN 設定"/>
+		<phrase i="348" t="VLAN"/>
+		<phrase i="349" t="VLAN 過濾"/>
+		<phrase i="350" t="LLDP"/>
+		<phrase i="351" t="CDP 相容性"/>
+		<phrase i="352" t="偵測 DHCP VLAN"/>
+		<phrase i="353" t="DHCP VLAN 選項"/>
+		<phrase i="354" t="USB 網路"/>
+		<phrase i="355" t="USB 網路設定"/>
+		<phrase i="356" t="已啟用 USB 網路"/>
+		<phrase i="357" t="Wi-Fi"/>
+		<phrase i="358" t="Wi-Fi 設定"/>
+		<phrase i="359" t="起始日期"/>
+		<phrase i="360" t="SSID"/>
+		<phrase i="361" t="DHCP 功能表"/>
+		<phrase i="362" t="Admission Control Mandatory (QoS)"/>
+		<phrase i="363" t="WEP 設定"/>
+		<phrase i="364" t="驗證"/>
+		<phrase i="365" t="加密"/>
+		<phrase i="366" t="金鑰長度"/>
+		<phrase i="367" t="1 線"/>
+		<phrase i="368" t="2 線"/>
+		<phrase i="369" t="3 線"/>
+		<phrase i="370" t="4 線"/>
+		<phrase i="371" t="WPA-PSK"/>
+		<phrase i="372" t="PSK 類型"/>
+		<phrase i="373" t="金鑰"/>
+		<phrase i="374" t="WPA2-Enterprise"/>
+		<phrase i="375" t="要求程式"/>
+		<phrase i="376" t="快速漫遊"/>
+		<phrase i="377" t="結束日期"/>
+		<phrase i="378" t="回應模式"/>
+		<phrase i="379" t="安裝 PAC 檔案"/>
+		<phrase i="380" t="移除 PAC 檔案"/>
+		<phrase i="381" t="規範領域"/>
+		<phrase i="382" t="5GHz 波段"/>
+		<phrase i="383" t="5GHz 波段"/>
+		<phrase i="384" t="副波段 4"/>
+		<phrase i="385" t="副波段 4 傳輸功率"/>
+		<phrase i="386" t="副波段 1"/>
+		<phrase i="387" t="副波段 1 傳輸功率"/>
+		<phrase i="388" t="副波段 2"/>
+		<phrase i="389" t="副波段 2 傳輸功率"/>
+		<phrase i="390" t="副波段 3"/>
+		<phrase i="391" t="副波段 3 傳輸功率"/>
+		<phrase i="392" t="2.4GHz 波段"/>
+		<phrase i="393" t="2.4GHz 波段"/>
+		<phrase i="394" t="2.4GHz 傳輸功率"/>
+		<phrase i="395" t="定位服務"/>
+		<phrase i="396" t="RTLS"/>
+		<phrase i="397" t="傳輸間隔"/>
+		<phrase i="398" t="定位伺服器 IP"/>
+		<phrase i="399" t="ELP 連接埠號碼"/>
+		<phrase i="400" t="WPA(2)-PSK"/>
+		<phrase i="401" t="PAC 檔案資訊"/>
+		<phrase i="402" t="TLS 設定檔 1"/>
+		<phrase i="403" t="TLS 設定檔 2"/>
+		<phrase i="404" t="SSL 加密套件"/>
+		<phrase i="405" t="CA 憑證清單"/>
+		<phrase i="406" t="裝置憑證清單"/>
+		<phrase i="407" t="網路管理員"/>
+		<phrase i="408" t="WLAN"/>
+		<phrase i="409" t="目前的軟體版本："/>
+		<phrase i="410" t="自訂伺服器"/>
+		<phrase i="411" t="可用軟體版本"/>
+		<phrase i="412" t="電話詳細資料"/>
+		<phrase i="413" t="記錄檔案類型"/>
+		<phrase i="414" t="記錄等級過濾條件"/>
+		<phrase i="415" t="匯入組態檔"/>
+		<phrase i="416" t="匯出組態檔"/>
+		<phrase i="417" t="設定的電話語音通知 URL"/>
+		<phrase i="418" t="線路註冊"/>
+		<phrase i="419" t="來電"/>
+		<phrase i="420" t="撥出電話"/>
+		<phrase i="421" t="掛上"/>
+		<phrase i="422" t="拿起話筒"/>
+		<phrase i="423" t="使用者登入/登出"/>
+		<phrase i="424" t="通話狀態變更"/>
+		<phrase i="425" t="電話圖案"/>
+		<phrase i="426" t="擴充模組圖案"/>
+		<phrase i="427" t="選取電話圖案："/>
+		<phrase i="428" t="選取擴充模組圖案："/>
+		<phrase i="429" t="背景顏色"/>
+		<phrase i="430" t="按鈕顏色"/>
+		<phrase i="431" t="PDC"/>
+		<phrase i="432" t="自訂音效檔"/>
+		<phrase i="433" t="選取音效檔"/>
+		<phrase i="434" t="未使用："/>
+		<phrase i="435" t="使用中："/>
+		<phrase i="436" t="鎖住時請勿打擾"/>
+		<phrase i="437" t="鎖住時顯示的瀏覽器"/>
+		<phrase i="438" t="啟動組態檔檢查"/>
+		<phrase i="439" t="多鍵應答"/>
+		<phrase i="440" t="EAP-FAST In-Band 設置"/>
+		<phrase i="441" t="電話備份"/>
+		<phrase i="442" t="匯出電話備份檔"/>
+		<phrase i="443" t="還原電話"/>
+		<phrase i="444" t="匯入電話備份檔"/>
+		<phrase i="445" t="將電話還原為出廠設定"/>
+		<phrase i="446" t="匯入組態"/>
+		<phrase i="447" t="匯出組態"/>
+		<phrase i="448" t="管理員"/>
+		<phrase i="449" t="使用者"/>
+		<phrase i="450" t="憑證組態"/>
+		<phrase i="451" t="TLS 設定檔"/>
+		<phrase i="452" t="TLS 應用程式"/>
+		<phrase i="453" t="CA 憑證"/>
+		<phrase i="454" t="裝置憑證"/>
+		<phrase i="455" t="通用名稱（MD5 指紋）"/>
+		<phrase i="456" t="設定檔名稱"/>
+		<phrase i="457" t="加密套件"/>
+		<phrase i="458" t="憑證"/>
+		<phrase i="459" t="自訂加密套件"/>
+		<phrase i="460" t="CA 憑證"/>
+		<phrase i="461" t="裝置認證"/>
+		<phrase i="462" t="電話語言"/>
+		<phrase i="463" t="設置伺服器設定"/>
+		<phrase i="464" t="升級伺服器"/>
+		<phrase i="465" t="無線射頻"/>
+		<phrase i="466" t="識別碼（密碼/PSK）"/>
+		<phrase i="467" t="換行"/>
+		<phrase i="468" t="多點傳送 IP 位址"/>
+		<phrase i="469" t="緊急音量" units="dB"/>
+		<phrase i="470" t="通話等候"/>
+		<phrase i="471" t="相容性"/>
+		<phrase i="472" t="群組廣播組態"/>
+		<phrase i="473" t="呼叫/PTT 組態"/>
+		<phrase i="474" t="群組廣播"/>
+		<phrase i="475" t="預設群組"/>
+		<phrase i="476" t="優先群組"/>
+		<phrase i="477" t="緊急群組"/>
+		<phrase i="478" t="忙線時接受"/>
+		<phrase i="479" t="傳送者 ID"/>
+		<phrase i="480" t="轉碼程式"/>
+		<phrase i="481" t="加入逾時（秒）"/>
+		<phrase i="482" t="延長逾時（秒）"/>
+		<phrase i="483" t="PTT 模式組態"/>
+		<phrase i="484" t="PTT 模式"/>
+		<phrase i="485" t="預設頻道"/>
+		<phrase i="486" t="優先頻道"/>
+		<phrase i="487" t="緊急頻道"/>
+		<phrase i="488" t="設定群組"/>
+		<phrase i="489" t="設定頻道"/>
+		<phrase i="490" t="登記"/>
+		<phrase i="491" t="傳送"/>
+		<phrase i="492" t="可通話"/>
+		<phrase i="493" t="群組編號"/>
+		<phrase i="494" t="頻道編號"/>
+		<phrase i="495" t="藍牙"/>
+		<phrase i="496" t="Polycom Desktop Connector 用戶端"/>
+		<phrase i="497" t="鈴聲"/>
+		<phrase i="498" t="按一下"/>
+		<phrase i="499" t=" 這裡 "/>
+		<phrase i="500" t="可設定已註冊線路的專屬鈴聲。"/>
+		<phrase i="501" t="顯示「線路設定」選項，並選取您要變更的線路。"/>
+		<phrase i="502" t="平台 CA 1"/>
+		<phrase i="503" t="平台 CA 2"/>
+		<phrase i="504" t="應用程式 CA 1"/>
+		<phrase i="505" t="應用程式 CA 2"/>
+		<phrase i="506" t="應用程式 CA 3"/>
+		<phrase i="507" t="應用程式 CA 4"/>
+		<phrase i="508" t="應用程式 CA 5"/>
+		<phrase i="509" t="應用程式 CA 6"/>
+		<phrase i="510" t="平台認證 1"/>
+		<phrase i="511" t="平台認證 2"/>
+		<phrase i="512" t="應用程式認證 1"/>
+		<phrase i="513" t="應用程式認證 2"/>
+		<phrase i="514" t="應用程式認證 3"/>
+		<phrase i="515" t="應用程式認證 4"/>
+		<phrase i="516" t="應用程式認證 5"/>
+		<phrase i="517" t="應用程式認證 6"/>
+		<phrase i="518" t="平台設定檔 1"/>
+		<phrase i="519" t="平台設定檔 2"/>
+		<phrase i="520" t="應用程式設定檔 1"/>
+		<phrase i="521" t="應用程式設定檔 2"/>
+		<phrase i="522" t="應用程式設定檔 3"/>
+		<phrase i="523" t="應用程式設定檔 4"/>
+		<phrase i="524" t="應用程式設定檔 5"/>
+		<phrase i="525" t="應用程式設定檔 6"/>
+		<phrase i="526" t="加密套件"/>
+		<phrase i="527" t="專用"/>
+		<phrase i="528" t="共用"/>
+		<phrase i="529" t="802.1x"/>
+		<phrase i="530" t="設置"/>
+		<phrase i="531" t="SIP"/>
+		<phrase i="532" t="瀏覽器"/>
+		<phrase i="533" t="Syslog"/>
+		<phrase i="534" t="目前狀態"/>
+		<phrase i="535" t="LDAP"/>
+		<phrase i="536" t="線路鍵組態"/>
+		<phrase i="537" t="電話位置"/>
+		<phrase i="538" t="電腦使用者"/>
+		<phrase i="539" t="伺服器連接埠"/>
+		<phrase i="540" t="通用名稱驗證"/>
+		<phrase i="541" t=""/>
+		<phrase i="542" t="狀態"/>
+		<phrase i="543" t="鎖住鍵台"/>
+		<phrase i="544" t="已上傳的音效檔"/>
+		<phrase i="545" t="動作"/>
+		<phrase i="546" t="巨集程式碼"/>
+		<phrase i="547" t="使用中功能鍵"/>
+		<phrase i="548" t="停用預設功能鍵"/>
+		<phrase i="549" t="新增功能鍵"/>
+		<phrase i="550" t="編輯巨集程式碼"/>
+		<phrase i="551" t="檢視/編輯功能鍵"/>
+		<phrase i="552" t="非使用中線路和快速撥號鍵"/>
+		<phrase i="553" t="使用中線路鍵和快速撥號鍵"/>
+		<phrase i="554" t="靜態 BLF"/>
+		<phrase i="555" t="快速撥號"/>
+		<phrase i="556" t="EFK 功能"/>
+		<phrase i="557" t="編輯聯絡人"/>
+		<phrase i="558" t="名字"/>
+		<phrase i="559" t="姓氏"/>
+		<phrase i="560" t="聯絡號碼"/>
+		<phrase i="561" t="轉接聯絡人"/>
+		<phrase i="562" t="自動拒絕"/>
+		<phrase i="563" t="自動轉接"/>
+		<phrase i="564" t="封鎖好友"/>
+		<phrase i="565" t="追蹤好友"/>
+		<phrase i="566" t="編輯 EFK 聯絡人資訊"/>
+		<phrase i="567" t="選取 EFK 巨集"/>
+		<phrase i="568" t="編輯 BLF 線路"/>
+		<phrase i="569" t="編輯已設定的線路"/>
+		<phrase i="570" t="已註冊線路"/>
+		<phrase i="571" t="代表線數"/>
+		<phrase i="572" t="SIP 伺服器位址"/>
+		<phrase i="573" t="預覽"/>
+		<phrase i="574" t="儲存"/>
+		<phrase i="575" t="恢復"/>
+		<phrase i="576" t="啟用"/>
+		<phrase i="577" t="停用"/>
+		<phrase i="578" t="否"/>
+		<phrase i="579" t="是"/>
+		<phrase i="580" t="Poly 代管伺服器"/>
+		<phrase i="581" t="最大 = "/>
+		<phrase i="582" t="應用程式"/>
+		<phrase i="583" t="開機"/>
+		<phrase i="584" t="取消"/>
+		<phrase i="585" t="提醒"/>
+		<phrase i="586" t="功能"/>
+		<phrase i="587" t="寫入等級"/>
+		<phrase i="588" t="MAC 加在前方"/>
+		<phrase i="589" t="Dot1x"/>
+		<phrase i="590" t="鈴聲類型"/>
+		<phrase i="591" t="電話檢視"/>
+		<phrase i="592" t="擴充模組檢視"/>
+		<phrase i="593" t="Exchange 應用程式"/>
+		<phrase i="594" t="Exchange 行事曆"/>
+		<phrase i="595" t="清除"/>
+		<phrase i="596" t="URL"/>
+		<phrase i="597" t="本機檔案系統"/>
+		<phrase i="598" t="新增背景"/>
+		<phrase i="599" t="編輯背景"/>
+		<phrase i="600" t="新增音效檔"/>
+		<phrase i="601" t="編輯音效檔"/>
+		<phrase i="602" t="自訂伺服器位址"/>
+		<phrase i="603" t="H.323 線路設定"/>
+		<phrase i="604" t="通話媒體檔播放"/>
+		<phrase i="605" t="緩衝區"/>
+		<phrase i="606" t="EFK"/>
+		<phrase i="607" t="Ethernet Filter"/>
+		<phrase i="608" t="HTTP 驗證"/>
+		<phrase i="609" t="硬體說明"/>
+		<phrase i="610" t="HTTP TA"/>
+		<phrase i="611" t="授權"/>
+		<phrase i="612" t="Niche"/>
+		<phrase i="613" t="OAI 通訊協定"/>
+		<phrase i="614" t="輪詢"/>
+		<phrase i="615" t="對講"/>
+		<phrase i="616" t=""/>
+		<phrase i="617" t=""/>
+		<phrase i="618" t="Srtp"/>
+		<phrase i="619" t="SSH 用戶端"/>
+		<phrase i="620" t="Util-Trace"/>
+		<phrase i="621" t="Util-Main"/>
+		<phrase i="622" t="Watch-dog"/>
+		<phrase i="623" t="Wapp Mgr"/>
+		<phrase i="624" t="應用程式通訊"/>
+		<phrase i="625" t="背景對話方塊"/>
+		<phrase i="626" t=""/>
+		<phrase i="627" t="視訊畫面"/>
+		<phrase i="628" t=""/>
+		<phrase i="629" t="C-Link"/>
+		<phrase i="630" t="媒體錄製工具"/>
+		<phrase i="631" t="DHCP 用戶端"/>
+		<phrase i="632" t="視訊顯示"/>
+		<phrase i="633" t="Exchange 用戶端"/>
+		<phrase i="634" t="螢幕顯示"/>
+		<phrase i="635" t=""/>
+		<phrase i="636" t="雛菊鏈"/>
+		<phrase i="637" t="Pnet"/>
+		<phrase i="638" t="硬體訊號"/>
+		<phrase i="639" t="按鈕樣式"/>
+		<phrase i="640" t="公用程式工作"/>
+		<phrase i="641" t="USB I/O"/>
+		<phrase i="642" t="XMPP"/>
+		<phrase i="643" t="耳機"/>
+		<phrase i="644" t="行動電話"/>
+		<phrase i="645" t="PSTN"/>
+		<phrase i="646" t="SOEM"/>
+		<phrase i="647" t="Tetris"/>
+		<phrase i="648" t="USB"/>
+		<phrase i="649" t=""/>
+		<phrase i="650" t="輸入儲存在開機伺服器上的 URL/檔案名稱"/>
+		<phrase i="651" t="從電腦/桌面上選取檔案"/>
+		<phrase i="652" t="開機音效"/>
+		<phrase i="653" t="加入電腦中的新音效檔"/>
+		<phrase i="654" t="選取電腦中的音效檔"/>
+		<phrase i="655" t="或輸入網路上音效檔的 URL"/>
+		<phrase i="656" t="目前的鈴聲值："/>
+		<phrase i="657" t="播放音效檔"/>
+		<phrase i="658" t="重新整理"/>
+		<phrase i="659" t="刪除音效檔"/>
+		<phrase i="660" t="電話狀態"/>
+		<phrase i="661" t="顯示背景"/>
+		<phrase i="662" t="背景圖案"/>
+		<phrase i="663" t="電話"/>
+		<phrase i="664" t="擴充模組"/>
+		<phrase i="665" t="加入新的背景圖案"/>
+		<phrase i="666" t="編輯背景圖案"/>
+		<phrase i="667" t="刪除背景圖案"/>
+		<phrase i="668" t="預覽電話"/>
+		<phrase i="669" t="預覽擴充模組"/>
+		<phrase i="670" t="新增線路鍵功能"/>
+		<phrase i="671" t="連線模式"/>
+		<phrase i="672" t="組態"/>
+		<phrase i="673" t="檢視"/>
+		<phrase i="674" t="說明"/>
+		<phrase i="675" t="欄位說明"/>
+		<phrase i="676" t="已設定的來源值"/>
+		<phrase i="677" t="登入身分："/>
+		<phrase i="678" t="登出"/>
+		<phrase i="679" t="自動"/>
+		<phrase i="680" t="手機"/>
+		<phrase i="681" t="電腦連線"/>
+		<phrase i="682" t="提示"/>
+		<phrase i="683" t="僅限 PSTN"/>
+		<phrase i="684" t="僅限 SIP"/>
+		<phrase i="685" t="Svenska (sv-se"/>
+		<phrase i="686" t="Visual"/>
+		<phrase i="687" t="鈴聲自動接聽"/>
+		<phrase i="688" t="內部"/>
+		<phrase i="689" t="外部"/>
+		<phrase i="690" t="緊急"/>
+		<phrase i="691" t="優先順序"/>
+		<phrase i="692" t="開頭畫面"/>
+		<phrase i="693" t="接聽靜音"/>
+		<phrase i="694" t="鈴聲接聽靜音"/>
+		<phrase i="695" t="自訂 "/>
+		<phrase i="696" t="設定檔正常 PBX"/>
+		<phrase i="697" t="設定檔正常 Aux1"/>
+		<phrase i="698" t="設定檔正常 Aux2"/>
+		<phrase i="699" t="設定檔靜音 PBX"/>
+		<phrase i="700" t="設定檔靜音 Aux1"/>
+		<phrase i="701" t="設定檔靜音 Aux2"/>
+		<phrase i="702" t="設定檔會議 PBX"/>
+		<phrase i="703" t="設定檔會議 Aux1"/>
+		<phrase i="704" t="設定檔會議 Aux2"/>
+		<phrase i="705" t="設定檔自訂 PBX"/>
+		<phrase i="706" t="設定檔自訂 Aux1"/>
+		<phrase i="707" t="設定檔自訂 Aux2"/>
+		<phrase i="708" t="設定檔耳機 PBX"/>
+		<phrase i="709" t="設定檔耳機 Aux1"/>
+		<phrase i="710" t="設定檔耳機 Aux2"/>
+		<phrase i="711" t="設定檔免持聽筒 PBX"/>
+		<phrase i="712" t="設定檔免持聽筒 Aux1"/>
+		<phrase i="713" t="設定檔免持聽筒 Aux2"/>
+		<phrase i="714" t="通訊協定"/>
+		<phrase i="715" t="H.323"/>
+		<phrase i="716" t="上午/下午 12"/>
+		<phrase i="717" t="週一，1日"/>
+		<phrase i="718" t="1月1日"/>
+		<phrase i="719" t="YY/MM，1"/>
+		<phrase i="720" t="週一，1月1日"/>
+		<phrase i="721" t=" "/>
+		<phrase i="722" t=" "/>
+		<phrase i="723" t=" "/>
+		<phrase i="724" t=" "/>
+		<phrase i="725" t="DD/MM/YY"/>
+		<phrase i="726" t="MM/DD/YY"/>
+		<phrase i="727" t="YY/MM/DD"/>
+		<phrase i="728" t=" "/>
+		<phrase i="729" t="1月1日，週一"/>
+		<phrase i="730" t=" "/>
+		<phrase i="731" t="週一，1月1日"/>
+		<phrase i="732" t="DD/MM/YYYY"/>
+		<phrase i="733" t="MM/DD/YYYY"/>
+		<phrase i="734" t="YYYY/MM/DD"/>
+		<phrase i="735" t="1 月"/>
+		<phrase i="736" t="2 月"/>
+		<phrase i="737" t="3 月"/>
+		<phrase i="738" t="4 月"/>
+		<phrase i="739" t="5 月"/>
+		<phrase i="740" t="6 月"/>
+		<phrase i="741" t="7 月"/>
+		<phrase i="742" t="8 月"/>
+		<phrase i="743" t="9 月"/>
+		<phrase i="744" t="10 月"/>
+		<phrase i="745" t="11 月"/>
+		<phrase i="746" t="12 月"/>
+		<phrase i="747" t="正常"/>
+		<phrase i="748" t="全"/>
+		<phrase i="749" t="裁切"/>
+		<phrase i="750" t="無"/>
+		<phrase i="751" t="動作"/>
+		<phrase i="752" t="並列"/>
+		<phrase i="753" t="子母畫面"/>
+		<phrase i="754" t="50 Hz"/>
+		<phrase i="755" t="60 Hz"/>
+		<phrase i="756" t="最暗"/>
+		<phrase i="757" t="極暗"/>
+		<phrase i="758" t="暗"/>
+		<phrase i="759" t="一般"/>
+		<phrase i="760" t="亮"/>
+		<phrase i="761" t="極亮"/>
+		<phrase i="762" t="最亮"/>
+		<phrase i="763" t="最低"/>
+		<phrase i="764" t="極低"/>
+		<phrase i="765" t="低"/>
+		<phrase i="766" t="高"/>
+		<phrase i="767" t="極高"/>
+		<phrase i="768" t="最高"/>
+		<phrase i="769" t="無對比"/>
+		<phrase i="770" t="少許對比"/>
+		<phrase i="771" t="加強對比"/>
+		<phrase i="772" t="最強對比"/>
+		<phrase i="773" t="降噪對比"/>
+		<phrase i="774" t="主動"/>
+		<phrase i="775" t="被動"/>
+		<phrase i="776" t="80 毫秒"/>
+		<phrase i="777" t="100 毫秒"/>
+		<phrase i="778" t="300 毫秒"/>
+		<phrase i="779" t="600 毫秒"/>
+		<phrase i="780" t="開"/>
+		<phrase i="781" t="關"/>
+		<phrase i="782" t="移除"/>
+		<phrase i="783" t="HMSms"/>
+		<phrase i="784" t="YMDHm"/>
+		<phrase i="785" t="MDHms"/>
+		<phrase i="786" t="刪除"/>
+		<phrase i="787" t="停止"/>
+		<phrase i="788" t="Debug"/>
+		<phrase i="789" t="Event 1"/>
+		<phrase i="790" t="Event 2"/>
+		<phrase i="791" t="Event 3"/>
+		<phrase i="792" t="Minor Error"/>
+		<phrase i="793" t="Major Error"/>
+		<phrase i="794" t="Fatal Error"/>
+		<phrase i="795" t="全部"/>
+		<phrase i="796" t="嚴重"/>
+		<phrase i="797" t="重要"/>
+		<phrase i="798" t="未指定"/>
+		<phrase i="799" t="左"/>
+		<phrase i="800" t="右"/>
+		<phrase i="801" t="FTP"/>
+		<phrase i="802" t="TFTP"/>
+		<phrase i="803" t="HTTP"/>
+		<phrase i="804" t="HTTPS"/>
+		<phrase i="805" t="FTPS"/>
+		<phrase i="806" t="選項 66"/>
+		<phrase i="807" t="自訂"/>
+		<phrase i="808" t="靜態"/>
+		<phrase i="809" t="自訂+選項66"/>
+		<phrase i="810" t="字串"/>
+		<phrase i="811" t="RFC3925 二進位"/>
+		<phrase i="812" t="ASCII 字串"/>
+		<phrase i="813" t="10HD"/>
+		<phrase i="814" t="10FD"/>
+		<phrase i="815" t="100HD"/>
+		<phrase i="816" t="100FD"/>
+		<phrase i="817" t="1000FD"/>
+		<phrase i="818" t="停用"/>
+		<phrase i="819" t="無"/>
+		<phrase i="820" t="EAP-TLS"/>
+		<phrase i="821" t="EAP-PEAPv0/MSCHAPv2"/>
+		<phrase i="822" t="EAP-PEAPv0/GTC"/>
+		<phrase i="823" t="EAP-TTLS/EAP-MSCHAPv2"/>
+		<phrase i="824" t="EAP-TTLS/EAP-GTC"/>
+		<phrase i="825" t="EAP-FAST"/>
+		<phrase i="826" t="EAP-MD5"/>
+		<phrase i="827" t="未驗證"/>
+		<phrase i="828" t="固定"/>
+		<phrase i="829" t="WEP"/>
+		<phrase i="830" t="WPA2-PSK"/>
+		<phrase i="831" t="開放式系統"/>
+		<phrase i="832" t="共用識別碼"/>
+		<phrase i="833" t="40 位元"/>
+		<phrase i="834" t="104 位元"/>
+		<phrase i="835" t="密碼"/>
+		<phrase i="836" t="十六進位金鑰"/>
+		<phrase i="837" t="OKC"/>
+		<phrase i="838" t="CCKM"/>
+		<phrase i="839" t="P"/>
+		<phrase i="840" t="(GMT -12:00) 愛尼維托、瓜加林島"/>
+		<phrase i="841" t="(GMT -11:00) 中途島"/>
+		<phrase i="842" t="(GMT -10:00) 夏威夷"/>
+		<phrase i="843" t="(GMT -9:00) 阿拉斯加"/>
+		<phrase i="844" t="(GMT -8:00) 太平洋時間 (美國和加拿大)"/>
+		<phrase i="845" t="(GMT -7:00) 山區時間 (美國和加拿大)"/>
+		<phrase i="846" t="(GMT -7:00) 赤瓦瓦、拉帕茲"/>
+		<phrase i="847" t="(GMT -7:00) 馬薩特蘭"/>
+		<phrase i="848" t="(GMT -6:00) 中部時間 (美國和加拿大)"/>
+		<phrase i="849" t="(GMT -6:00) 墨西哥市"/>
+		<phrase i="850" t="(GMT -6:00) 薩克其萬"/>
+		<phrase i="851" t="(GMT -6:00) 瓜達拉哈拉"/>
+		<phrase i="852" t="(GMT -6:00) 蒙特利"/>
+		<phrase i="853" t="(GMT -6:00) 中美洲"/>
+		<phrase i="854" t="(GMT -5:00) 東部時間 (美國和加拿大)"/>
+		<phrase i="855" t="(GMT -5:00) 印第安納 (東部)"/>
+		<phrase i="856" t="(GMT -5:00) 波哥大、利馬"/>
+		<phrase i="857" t="(GMT -5:00) 基多"/>
+		<phrase i="858" t="(GMT -4:30) 卡拉卡斯"/>
+		<phrase i="859" t="(GMT -4:00) 大西洋時間 (加拿大)"/>
+		<phrase i="860" t="(GMT -4:00) 瑪瑙斯、拉帕茲"/>
+		<phrase i="861" t="(GMT -3:30) 紐芬蘭"/>
+		<phrase i="862" t="(GMT -3:00) 巴西利亞"/>
+		<phrase i="863" t="(GMT -3:00) 布宜諾斯艾利斯"/>
+		<phrase i="864" t="(GMT -3:00) 格陵蘭"/>
+		<phrase i="865" t="(GMT -3:00) 聖地牙哥"/>
+		<phrase i="866" t="(GMT -2:00) 大西洋中部"/>
+		<phrase i="867" t="(GMT -1:00) 亞述群島"/>
+		<phrase i="868" t="(GMT -1:00) 維德角群島"/>
+		<phrase i="869" t="(GMT 0:00) 西歐時間"/>
+		<phrase i="870" t="(GMT 0:00) 倫敦、里斯本"/>
+		<phrase i="871" t="(GMT 0:00) 卡薩布蘭卡"/>
+		<phrase i="872" t="(GMT 0:00) 都柏林"/>
+		<phrase i="873" t="(GMT 0:00) 愛丁堡"/>
+		<phrase i="874" t="(GMT 0:00) 蒙羅維亞"/>
+		<phrase i="875" t="(GMT +1:00) 貝爾格勒"/>
+		<phrase i="876" t="(GMT +1:00) 布拉提斯拉瓦"/>
+		<phrase i="877" t="(GMT +1:00) 布達佩斯"/>
+		<phrase i="878" t="(GMT +1:00) 盧布亞納"/>
+		<phrase i="879" t="(GMT +1:00) 塞拉耶佛、斯高彼亞"/>
+		<phrase i="880" t="(GMT +1:00) 華沙、札格雷布"/>
+		<phrase i="881" t="(GMT +1:00) 布魯塞爾"/>
+		<phrase i="882" t="(GMT +1:00) 哥本哈根"/>
+		<phrase i="883" t="(GMT +1:00) 馬德里、巴黎"/>
+		<phrase i="884" t="(GMT +1:00) 阿姆斯特丹、柏林"/>
+		<phrase i="885" t="(GMT +1:00) 伯恩、羅馬"/>
+		<phrase i="886" t="(GMT +1:00) 斯德哥爾摩、維也納"/>
+		<phrase i="887" t="(GMT +1:00) 中西非"/>
+		<phrase i="888" t="(GMT +2:00) 布加勒斯特、開羅"/>
+		<phrase i="889" t="(GMT -8:00) 下加利福尼亞"/>
+		<phrase i="890" t="(GMT +2:00) 赫爾辛基、基輔"/>
+		<phrase i="891" t="pool.ntp.org"/>
+		<phrase i="892" t="north-america.pool.ntp.org"/>
+		<phrase i="893" t="south-america.pool.ntp.org"/>
+		<phrase i="894" t="europe.pool.ntp.org"/>
+		<phrase i="895" t="asia.pool.ntp.org"/>
+		<phrase i="896" t="阿根廷"/>
+		<phrase i="897" t="澳洲"/>
+		<phrase i="898" t="奧地利"/>
+		<phrase i="899" t="巴林"/>
+		<phrase i="900" t="比利時"/>
+		<phrase i="901" t="巴西"/>
+		<phrase i="902" t="保加利亞"/>
+		<phrase i="903" t="加拿大"/>
+		<phrase i="904" t="智利"/>
+		<phrase i="905" t="中國"/>
+		<phrase i="906" t="哥倫比亞"/>
+		<phrase i="907" t="克羅埃西亞"/>
+		<phrase i="908" t="歐洲 (TBR21)"/>
+		<phrase i="909" t="賽普勒斯"/>
+		<phrase i="910" t="捷克"/>
+		<phrase i="911" t="丹麥"/>
+		<phrase i="912" t="厄瓜多"/>
+		<phrase i="913" t="埃及"/>
+		<phrase i="914" t="薩爾瓦多"/>
+		<phrase i="915" t="芬蘭"/>
+		<phrase i="916" t="法國"/>
+		<phrase i="917" t="德國"/>
+		<phrase i="918" t="希臘"/>
+		<phrase i="919" t="關島"/>
+		<phrase i="920" t="香港"/>
+		<phrase i="921" t="匈牙利"/>
+		<phrase i="922" t="冰島"/>
+		<phrase i="923" t="印度"/>
+		<phrase i="924" t="印尼"/>
+		<phrase i="925" t="愛爾蘭"/>
+		<phrase i="926" t="以色列"/>
+		<phrase i="927" t="義大利"/>
+		<phrase i="928" t="日本"/>
+		<phrase i="929" t="約旦"/>
+		<phrase i="930" t="哈薩克"/>
+		<phrase i="931" t="科威特"/>
+		<phrase i="932" t="拉脫維亞"/>
+		<phrase i="933" t="黎巴嫩"/>
+		<phrase i="934" t="盧森堡"/>
+		<phrase i="935" t="澳門"/>
+		<phrase i="936" t="馬來西亞"/>
+		<phrase i="937" t="馬爾他"/>
+		<phrase i="938" t="墨西哥"/>
+		<phrase i="939" t="摩洛哥"/>
+		<phrase i="940" t="荷蘭"/>
+		<phrase i="941" t="紐西蘭"/>
+		<phrase i="942" t="奈及利亞"/>
+		<phrase i="943" t="挪威"/>
+		<phrase i="944" t="阿曼"/>
+		<phrase i="945" t="巴基斯坦"/>
+		<phrase i="946" t="秘魯"/>
+		<phrase i="947" t="菲律賓"/>
+		<phrase i="948" t="波蘭"/>
+		<phrase i="949" t="葡萄牙"/>
+		<phrase i="950" t="羅馬尼亞"/>
+		<phrase i="951" t="俄羅斯"/>
+		<phrase i="952" t="沙烏地阿拉伯"/>
+		<phrase i="953" t="新加坡"/>
+		<phrase i="954" t="斯洛伐克"/>
+		<phrase i="955" t="斯洛維尼亞"/>
+		<phrase i="956" t="南非"/>
+		<phrase i="957" t="南韓"/>
+		<phrase i="958" t="西班牙"/>
+		<phrase i="959" t="瑞典"/>
+		<phrase i="960" t="瑞士"/>
+		<phrase i="961" t="敘利亞"/>
+		<phrase i="962" t="臺灣"/>
+		<phrase i="963" t="泰國"/>
+		<phrase i="964" t="阿拉伯聯合大公國"/>
+		<phrase i="965" t="英國"/>
+		<phrase i="966" t="美國 (預設值)"/>
+		<phrase i="967" t="葉門"/>
+		<phrase i="968" t="G.711Mu"/>
+		<phrase i="969" t="G.726QI"/>
+		<phrase i="970" t="G.722"/>
+		<phrase i="971" t="頻道 "/>
+		<phrase i="972" t="群組 "/>
+		<phrase i="973" t="UDP"/>
+		<phrase i="974" t="組態檔"/>
+		<phrase i="975" t="本地"/>
+		<phrase i="976" t="CMA"/>
+		<phrase i="977" t="TR-069"/>
+		<phrase i="978" t="網頁"/>
+		<phrase i="979" t="裝置設定"/>
+		<phrase i="980" t="預設憑證清單"/>
+		<phrase i="981" t="所有憑證"/>
+		<phrase i="982" t="Polycom"/>
+		<phrase i="983" t="內建與平台 1"/>
+		<phrase i="984" t="內建與平台 2"/>
+		<phrase i="985" t="平台 1"/>
+		<phrase i="986" t="平台 2"/>
+		<phrase i="987" t="所有自訂"/>
+		<phrase i="988" t="已啟用"/>
+		<phrase i="989" t="自動"/>
+		<phrase i="990" t="閒置"/>
+		<phrase i="991" t="所有組態（裝置設定除外）"/>
+		<phrase i="992" t="新增"/>
+		<phrase i="993" t="移除"/>
+		<phrase i="994" t="更新"/>
+		<phrase i="995" t="安裝"/>
+		<phrase i="996" t="匯入"/>
+		<phrase i="997" t="匯出"/>
+		<phrase i="998" t="還原"/>
+		<phrase i="999" t="檢查有無更新"/>
+		<phrase i="1000" t="重設"/>
+		<phrase i="1001" t="清除"/>
+		<phrase i="1002" t="重設為預設值"/>
+		<phrase i="1003" t="檢視修改內容"/>
+		<phrase i="1004" t="註冊"/>
+		<phrase i="1005" t="聯絡人"/>
+		<phrase i="1006" t="僅限 UDP"/>
+		<phrase i="1007" t="偏好 TCP"/>
+		<phrase i="1008" t="DNSnaptr"/>
+		<phrase i="1009" t="僅限 TCP"/>
+		<phrase i="1010" t="第一"/>
+		<phrase i="1011" t="第二"/>
+		<phrase i="1012" t="第三"/>
+		<phrase i="1013" t="第四"/>
+		<phrase i="1014" t="最後"/>
+		<phrase i="1015" t="音效轉碼程式配置：音效"/>
+		<phrase i="1016" t="音效轉碼程式設定檔"/>
+		<phrase i="1017" t="確定"/>
+		<phrase i="1018" t="繼續"/>
+		<phrase i="1019" t="接受"/>
+		<phrase i="1020" t="拒絕"/>
+		<phrase i="1021" t="關閉"/>
+		<phrase i="1022" t="更多資訊"/>
+		<phrase i="1023" t="UC 軟體版本"/>
+		<phrase i="1024" t="TLS 平台設定檔 1"/>
+		<phrase i="1025" t="TLS 平台設定檔 2"/>
+		<phrase i="1026" t="TLS 應用程式設定檔 1"/>
+		<phrase i="1027" t="TLS 應用程式設定檔 2"/>
+		<phrase i="1028" t="TLS 應用程式設定檔 3"/>
+		<phrase i="1029" t="TLS 應用程式設定檔 4"/>
+		<phrase i="1030" t="TLS 應用程式設定檔 5"/>
+		<phrase i="1031" t="TLS 應用程式設定檔 6"/>
+		<phrase i="1032" t="G.711A"/>
+		<phrase i="1033" t="G.729AB"/>
+		<phrase i="1034" t="Siren14"/>
+		<phrase i="1035" t="Siren22"/>
+		<phrase i="1036" t="G.719"/>
+		<phrase i="1037" t="L16"/>
+		<phrase i="1038" t="H.264"/>
+		<phrase i="1039" t="H.263 1998"/>
+		<phrase i="1040" t="H.263"/>
+		<phrase i="1041" t="H.261"/>
+		<phrase i="1042" t="已設定線路"/>
+		<phrase i="1043" t="BLF 線路"/>
+		<phrase i="1044" t="聯絡人"/>
+		<phrase i="1045" t="新增 BLF 線路"/>
+		<phrase i="1046" t="編輯快速撥號聯絡人資訊"/>
+		<phrase i="1047" t="新增快速撥號聯絡人資訊"/>
+		<phrase i="1048" t="新增 EFK 聯絡人資訊"/>
+		<phrase i="1049" t="已降級"/>
+		<phrase i="1050" t="已重新載入"/>
+		<phrase i="1051" t="已升級"/>
+		<phrase i="1052" t="接受邀請函以前出現提示"/>
+		<phrase i="1053" t="自動接受邀請"/>
+		<phrase i="1054" t="邀請函"/>
+		<phrase i="1055" t="辦公時間內閒置這段時間後就顯示為「離開」（分鐘）"/>
+		<phrase i="1056" t="下班時間內閒置這段時間後就顯示為「離開」（分鐘）"/>
+		<phrase i="1057" t="邀請類型"/>
+		<phrase i="1058" t="目前狀態"/>
+		<phrase i="1059" t="選擇檔案"/>
+		<phrase i="1060" t="WiFi Manager"/>
+		<phrase i="1061" t="1 月 1 日"/>
+		<phrase i="1062" t="週一"/>
+		<phrase i="1063" t="條碼"/>
+		<phrase i="1064" t="藍牙驅動程式"/>
+		<phrase i="1065" t="DAA"/>
+		<phrase i="1066" t="USB 底座"/>
+		<phrase i="1067" t=""/>
+		<phrase i="1068" t=""/>
+		<phrase i="1069" t="資料庫"/>
+		<phrase i="1070" t=""/>
+		<phrase i="1071" t=""/>
+		<phrase i="1072" t="OCSP"/>
+		<phrase i="1073" t=""/>
+		<phrase i="1074" t="TA"/>
+		<phrase i="1075" t="網路組態公用程式語言"/>
+		<phrase i="1076" t="輸入 URL"/>
+		<phrase i="1077" t="新增網路組態公用程式語言檔案"/>
+		<phrase i="1078" t="清除升級伺服器"/>
+		<phrase i="1079" t="私人通話類型"/>
+		<phrase i="1080" t="標準"/>
+		<phrase i="1081" t="LCS2005"/>
+		<phrase i="1082" t="OCS2007r2"/>
+		<phrase i="1083" t="Lync2010"/>
+		<phrase i="1084" t="採取使用者帳號密碼"/>
+		<phrase i="1085" t="啟用 SRTP"/>
+		<phrase i="1086" t="提供 SRTP"/>
+		<phrase i="1087" t="自動偵測"/>
+		<phrase i="1088" t="特殊互通"/>
+		<phrase i="1089" t="MTLS SIP"/>
+		<phrase i="1090" t="伺服器自動偵測"/>
+		<phrase i="1091" t="基本設定檔"/>
+		<phrase i="1092" t="一般"/>
+		<phrase i="1093" t="商務用 Skype"/>
+		<phrase i="1094" t="訊號方法"/>
+		<phrase i="1095" t="訂閱功能事件"/>
+		<phrase i="1096" t="提示 FAC 訂閱目前狀態"/>
+		<phrase i="1097" t="服務 MS 轉送聯絡人"/>
+		<phrase i="1098" t="網域"/>
+		<phrase i="1099" t="商務用 Skype 轉送"/>
+		<phrase i="1100" t="關閉來電轉送"/>
+		<phrase i="1101" t="轉送給聯絡人"/>
+		<phrase i="1102" t="轉送到語音信箱"/>
+		<phrase i="1103" t="商務用 Skype 轉送聯絡人"/>
+		<phrase i="1104" t="啟用以下項目的漫遊合作業者功能："/>
+		<phrase i="1105" t="由伺服器強制執行"/>
+		<phrase i="1106" t="使用者 ID"/>
+		<phrase i="1107" t="藍牙功能"/>
+		<phrase i="1108" t="藍牙啟用"/>
+		<phrase i="1109" t="保留音樂"/>
+		<phrase i="1110" t="新增保留音樂檔案"/>
+		<phrase i="1111" t="安靜"/>
+		<phrase i="1112" t="低顫音"/>
+		<phrase i="1113" t="雙低顫音"/>
+		<phrase i="1114" t="中顫音"/>
+		<phrase i="1115" t="雙中顫音"/>
+		<phrase i="1116" t="高顫音"/>
+		<phrase i="1117" t="雙高顫音"/>
+		<phrase i="1118" t="最高顫音"/>
+		<phrase i="1119" t="雙最高顫音"/>
+		<phrase i="1120" t="嗶啵"/>
+		<phrase i="1121" t="三連音"/>
+		<phrase i="1122" t="回撥"/>
+		<phrase i="1123" t="低顫音優先"/>
+		<phrase i="1124" t="轉接單響鈴聲"/>
+		<phrase i="1125" t="伺服器 BLF 線路"/>
+		<phrase i="1126" t="CIF4 MPI"/>
+		<phrase i="1127" t="IP 模式"/>
+		<phrase i="1128" t="IPv6 位址"/>
+		<phrase i="1129" t="開機伺服器偵測"/>
+		<phrase i="1130" t="偏好使用網路"/>
+		<phrase i="1131" t="IPv6 位址偵測"/>
+		<phrase i="1132" t="全球位址"/>
+		<phrase i="1133" t="連結本機位址"/>
+		<phrase i="1134" t="ULA"/>
+		<phrase i="1135" t="IPv6 閘道"/>
+		<phrase i="1136" t="IPv4"/>
+		<phrase i="1137" t="IPv6"/>
+		<phrase i="1138" t="IPv4 和 IPv6"/>
+		<phrase i="1139" t="DHCPv6"/>
+		<phrase i="1140" t="SLAAC"/>
+		<phrase i="1141" t="V4V6"/>
+		<phrase i="1142" t="V4"/>
+		<phrase i="1143" t="V6"/>
+		<phrase i="1144" t="僅限 IPv4"/>
+		<phrase i="1145" t="僅限 IPv6"/>
+		<phrase i="1146" t="TR-069"/>
+		<phrase i="1147" t="TR-069 功能"/>
+		<phrase i="1148" t="ACS URL"/>
+		<phrase i="1149" t="ACS 使用者名稱"/>
+		<phrase i="1150" t="ACS 密碼"/>
+		<phrase i="1151" t="CPE 使用者名稱"/>
+		<phrase i="1152" t="CPE 密碼"/>
+		<phrase i="1153" t="定期通知"/>
+		<phrase i="1154" t="通知間隔" units="秒"/>
+		<phrase i="1155" t="通知時間"/>
+		<phrase i="1156" t="商務用 Skype 狀態"/>
+		<phrase i="1157" t="STSURI"/>
+		<phrase i="1158" t="自動偵測"/>
+		<phrase i="1159" t="驗證類型"/>
+		<phrase i="1160" t="註冊過期"/>
+		<phrase i="1161" t="忽略媒體"/>
+		<phrase i="1162" t="ABS 伺服器內部 URL"/>
+		<phrase i="1163" t="ABS 伺服器外部 URL"/>
+		<phrase i="1164" t="語音信箱 URI"/>
+		<phrase i="1165" t="MRAS 伺服器"/>
+		<phrase i="1166" t="線路；電話："/>
+		<phrase i="1167" t="地點設定檔"/>
+		<phrase i="1168" t="來電駐留伺服器 URI"/>
+		<phrase i="1169" t="使用者 SIP URI"/>
+		<phrase i="1170" t="電腦互打影音加密"/>
+		<phrase i="1171" t="EWS 資訊"/>
+		<phrase i="1172" t="已設定的 Exchange URL"/>
+		<phrase i="1173" t=""/>
+		<phrase i="1174" t="連接的商務用 Skype 伺服器"/>
+		<phrase i="1175" t="撥號安排方式"/>
+		<phrase i="1176" t="增強緊急服務"/>
+		<phrase i="1177" t="119 字串"/>
+		<phrase i="1178" t="商務用 Skype ABS"/>
+		<phrase i="1179" t="使用所在國的預設值"/>
+		<phrase i="1180" t="EM 通訊錄"/>
+		<phrase i="1181" t="EM 1"/>
+		<phrase i="1182" t="EM 2"/>
+		<phrase i="1183" t="EM 3"/>
+		<phrase i="1184" t="CAC 狀態"/>
+		<phrase i="1185" t="EM"/>
+		<phrase i="1186" t="使用 TCP SNTP 伺服器"/>
+		<phrase i="1187" t="TCP SNTP 伺服器"/>
+		<phrase i="1188" t="使用 TCP 時區"/>
+		<phrase i="1189" t="TCP 時區"/>
+		<phrase i="1190" t="系統狀態"/>
+		<phrase i="1191" t="系統記錄"/>
+		<phrase i="1192" t="UCS 應用程式"/>
+		<phrase i="1193" t="裝置名稱"/>
+		<phrase i="1194" t="目前使用的是預設密碼，請變更！"/>
+		<phrase i="1195" t="使用者帳號密碼"/>
+		<phrase i="1196" t="PIN 驗證"/>
+		<phrase i="1197" t="分機"/>
+		<phrase i="1198" t="PIN"/>
+		<phrase i="1199" t="更新時間"/>
+		<phrase i="1200" t="永不"/>
+		<phrase i="1201" t="靜音按鍵功能"/>
+		<phrase i="1202" t="僅限麥克風"/>
+		<phrase i="1203" t="麥克風和攝影機"/>
+		<phrase i="1204" t="電源頻率"/>
+		<phrase i="1205" t="50 Hz - 30fps（日本東部）"/>
+		<phrase i="1206" t="裝置"/>
+		<phrase i="1207" t="設定日期/時間"/>
+		<phrase i="1208" t="年"/>
+		<phrase i="1209" t="月"/>
+		<phrase i="1210" t="日"/>
+		<phrase i="1211" t="時"/>
+		<phrase i="1212" t="分"/>
+		<phrase i="1213" t="產品序號"/>
+		<phrase i="1214" t="電源資料盒硬體版本"/>
+		<phrase i="1215" t="桌面硬體版本"/>
+		<phrase i="1216" t="裝置軟體版本"/>
+		<phrase i="1217" t="立即更新"/>
+		<phrase i="1218" t="軟體更新"/>
+		<phrase i="1219" t="更新伺服器"/>
+		<phrase i="1220" t="更新頻率"/>
+		<phrase i="1221" t="訂閱過期" units="秒"/>
+		<phrase i="1222" t="Genband Dir"/>
+		<phrase i="1223" t="應用程式 CA 7"/>
+		<phrase i="1224" t="應用程式帳號密碼 7"/>
+		<phrase i="1225" t="SOPI"/>
+		<phrase i="1226" t="TLS 應用設定檔 7"/>
+		<phrase i="1227" t="應用程式設定檔 7"/>
+		<phrase i="1228" t="Genband"/>
+		<phrase i="1229" t="網路票證"/>
+		<phrase i="1230" t="登入"/>
+		<phrase i="1231" t="登出"/>
+		<phrase i="1232" t="登入位址"/>
+		<phrase i="1233" t="隱藏線路識別"/>
+		<phrase i="1234" t="拒絕匿名電話"/>
+		<phrase i="1235" t="BroadWorks Remote Office"/>
+		<phrase i="1236" t="BroadSoft UC-One"/>
+		<phrase i="1237" t="通話設定功能"/>
+		<phrase i="1238" t="個人化同時響鈴功能"/>
+		<phrase i="1239" t="BroadWorks Anywhere"/>
+		<phrase i="1240" t="預設轉接類型"/>
+		<phrase i="1241" t="轉接類型"/>
+		<phrase i="1242" t="線路標籤"/>
+		<phrase i="1243" t="線路標籤省略功能"/>
+		<phrase i="1244" t="專屬線路標籤"/>
+		<phrase i="1245" t="MOH 狀態"/>
+		<phrase i="1246" t="音樂檔案"/>
+		<phrase i="1247" t="測試版軟體"/>
+		<phrase i="1248" t="測試版軟體將在 %s 天後過期"/>
+		<phrase i="1249" t="測試版軟體將在 1 天後過期"/>
+		<phrase i="1250" t="測試版軟體已過期"/>
+		<phrase i="1251" t="其他資訊"/>
+		<phrase i="1252" t="主人/管理員"/>
+		<phrase i="1253" t="電話角色"/>
+		<phrase i="1254" t="主人數量"/>
+		<phrase i="1255" t="管理員數量"/>
+		<phrase i="1256" t="商務用 Skype CCCP"/>
+		<phrase i="1257" t="會議排程 URI"/>
+		<phrase i="1258" t="取代 DHCP Option 43 提供的 STS-URI"/>
+		<phrase i="1259" t="EWS 內部 URL"/>
+		<phrase i="1260" t="EWS 外部 URL"/>
+		<phrase i="1261" t="Exchange 通話記錄"/>
+		<phrase i="1262" t="Exchange 語音信箱"/>
+		<phrase i="1263" t="Exchange Outlook 聯絡人"/>
+		<phrase i="1264" t="整合通訊狀態"/>
+		<phrase i="1265" t="電話播放狀態"/>
+		<phrase i="1266" t="電子郵件"/>
+		<phrase i="1267" t="SSL v2/v3"/>
+		<phrase i="1268" t="停用共用線路轉送功能"/>
+		<phrase i="1269" t="來電"/>
+		<phrase i="1270" t="網路服務"/>
+		<phrase i="1271" t="REST API"/>
+		<phrase i="1272" t="商務用 Skype 參數"/>
+		<phrase i="1273" t="憑證有效期開始時間"/>
+		<phrase i="1274" t="憑證有效期限"/>
+		<phrase i="1275" t="商務用 Skype 環境"/>
+		<phrase i="1276" t="商務用 Skype O365 狀態"/>
+		<phrase i="1277" t="憑證有效期截止時間"/>
+		<phrase i="1278" t="憑證有效期時間"/>
+		<phrase i="1279" t="憑證已存在"/>
+		<phrase i="1280" t="憑證過期"/>
+		<phrase i="1281" t="帳號密碼類型"/>
+		<phrase i="1282" t="憑證佈建服務 URL"/>
+		<phrase i="1283" t="網路票證服務 URL"/>
+		<phrase i="1284" t="網路票證證明 URL"/>
+		<phrase i="1285" t="根憑證鏈 URL"/>
+		<phrase i="1286" t="網路票證伺服器 PIN 驗證"/>
+		<phrase i="1287" t="網路票證伺服器憑證驗證"/>
+		<phrase i="1288" t="同盟資料 Mex URL"/>
+		<phrase i="1289" t="O365"/>
+		<phrase i="1290" t="機構 ID 驗證端點 URL"/>
+		<phrase i="1291" t="機構 ID 驗證端點基本 URL"/>
+		<phrase i="1292" t="商務用 Skype 線上使用者類型"/>
+		<phrase i="1293" t="機構 ID Token 建立時間"/>
+		<phrase i="1294" t="機構 ID Token 過期時間"/>
+		<phrase i="1295" t="AFE"/>
+		<phrase i="1296" t="ICE"/>
+		<phrase i="1297" t="BToE"/>
+		<phrase i="1298" t="FIPS"/>
+		<phrase i="1299" t="位置管理員"/>
+		<phrase i="1300" t="封包擷取"/>
+		<phrase i="1301" t="電源管理員"/>
+		<phrase i="1302" t="SIPp"/>
+		<phrase i="1303" t="SIPt"/>
+		<phrase i="1304" t="XML"/>
+		<phrase i="1305" t="PCD"/>
+		<phrase i="1306" t="VVX D60 設定"/>
+		<phrase i="1307" t="基地台設定"/>
+		<phrase i="1308" t="話筒設定"/>
+		<phrase i="1309" t="VVX D60 設定檔"/>
+		<phrase i="1310" t="配對完成"/>
+		<phrase i="1311" t="對講機"/>
+		<phrase i="1312" t="已註冊話筒數"/>
+		<phrase i="1313" t="註冊"/>
+		<phrase i="1314" t="對應線路"/>
+		<phrase i="1315" t="尋找話筒"/>
+		<phrase i="1316" t=""/>
+		<phrase i="1317" t="已對應線路"/>
+		<phrase i="1318" t="預設線路"/>
+		<phrase i="1319" t="取消註冊"/>
+		<phrase i="1320" t="話筒線路對應"/>
+		<phrase i="1321" t="取消配對"/>
+		<phrase i="1322" t="配對模式"/>
+		<phrase i="1323" t="手動"/>
+		<phrase i="1324" t="自動"/>
+		<phrase i="1325" t="PC 連接埠"/>
+		<phrase i="1326" t="基地台 IP 位址"/>
+		<phrase i="1327" t="配對"/>
+		<phrase i="1328" t="重試"/>
+		<phrase i="1329" t="VVX D60"/>
+		<phrase i="1330" t="擷取 VVX D60 裝置記錄檔"/>
+		<phrase i="1331" t="正在擷取 VVX D60 裝置記錄檔"/>
+		<phrase i="1332" t="更新時間"/>
+		<phrase i="1333" t="未註冊"/>
+		<phrase i="1334" t="停止擷取"/>
+		<phrase i="1335" t="話筒"/>
+		<phrase i="1336" t="VVX 電話"/>
+		<phrase i="1337" t="基地台"/>
+		<phrase i="1338" t="基地台詳細資料"/>
+		<phrase i="1339" t="基地台名稱"/>
+		<phrase i="1340" t="基地台狀態"/>
+		<phrase i="1341" t="基地台 MAC 位址"/>
+		<phrase i="1342" t="基地台 IP 位址"/>
+		<phrase i="1343" t="話筒狀態"/>
+		<phrase i="1345" t="基地台版本"/>
+		<phrase i="1346" t="套件版本"/>
+		<phrase i="1347" t="VVX D60 控制器"/>
+		<phrase i="1348" t="媒體控制器"/>
+		<phrase i="1349" t="硬體版本"/>
+		<phrase i="1350" t="版本"/>
+		<phrase i="1351" t="IPEI"/>
+		<phrase i="1352" t="線路位址"/>
+		<phrase i="1353" t="預設外撥線路"/>
+		<phrase i="1354" t="RFPI"/>
+		<phrase i="1355" t="VVX D60 類型"/>
+		<phrase i="1356" t="發射模式"/>
+		<phrase i="1357" t="快閃記憶體"/>
+		<phrase i="1358" t="(GMT +2:00) 里加、索菲亞"/>
+		<phrase i="1359" t="(GMT +2:00) 塔林、維爾紐斯"/>
+		<phrase i="1360" t="(GMT +2:00) 雅典"/>
+		<phrase i="1361" t="(GMT +3:00) 明斯克"/>
+		<phrase i="1362" t="(GMT +2:00) 耶路撒冷"/>
+		<phrase i="1363" t="(GMT +2:00) 哈拉雷、普利托里亞"/>
+		<phrase i="1364" t="(GMT +3:00) 莫斯科"/>
+		<phrase i="1365" t="(GMT +3:00) 聖彼得堡"/>
+		<phrase i="1366" t="(GMT +3:00) 伏爾加格勒 (RTZ 2)"/>
+		<phrase i="1367" t="(GMT +3:00) 科威特、利雅德"/>
+		<phrase i="1368" t="(GMT +3:00) 奈洛比"/>
+		<phrase i="1369" t="(GMT +3:00) 巴格達"/>
+		<phrase i="1370" t="(GMT +3:30) 德黑蘭"/>
+		<phrase i="1371" t="(GMT +4:00) 阿布達比、馬斯喀特"/>
+		<phrase i="1372" t="(GMT +4:00) 巴庫、第比利斯"/>
+		<phrase i="1373" t="(GMT +4:30) 喀布爾"/>
+		<phrase i="1374" t="(GMT +5:00) 耶卡特寧伯格 (RTZ 4)"/>
+		<phrase i="1375" t="(GMT +5:00) 伊斯蘭馬巴德"/>
+		<phrase i="1376" t="(GMT +5:00) 喀拉蚩"/>
+		<phrase i="1377" t="(GMT +5:00) 塔什干"/>
+		<phrase i="1378" t="(GMT +5:30) 清奈、孟買"/>
+		<phrase i="1379" t="(GMT +5:30) 加爾各答、新德里"/>
+		<phrase i="1380" t="(GMT +5:30) 斯里哈亞華登尼普拉"/>
+		<phrase i="1381" t="(GMT +5:45) 加德滿都"/>
+		<phrase i="1382" t="(GMT +6:00) 阿斯塔那、達卡"/>
+		<phrase i="1383" t="(GMT +6:00) 阿馬提"/>
+		<phrase i="1384" t="(GMT +6:00) 新西伯利亞 (RTZ 5)"/>
+		<phrase i="1385" t="(GMT +6:30) 仰光"/>
+		<phrase i="1386" t="(GMT +7:00) 曼谷、河內"/>
+		<phrase i="1387" t="(GMT +7:00) 雅加達"/>
+		<phrase i="1388" t="(GMT +8:00) 北京、重慶"/>
+		<phrase i="1389" t="(GMT +8:00) 香港、烏魯木齊"/>
+		<phrase i="1390" t="(GMT +8:00) 吉隆坡"/>
+		<phrase i="1391" t="(GMT +8:00) 新加坡"/>
+		<phrase i="1392" t="(GMT +8:00) 台北、伯斯"/>
+		<phrase i="1393" t="(GMT +8:00) 伊爾庫次克 (RTZ 7)"/>
+		<phrase i="1394" t="(GMT +8:00) 烏蘭巴托"/>
+		<phrase i="1395" t="(GMT +9:00) 東京、首爾、大阪"/>
+		<phrase i="1396" t="(GMT +9:00) 札幌、雅庫次克 (RTZ 8)"/>
+		<phrase i="1397" t="(GMT +9:30) 阿得雷德、達爾文"/>
+		<phrase i="1398" t="(GMT +10:00) 坎培拉"/>
+		<phrase i="1399" t="(GMT +10:00) 馬加丹 (RTZ 9)"/>
+		<phrase i="1400" t="(GMT +10:00) 墨爾本"/>
+		<phrase i="1401" t="(GMT +10:00) 雪梨、布里斯本"/>
+		<phrase i="1402" t="(GMT +11:00) 索羅門群島"/>
+		<phrase i="1403" t="(GMT +11:00) 新喀里多尼亞群島"/>
+		<phrase i="1404" t="(GMT +12:00) 斐濟群島"/>
+		<phrase i="1405" t="(GMT +12:00) 奧克蘭、阿納底"/>
+		<phrase i="1406" t="(GMT +12:00) 彼得保羅夫斯克-堪察加斯克 (RTZ 11)"/>
+		<phrase i="1407" t="(GMT +12:00) 威靈頓"/>
+		<phrase i="1408" t="(GMT +12:00) 馬紹爾群島"/>
+		<phrase i="1409" t="(GMT +13:00) 努瓜婁發"/>
+		<phrase i="1410" t="正在忙"/>
+		<phrase i="1411" t="正在註銷"/>
+		<phrase i="1412" t="(GMT -7:00) 亞歷桑那"/>
+		<phrase i="1413" t="(GMT -4:00) 亞松森、古雅巴"/>
+		<phrase i="1414" t="(GMT -3:00) 開雲、福塔力沙"/>
+		<phrase i="1415" t="(GMT -4:00) 喬治城"/>
+		<phrase i="1416" t="(GMT -3:00) 蒙特維多"/>
+		<phrase i="1417" t="(GMT -3:00) 薩爾瓦多"/>
+		<phrase i="1418" t="(GMT 0:00) 雷克雅維克"/>
+		<phrase i="1419" t="(GMT +1:00) 布拉格"/>
+		<phrase i="1420" t="(GMT +1:00) 溫吐克"/>
+		<phrase i="1421" t="(GMT +2:00) 安曼、貝魯特"/>
+		<phrase i="1422" t="(GMT +2:00) 大馬士革"/>
+		<phrase i="1423" t="(GMT +2:00) 東歐"/>
+		<phrase i="1424" t="(GMT +2:00) 卡里寧格勒 (RTZ 1)"/>
+		<phrase i="1425" t="(GMT +2:00) 的黎波里"/>
+		<phrase i="1426" t="(GMT +4:00) 伊熱夫斯克、沙馬拉 (RTZ 3)"/>
+		<phrase i="1427" t="(GMT +4:00) 路易士港"/>
+		<phrase i="1428" t="(GMT +4:00) 葉里溫"/>
+		<phrase i="1429" t="(GMT +7:00) 克拉斯諾亞爾斯克 (RTZ 6)"/>
+		<phrase i="1430" t="(GMT +10:00) 霍巴特"/>
+		<phrase i="1431" t="(GMT +10:00) 海參崴"/>
+		<phrase i="1432" t="(GMT +10:00) 關島、莫爾斯貝港"/>
+		<phrase i="1433" t="(GMT +11:00) 喬庫爾達赫 (RTZ 10)"/>
+		<phrase i="1434" t="(GMT +13:00) 薩摩亞"/>
+		<phrase i="1435" t="(GMT -4:00) 聖胡安"/>
+		<phrase i="1436" t="正在下載更新..."/>
+		<phrase i="1437" t="下載失敗。檢查記錄。"/>
+		<phrase i="1438" t="正在進行更新"/>
+		<phrase i="1439" t="更新失敗。檢查記錄。"/>
+		<phrase i="1440" t="傳輸類型"/>
+		<phrase i="1441" t="應用程式"/>
+		<phrase i="1442" t="BFCP"/>
+		<phrase i="1443" t="PEC"/>
+		<phrase i="1444" t="模組化會議室"/>
+		<phrase i="1445" t="網路裝置攝影機"/>
+		<phrase i="1446" t="網路裝置顯示"/>
+		<phrase i="1447" t="網路裝置管理員"/>
+		<phrase i="1448" t="Polycom Content Application"/>
+		<phrase i="1449" t="近接感測"/>
+		<phrase i="1450" t="PTP"/>
+		<phrase i="1451" t="網路裝置音訊"/>
+		<phrase i="1452" t="Wi-Fi MAC 位址"/>
+		<phrase i="1453" t="藍牙 MAC 位址"/>
+		<phrase i="1454" t="集中式會議設定檔"/>
+		<phrase i="1455" t="RTCP 頻寬偵測"/>
+		<phrase i="1456" t="自動接受內容畫面"/>
+		<phrase i="1457" t="網路裝置連線"/>
+		<phrase i="1458" t="藍牙 PPS"/>
+		<phrase i="1459" t="USB PPS"/>
+		<phrase i="1460" t="CEC"/>
+		<phrase i="1461" t="可被偵測逾時"/>
+		<phrase i="1462" t="Polycom Content Application 伺服器"/>
+		<phrase i="1463" t=""/>
+		<phrase i="1464" t="用戶端憑證"/>
+		<phrase i="1465" t="NFC"/>
+		<phrase i="1466" t="USB 主機連接埠"/>
+		<phrase i="1467" t="USB 裝置連接埠"/>
+		<phrase i="1468" t="主畫面"/>
+		<phrase i="1469" t="功能表頁面樣式"/>
+		<phrase i="1470" t="網路裝置"/>
+		<phrase i="1471" t="網路裝置 UID"/>
+		<phrase i="1472" t="網路裝置背景圖案"/>
+		<phrase i="1473" t="藍色漸層"/>
+		<phrase i="1474" t="哈修塔特湖"/>
+		<phrase i="1475" t="巴伐利亞阿爾卑斯山脈"/>
+		<phrase i="1476" t="勿忘我池"/>
+		<phrase i="1477" t="網路裝置 TLS"/>
+		<phrase i="1478" t="音訊需要 SRTP？"/>
+		<phrase i="1479" t="視訊需要 SRTP？"/>
+		<phrase i="1480" t="攝影機自動對焦"/>
+		<phrase i="1481" t="攝影機焦距範圍"/>
+		<phrase i="1482" t="待命模式"/>
+		<phrase i="1483" t="消費型電子產品控制"/>
+		<phrase i="1484" t="電源管理"/>
+		<phrase i="1485" t="USB 充電中"/>
+		<phrase i="1486" t="乙太網路供電"/>
+		<phrase i="1487" t="電源設備"/>
+		<phrase i="1488" t="電源設備等級"/>
+		<phrase i="1489" t="第 1 級：4W"/>
+		<phrase i="1490" t="第 2 級：6.5W"/>
+		<phrase i="1491" t="第 0 級：13W"/>
+		<phrase i="1492" t="音訊設定"/>
+		<phrase i="1493" t="音訊輸出"/>
+		<phrase i="1494" t="電話喇叭"/>
+		<phrase i="1495" t="電視喇叭"/>
+		<phrase i="1496" t="電話和電視喇叭"/>
+		<phrase i="1497" t="配對"/>
+		<phrase i="1498" t="超音波配對"/>
+		<phrase i="1499" t="智慧配對模式"/>
+		<phrase i="1500" t="智慧配對音量"/>
+		<phrase i="1501" t="閒置畫面設定"/>
+		<phrase i="1502" t="靜止狀態"/>
+		<phrase i="1503" t="功能表"/>
+		<phrase i="1504" t="撥號盤"/>
+		<phrase i="1505" t="系統名稱"/>
+		<phrase i="1506" t="操作國家"/>
+		<phrase i="1507" t="全球法規網域"/>
+		<phrase i="1508" t="愛沙尼亞"/>
+		<phrase i="1509" t="列支敦斯登"/>
+		<phrase i="1510" t="立陶宛"/>
+		<phrase i="1511" t="英國"/>
+		<phrase i="1512" t="美國"/>
+		<phrase i="1513" t="NoiseBlockAI"/>
+		<phrase i="1514" t="NoiseBlock"/>
+		<phrase i="1515" t="會議提醒音效"/>
+		<phrase i="1516" t="Poly 實驗室"/>
+		<phrase i="1517" t="Poly Experience Cloud"/>
+		<phrase i="1518" t="傳送診斷資料"/>
+		<phrase i="1519" t="自動傳送"/>
+		<phrase i="1520" t="不傳送"/>
+		<phrase i="1521" t="MST 模式"/>
+		<phrase i="1522" t="新裝置通知"/>
+		<phrase i="1523" t="自動：根據通話類型"/>
+		<phrase i="1524" t="重開機裝置"/>
+		<phrase i="1525" t="重新啟動裝置"/>
+		<phrase i="1526" t="網頁伺服器"/>
+		<phrase i="1527" t="網路伺服器設定檔"/>
+		<phrase i="1528" t="正在等待更新"/>
+		<phrase i="1529" t="更新程式簽章"/>
+		<phrase i="1530" t="QoE URI"/>
+		<phrase i="1531" t="BToE 電腦配對"/>
+		<phrase i="1532" t="啟用 BToE 電腦配對"/>
+		<phrase i="1533" t="配對模式"/>
+		<phrase i="1534" t="配對代碼"/>
+		<phrase i="1535" t="配對狀態"/>
+		<phrase i="1536" t="BToE 配對"/>
+		<phrase i="1537" t="上傳記錄檔"/>
+		<phrase i="1538" t="更新伺服器內部 URL"/>
+		<phrase i="1539" t="更新伺服器外部 URL"/>
+		<phrase i="1540" t="BToE 模式"/>
+		<phrase i="1541" t="經驗品質"/>
+		<phrase i="1542" t="QoE 狀態"/>
+		<phrase i="1543" t="通話中 QoE 狀態"/>
+		<phrase i="1544" t="通話中 QoE 間隔"/>
+		<phrase i="1545" t="網頁伺服器"/>
+		<phrase i="1546" t="網路伺服器設定檔"/>
+		<phrase i="1547" t="已配對的電腦 IP 位址"/>
+		<phrase i="1548" t="IPv6 VLAN 偵測"/>
+		<phrase i="1549" t="伺服器記錄等級"/>
+		<phrase i="1550" t="中"/>
+		<phrase i="1551" t="上次登入時間："/>
+		<phrase i="1552" t="嘗試失敗次數"/>
+		<phrase i="1553" t="網路 MTU"/>
+		<phrase i="1554" t="DSCP 語音"/>
+		<phrase i="1555" t="IPv4 模式"/>
+		<phrase i="1556" t="IPv6/雙模式"/>
+		<phrase i="1557" t="VVX D60"/>
+		<phrase i="1558" t="VVX D60 PPS"/>
+		<phrase i="1559" t="伺服器未接電話狀態"/>
+		<phrase i="1560" t="Genband-A2"/>
+		<phrase i="1561" t="ALU-CTS"/>
+		<phrase i="1562" t="OAuth Token 效期（秒）"/>
+		<phrase i="1563" t="OAuth Token 過期時間"/>
+		<phrase i="1564" t="自訂（指定格式應為 mr.bg.url）"/>
+		<phrase i="1565" t="使用者憑證擷取狀態"/>
+		<phrase i="1566" t="網路自動偵測使用者位置"/>
+		<phrase i="1567" t="網路自動偵測完整網域名稱"/>
+		<phrase i="1568" t="需要 SRTP"/>
+		<phrase i="1569" t="需要 PIN 碼才可加入私人會議"/>
+		<phrase i="1570" t="安全性橫幅"/>
+		<phrase i="1571" t="橫幅文字"/>
+		<phrase i="1572" t="USB 音效"/>
+		<phrase i="1573" t="USB HID"/>
+		<phrase i="1574" t=""/>
+		<phrase i="1575" t="稽核"/>
+		<phrase i="1576" t="重新開機系統"/>
+		<phrase i="1577" t="網路裝置狀態"/>
+		<phrase i="1578" t="最多可設定的話筒數"/>
+		<phrase i="1579" t="通話清單"/>
+		<phrase i="1580" t="基地台 MAC 位址"/>
+		<phrase i="1581" t="TLS 1.0"/>
+		<phrase i="1582" t="TLS 1.1"/>
+		<phrase i="1583" t="TLS 1.2"/>
+		<phrase i="1584" t="正在註冊"/>
+		<phrase i="1585" t="驗證服務"/>
+		<phrase i="1586" t="代理伺服器服務"/>
+		<phrase i="1587" t="WAD 服務"/>
+		<phrase i="1588" t="裝置配對服務"/>
+		<phrase i="1589" t="NI 服務"/>
+		<phrase i="1590" t="資源服務"/>
+		<phrase i="1591" t="最低 TLS 版本"/>
+		<phrase i="1592" t="Exchange 服務"/>
+		<phrase i="1593" t="Exchange 服務設定檔"/>
+		<phrase i="1594" t="阿富汗"/>
+		<phrase i="1595" t="阿爾巴尼亞"/>
+		<phrase i="1596" t="阿爾及利亞"/>
+		<phrase i="1597" t="美屬薩摩亞"/>
+		<phrase i="1598" t="安道爾"/>
+		<phrase i="1599" t="安哥拉"/>
+		<phrase i="1600" t="安圭拉"/>
+		<phrase i="1601" t="安地卡及巴布達"/>
+		<phrase i="1602" t="亞美尼亞"/>
+		<phrase i="1603" t="阿路巴"/>
+		<phrase i="1604" t="亞塞拜然"/>
+		<phrase i="1605" t="巴哈馬"/>
+		<phrase i="1606" t="孟加拉"/>
+		<phrase i="1607" t="巴貝多"/>
+		<phrase i="1608" t="白俄羅斯"/>
+		<phrase i="1609" t="貝里斯"/>
+		<phrase i="1610" t="貝南"/>
+		<phrase i="1611" t="百慕達群島"/>
+		<phrase i="1612" t="不丹"/>
+		<phrase i="1613" t="玻利維亞"/>
+		<phrase i="1614" t="波士尼亞赫塞哥維納"/>
+		<phrase i="1615" t="波札那"/>
+		<phrase i="1616" t="英屬印度洋領土"/>
+		<phrase i="1617" t="英屬維京群島"/>
+		<phrase i="1618" t="汶萊"/>
+		<phrase i="1619" t="布吉納法索"/>
+		<phrase i="1620" t="蒲隆地"/>
+		<phrase i="1621" t="柬埔寨"/>
+		<phrase i="1622" t="喀麥隆"/>
+		<phrase i="1623" t="維德角"/>
+		<phrase i="1624" t="開曼群島"/>
+		<phrase i="1625" t="中非共和國"/>
+		<phrase i="1626" t="查德"/>
+		<phrase i="1627" t="聖誕島"/>
+		<phrase i="1628" t="可可斯群島"/>
+		<phrase i="1629" t="葛摩"/>
+		<phrase i="1630" t="剛果民主共和國"/>
+		<phrase i="1631" t="庫克群島"/>
+		<phrase i="1632" t="哥斯大黎加"/>
+		<phrase i="1633" t="象牙海岸"/>
+		<phrase i="1634" t="吉布地"/>
+		<phrase i="1635" t="多米尼克"/>
+		<phrase i="1636" t="多明尼加共和國"/>
+		<phrase i="1637" t="赤道幾內亞"/>
+		<phrase i="1638" t="厄利垂亞"/>
+		<phrase i="1639" t="衣索比亞"/>
+		<phrase i="1640" t="福克蘭群島"/>
+		<phrase i="1641" t="法羅群島"/>
+		<phrase i="1642" t="斐濟"/>
+		<phrase i="1643" t="法屬圭亞那"/>
+		<phrase i="1644" t="法屬玻里尼西亞"/>
+		<phrase i="1645" t="法國南方領土及南極陸地"/>
+		<phrase i="1646" t="加彭"/>
+		<phrase i="1647" t="甘比亞"/>
+		<phrase i="1648" t="迦納"/>
+		<phrase i="1649" t="直布羅陀"/>
+		<phrase i="1650" t="格陵蘭"/>
+		<phrase i="1651" t="格瑞那達"/>
+		<phrase i="1652" t="哥德洛普"/>
+		<phrase i="1653" t="瓜地馬拉"/>
+		<phrase i="1654" t="根息"/>
+		<phrase i="1655" t="幾內亞"/>
+		<phrase i="1656" t="幾內亞比索"/>
+		<phrase i="1657" t="蓋亞納"/>
+		<phrase i="1658" t="海地"/>
+		<phrase i="1659" t="赫德島及麥當勞群島"/>
+		<phrase i="1660" t="宏都拉斯"/>
+		<phrase i="1661" t="伊拉克"/>
+		<phrase i="1662" t="牙買加"/>
+		<phrase i="1663" t="澤西島"/>
+		<phrase i="1664" t="肯亞"/>
+		<phrase i="1665" t="吉里巴斯"/>
+		<phrase i="1666" t="科索沃"/>
+		<phrase i="1667" t="吉爾吉斯"/>
+		<phrase i="1668" t="寮國"/>
+		<phrase i="1669" t="賴索托"/>
+		<phrase i="1670" t="賴比瑞亞"/>
+		<phrase i="1671" t="利比亞"/>
+		<phrase i="1672" t="馬其頓王國"/>
+		<phrase i="1673" t="馬達加斯加"/>
+		<phrase i="1674" t="馬拉威"/>
+		<phrase i="1675" t="馬爾地夫"/>
+		<phrase i="1676" t="馬利"/>
+		<phrase i="1677" t="曼島"/>
+		<phrase i="1678" t="馬丁尼克"/>
+		<phrase i="1679" t="茅利塔尼亞"/>
+		<phrase i="1680" t="模里西斯"/>
+		<phrase i="1681" t="馬約特島"/>
+		<phrase i="1682" t="密克羅尼西亞"/>
+		<phrase i="1683" t="摩爾多瓦"/>
+		<phrase i="1684" t="摩納哥"/>
+		<phrase i="1685" t="蒙古"/>
+		<phrase i="1686" t="蒙特內哥羅"/>
+		<phrase i="1687" t="蒙特色拉特島"/>
+		<phrase i="1688" t="莫三比克"/>
+		<phrase i="1689" t="緬甸"/>
+		<phrase i="1690" t="納米比亞"/>
+		<phrase i="1691" t="諾魯"/>
+		<phrase i="1692" t="尼泊爾"/>
+		<phrase i="1693" t="荷屬安替列斯 - 波奈、聖佑達修斯和沙巴"/>
+		<phrase i="1694" t="荷屬安替列斯 - 古拉果"/>
+		<phrase i="1695" t="荷屬安替列斯 - 聖馬丁"/>
+		<phrase i="1696" t="新喀里多尼亞群島"/>
+		<phrase i="1697" t="尼加拉瓜"/>
+		<phrase i="1698" t="尼日"/>
+		<phrase i="1699" t="紐威島"/>
+		<phrase i="1700" t="諾福克島"/>
+		<phrase i="1701" t="北馬里安納群島"/>
+		<phrase i="1702" t="帛琉"/>
+		<phrase i="1703" t="巴勒斯坦"/>
+		<phrase i="1704" t="巴拿馬"/>
+		<phrase i="1705" t="巴布亞島"/>
+		<phrase i="1706" t="巴拉圭"/>
+		<phrase i="1707" t="皮特康"/>
+		<phrase i="1708" t="波多黎各"/>
+		<phrase i="1709" t="卡達"/>
+		<phrase i="1710" t="留尼旺島"/>
+		<phrase i="1711" t="盧安達"/>
+		<phrase i="1712" t="聖克里斯多福及尼維斯"/>
+		<phrase i="1713" t="聖露西亞"/>
+		<phrase i="1714" t="聖馬丁"/>
+		<phrase i="1715" t="聖皮瑞及麥克隆"/>
+		<phrase i="1716" t="聖文森及格瑞那丁"/>
+		<phrase i="1717" t="薩摩亞"/>
+		<phrase i="1718" t="聖馬利諾"/>
+		<phrase i="1719" t="聖多美及普林西比"/>
+		<phrase i="1720" t="塞內加爾"/>
+		<phrase i="1721" t="塞爾維亞"/>
+		<phrase i="1722" t="塞席爾"/>
+		<phrase i="1723" t="獅子山"/>
+		<phrase i="1724" t="索羅門群島"/>
+		<phrase i="1725" t="索馬利亞"/>
+		<phrase i="1726" t="斯里蘭卡"/>
+		<phrase i="1727" t="蘇利南"/>
+		<phrase i="1728" t="史瓦濟蘭"/>
+		<phrase i="1729" t="塔吉克"/>
+		<phrase i="1730" t="坦尚尼亞"/>
+		<phrase i="1731" t="多哥"/>
+		<phrase i="1732" t="托克勞群島"/>
+		<phrase i="1733" t="東加"/>
+		<phrase i="1734" t="千里達及托巴哥"/>
+		<phrase i="1735" t="突尼西亞"/>
+		<phrase i="1736" t="土耳其"/>
+		<phrase i="1737" t="土庫曼"/>
+		<phrase i="1738" t="土克斯及開科斯群島"/>
+		<phrase i="1739" t="吐瓦魯"/>
+		<phrase i="1740" t="烏干達"/>
+		<phrase i="1741" t="烏克蘭"/>
+		<phrase i="1742" t="烏拉圭"/>
+		<phrase i="1743" t="美國外島"/>
+		<phrase i="1744" t="美屬維京群島"/>
+		<phrase i="1745" t="烏茲別克"/>
+		<phrase i="1746" t="萬那杜"/>
+		<phrase i="1747" t="梵蒂岡"/>
+		<phrase i="1748" t="委內瑞拉"/>
+		<phrase i="1749" t="越南"/>
+		<phrase i="1750" t="瓦利斯及福杜納群島"/>
+		<phrase i="1751" t="西撒哈拉"/>
+		<phrase i="1752" t="尚比亞"/>
+		<phrase i="1753" t="辛巴威"/>
+		<phrase i="1754" t="通用名稱（SHA1 指紋）"/>
+		<phrase i="1755" t="AirPlay"/>
+		<phrase i="1756" t="AirPlay 程式庫"/>
+		<phrase i="1757" t="AirPlay 服務"/>
+		<phrase i="1758" t="無線顯示器"/>
+		<phrase i="1759" t="伺服器名稱"/>
+		<phrase i="1760" t="驗證類型"/>
+		<phrase i="1761" t=""/>
+		<phrase i="1762" t="密碼"/>
+		<phrase i="1763" t=""/>
+		<phrase i="1764" t="按鈕"/>
+		<phrase i="1765" t="Microsoft USB 更新"/>
+		<phrase i="1766" t="SILK"/>
+		<phrase i="1767" t="線路式數字規則表切換"/>
+		<phrase i="1768" t="Exchange 網域"/>
+		<phrase i="1769" t="Exchange 使用者"/>
+		<phrase i="1770" t="Exchange 密碼"/>
+		<phrase i="1771" t="Exchange 電子郵件"/>
+		<phrase i="1772" t="H.264 封包模式 0"/>
+		<phrase i="1773" t="H.264 HP 封包模式 0"/>
+		<phrase i="1774" t="面板技術支援"/>
+		<phrase i="1775" t="VVX D60 狀態"/>
+		<phrase i="1776" t="音效與視訊管理系統"/>
+		<phrase i="1777" t="Codec Driver"/>
+		<phrase i="1778" t="網路代理伺服器自動偵測 (WPAD)"/>
+		<phrase i="1779" t="透過藍牙偵測"/>
+		<phrase i="1780" t="WPAD 狀態"/>
+		<phrase i="1781" t="WPAD 方法"/>
+		<phrase i="1782" t="WPAD 來源 URL"/>
+		<phrase i="1783" t="DHCP 選項 252 URL"/>
+		<phrase i="1784" t="WPAD PAC 檔案"/>
+		<phrase i="1785" t="WPAD PAC 過期"/>
+		<phrase i="1786" t="WPAD Exchange 代理伺服器"/>
+		<phrase i="1787" t="記錄檔上傳代理伺服器"/>
+		<phrase i="1788" t="佈建代理伺服器"/>
+		<phrase i="1789" t="裝置更新代理伺服器"/>
+		<phrase i="1790" t="公共區域電話設定"/>
+		<phrase i="1791" t="公共區域電話模式"/>
+		<phrase i="1792" t="商務用 Skype 設定"/>
+		<phrase i="1793" t=""/>
+		<phrase i="1794" t="(GMT +3:00) 伊斯坦堡"/>
+		<phrase i="1795" t="目前狀態功能"/>
+		<phrase i="1796" t="最低鈴聲音量"/>
+		<phrase i="1797" t="取代 DHCP 的 SNTP 伺服器"/>
+		<phrase i="1798" t="取代 DHCP 的時區" t.Trio_8800="取代 DHCP 的 GMT 時區差距"/>
+		<phrase i="1799" t="備用 SNTP 伺服器"/>
+		<phrase i="1800" t="備用時區" t.Trio_8800="備用 GMT 時區差距"/>
+		<phrase i="1801" t="商務用 Skype 登入"/>
+		<phrase i="1802" t="諮詢式轉接"/>
+		<phrase i="1803" t="盲轉"/>
+		<phrase i="1804" t="Polycom Cloud Connector"/>
+		<phrase i="1805" t="網路通訊端"/>
+		<phrase i="1806" t="媒體封包事件"/>
+		<phrase i="1807" t="視訊快速更新要求"/>
+		<phrase i="1808" t="多方控制單位"/>
+		<phrase i="1809" t="視訊來源要求"/>
+		<phrase i="1810" t="CSTA"/>
+		<phrase i="1811" t="裝置分析"/>
+		<phrase i="1812" t="顛倒名稱尋找優先順序"/>
+		<phrase i="1813" t="故障復原時重新註冊"/>
+		<phrase i="1814" t="容錯回復模式"/>
+		<phrase i="1815" t="容錯回復逾時" units="秒"/>
+		<phrase i="1816" t="混合式註冊"/>
+		<phrase i="1817" t="線路限制"/>
+		<phrase i="1818" t="PSTN 故障復原"/>
+		<phrase i="1819" t="故障復原模式"/>
+		<phrase i="1820" t="故障復原狀態"/>
+		<phrase i="1821" t="PSTN 號碼"/>
+		<phrase i="1822" t="PSTN 閘道"/>
+		<phrase i="1823" t="已註冊"/>
+		<phrase i="1824" t="持續時間"/>
+		<phrase i="1825" t="DNS TTL"/>
+		<phrase i="1826" t="新要求"/>
+		<phrase i="1827" t="Microsoft USB 最佳化"/>
+		<phrase i="1828" t="Microsoft Teams"/>
+		<phrase i="1829" t="Zoom Rooms PC"/>
+		<phrase i="1830" t="GMT 時區差距"/>
+		<phrase i="1831" t="未設定"/>
+		<phrase i="1832" t="(GMT -4:00) 大西洋時間（加拿大）"/>
+		<phrase i="1833" t="(GMT +2:00) 安曼"/>
+		<phrase i="1834" t="(GMT +2:00) 貝魯特"/>
+		<phrase i="1835" t="(GMT +2:00) 開羅"/>
+		<phrase i="1836" t="(GMT +4:00) 杜拜"/>
+		<phrase i="1837" t="(GMT +9:30) 阿得雷德"/>
+		<phrase i="1838" t="(GMT +9:30) 達爾文"/>
+		<phrase i="1839" t="(GMT +10:00) 布利斯班"/>
+		<phrase i="1840" t="(GMT +10:00) 雪梨、坎培拉"/>
+		<phrase i="1841" t="(GMT +11:00) 馬加丹"/>
+		<phrase i="1842" t="顯示設定"/>
+		<phrase i="1843" t="省電模式設定"/>
+		<phrase i="1844" t="其他設定"/>
+		<phrase i="1845" t="全黑"/>
+		<phrase i="1846" t="無訊號"/>
+		<phrase i="1847" t="內容畫面"/>
+		<phrase i="1848" t="TCP 快速故障復原"/>
+		<phrase i="1849" t="使用登入帳號密碼"/>
+		<phrase i="1850" t="專用線路鈴聲類型"/>
+		<phrase i="1851" t="群組名稱"/>
+		<phrase i="1852" t="系統"/>
+		<phrase i="1853" t="多項行事曆活動"/>
+		<phrase i="1854" t="Exchange Server 設定"/>
+		<phrase i="1855" t="下載技術支援參考資料集"/>
+		<phrase i="1856" t="自動佈建帳號密碼"/>
+		<phrase i="1857" t="SCEP"/>
+		<phrase i="1858" t="自動佈建設定檔"/>
+		<phrase i="1859" t="自動佈建 CA"/>
+		<phrase i="1860" t="SCEP 功能"/>
+		<phrase i="1861" t="SIP URL"/>
+		<phrase i="1862" t="CA 指紋"/>
+		<phrase i="1863" t="挑戰密碼"/>
+		<phrase i="1864" t="更新臨界值間隔"/>
+		<phrase i="1865" t="更新重試間隔"/>
+		<phrase i="1866" t="註冊重試次數"/>
+		<phrase i="1867" t="辨別名稱"/>
+		<phrase i="1868" t="通用名稱"/>
+		<phrase i="1869" t="組織"/>
+		<phrase i="1870" t="州/省"/>
+		<phrase i="1871" t="電子郵件地址"/>
+		<phrase i="1872" t="憑證輪詢重試次數"/>
+		<phrase i="1873" t="憑證輪詢重試間隔"/>
+		<phrase i="1874" t="註冊重試間隔"/>
+		<phrase i="1875" t="本機內容"/>
+		<phrase i="1876" t="簡易憑證註冊通訊協定"/>
+		<phrase i="1877" t="SCEP 設定"/>
+		<phrase i="1878" t="HTTP 驗證"/>
+		<phrase i="1879" t="CA 套件中的可信任的根 CA 憑證"/>
+		<phrase i="1880" t="已安裝的自訂根 CA 憑證"/>
+		<phrase i="1881" t="出廠時安裝的裝置憑證"/>
+		<phrase i="1882" t="已安裝的自訂裝置憑證"/>
+		<phrase i="1883" t="透過 SCEP 的協助而安裝的憑證"/>
+		<phrase i="1884" t="產品序號"/>
+		<phrase i="1885" t="簽發者"/>
+		<phrase i="1886" t="簽發對象"/>
+		<phrase i="1887" t="效期"/>
+		<phrase i="1888" t="自"/>
+		<phrase i="1889" t="至"/>
+		<phrase i="1890" t="金鑰使用資訊"/>
+		<phrase i="1891" t="基本限制"/>
+		<phrase i="1892" t="擴充金鑰用途"/>
+		<phrase i="1893" t="選取憑證"/>
+		<phrase i="1894" t="SSL 憑證"/>
+		<phrase i="1895" t="使用中線路鍵"/>
+		<phrase i="1896" t="非使用中線路鍵"/>
+		<phrase i="1897" t="啟用 Alexa for Business"/>
+		<phrase i="1898" t="啟用免持聽筒模式"/>
+		<phrase i="1899" t="Alexa for Business"/>
+		<phrase i="1900" t="藍牙信標"/>
+		<phrase i="1901" t="Polycom Content Application 伺服器驗證類型"/>
+		<phrase i="1902" t="雲端狀態"/>
+		<phrase i="1903" t="以靜音按鈕接聽通話"/>
+		<phrase i="1904" t="註冊代碼"/>
+		<phrase i="1905" t="OPXY"/>
+		<phrase i="1906" t="Alexa"/>
+		<phrase i="1907" t="離線"/>
+		<phrase i="1908" t="未註冊"/>
+		<phrase i="1909" t="線上"/>
+		<phrase i="1910" t="DT"/>
+		<phrase i="1911" t="lcs2005"/>
+		<phrase i="1912" t="沒有訊號"/>
+		<phrase i="1913" t="網路 MTU（IPv4 模式）"/>
+		<phrase i="1914" t="網路 MTU（IPv6/雙模式）"/>
+		<phrase i="1915" t="網路登入"/>
+		<phrase i="1916" t="Microsoft Exchange Server 設定"/>
+		<phrase i="1917" t="使用瀏覽器並前往："/>
+		<phrase i="1918" t="使用此驗證碼來登入："/>
+		<phrase i="1919" t="SLA 群組名稱"/>
+		<phrase i="1920" t="一般攝影機設定"/>
+		<phrase i="1921" t="自動對焦"/>
+		<phrase i="1922" t="自動白平衡"/>
+		<phrase i="1923" t="白平衡"/>
+		<phrase i="1924" t="位置"/>
+		<phrase i="1925" t="自訂攝影機設定"/>
+		<phrase i="1926" t="廣域動態範圍"/>
+		<phrase i="1927" t="外觀介面增強功能"/>
+		<phrase i="1928" t="出席計數"/>
+		<phrase i="1929" t="出席計數間隔"/>
+		<phrase i="1930" t="背光補償"/>
+		<phrase i="1931" t="失真修正"/>
+		<phrase i="1932" t="對焦範圍"/>
+		<phrase i="1933" t="色差補正"/>
+		<phrase i="1934" t="色調"/>
+		<phrase i="1935" t="顛倒"/>
+		<phrase i="1936" t="追蹤"/>
+		<phrase i="1937" t="追蹤取景模式"/>
+		<phrase i="1938" t="追蹤速度"/>
+		<phrase i="1939" t="追蹤取景大小"/>
+		<phrase i="1940" t="追蹤子母畫面"/>
+		<phrase i="1941" t="雲端"/>
+		<phrase i="1942" t="一律"/>
+		<phrase i="1943" t="啟用工具提示"/>
+		<phrase i="1944" t="多點傳送位址"/>
+		<phrase i="1945" t="PnP 佈建"/>
+		<phrase i="1946" t="啟用 SRTP"/>
+		<phrase i="1947" t="提供 SRTP"/>
+		<phrase i="1948" t="需要 SRTP"/>
+		<phrase i="1949" t="SRTP 功能表"/>
+		<phrase i="1950" t="可被偵測"/>
+		<phrase i="1951" t="無法擷取上線代碼"/>
+		<phrase i="1952" t="自訂背景調暗"/>
+		<phrase i="1953" t="SIP 隨插即用"/>
+		<phrase i="1954" t="Exchange 登入"/>
+		<phrase i="1955" t="Exchange 狀態"/>
+		<phrase i="1956" t="配對裝置數量上限"/>
+		<phrase i="1957" t="配對裝置逾時"/>
+		<phrase i="1958" t="信標"/>
+		<phrase i="1959" t="網路代理伺服器自動偵測 (WPAD) 狀態"/>
+		<phrase i="1960" t="(GMT +14:00) 刻里提瑪斯島"/>
+		<phrase i="1961" t="(GMT -12:00) 其他/GMT+12"/>
+		<phrase i="1962" t="(GMT -9:30) 馬克沙斯群島"/>
+		<phrase i="1963" t="Google Voice"/>
+		<phrase i="1964" t="手動代理伺服器資訊"/>
+	</labels>
+	<paramHelpPhrases>
+		<phrase i="0" t="本選項可決定撥打電話時要使用的線路。若設定成「線路」，則一律以第一個可用線路打電話，無論該線使用何種通訊協定。若設定成「通訊協定」，則採用第一個使用偏好通訊協定的可用線路。如果沒有這種線路，則使用第一條可用線路。"/>
+		<phrase i="1" t="本選項可決定撥打電話時要用的通訊協定。若設定成「SIP」，則使用 SIP 撥打電話。若無法使用 SIP，則使用 H.323 撥打電話。若設定成「H.323」，則使用 H.323 撥打電話。若無法使用 H.323，則使用 SIP 撥打電話。"/>
+		<phrase i="2" t="本設定可決定線路鍵一次可容許的總通話數。"/>
+		<phrase i="3" t="您在電話上輸入的所有數字，都會與本設定的指定數字規則表進行比較。若數字符合數字規則表的模式，則可自動撥打電話，無須按下「傳送」鍵。數字規則表可指定一種以上的模式。"/>
+		<phrase i="4" t="本設定控制要將數字規則表中的每種模式套用幾秒。"/>
+		<phrase i="5" t="本設定決定若您輸入的數字與數字規則表中的模式不符，則應如何處置。若設為「0」，則會立刻將數字傳送到通話伺服器。若設為「1」，則電話會播放重排順序音效。若設為「2」，則必須在按下「傳送」鍵後，才會將數字傳送到通話伺服器。若設為「3」，則直到 dialplan.x.impossibleMatchHandling.timeOut 前都不會傳送數字到通話伺服器。預設值為「0」。"/>
+		<phrase i="6" t="某些電話會在您輸入數字然後按下 # 時撥號。「移除撥號結束標記」設定，可決定電話是否刪除所輸入數字最後的 #。若啟用，則移除最後的 #。若停用，則不移除最後的 #。預設值是啟用。"/>
+		<phrase i="7" t="本設定決定電話的螢幕如何顯示日期。您可以用各種格式顯示年、月、日。"/>
+		<phrase i="8" t="本設定決定電話的螢幕如何顯示時間。若選取 [上午/下午 12]，則以 12 小時制顯示時間（例如 1:00 p.m.）。若選取 [24]，則以 24 小時制顯示時間（例如 13:00）。預設格式是 [上午/下午 12]。"/>
+		<phrase i="9" t="您在本下拉式功能表中選擇的語言，就是電話（和「網路組態公用程式」）顯示所有螢幕資訊（例如功能鍵、線路鍵、選項與功能表標籤）時所用的語言。請注意，您可以選擇顯示語言。請到 [簡單設定] &gt; [語言]，或者 [選項設定] &gt; [其他選項設定] &gt; [語言]。只要在一個地方套用變更內容，兩個地方都會跟著改變。"/>
+		<phrase i="10" t="啟用此選項時，電話會先將除錯記錄檔直接寫入到其快閃記憶體中。在過了一段預先定義的期間或是快閃記憶體滿了之後，快閃記憶體中的內容會被上傳到除錯/佈建伺服器。若停用此選項，電話將無法將其內容從記憶體上傳到伺服器上。建議僅在電話開機或重新開機而需要降低資料流量時，才停用上傳記錄檔的功能。"/>
+		<phrase i="11" t="本設定可決定電話機本身的記錄檔緩衝區檔案大小上限 (KB)。一旦達到檔案大小上限，就會把記錄檔案上傳到設置伺服器。"/>
+		<phrase i="12" t="本設定決定將記錄檔案上傳到設置伺服器後，是否要接續到既有檔案。若啟用，則附加記錄檔案。若停用，則不附加記錄檔案。預設值是啟用。"/>
+		<phrase i="13" t="本選項控制設置伺服器如何處理達到大小上限的記錄檔案。若選取 [刪除]，則刪除設置伺服器中的舊記錄檔案。若選取 [停止]，則停止從電話將記錄檔案下載到設置伺服器。預設值是 [刪除]。"/>
+		<phrase i="14" t="本設定決定設置伺服器上記錄檔案的大小上限。若達到限制，則系統不是刪除記錄檔案，就是停止從電話下載。預設值是 512 KB。"/>
+		<phrase i="15" t="本設定決定電話將記錄檔案上傳到設置伺服器的頻率。預設值是 86400 秒。"/>
+		<phrase i="16" t="您可指定電話要記錄的事件嚴重性等級。記錄等級越高，記錄範圍就越小、記錄的資訊就越多，但是所記錄事件的嚴重性會提高。記錄等級越低，記錄範圍就越大、記錄事件就越多，可涵蓋嚴重性高和嚴重性低的事件。在此設定的記錄等級，決定每個子系統元件可記錄的最低嚴重性記錄等級。"/>
+		<phrase i="17" t="本設定可指定記錄訊息如何顯示時間戳記。您可選取各種時間格式，各代號意義如下：Y：年、M：月、D：日、H：時、M/m：分、S：秒、ms：毫秒。"/>
+		<phrase i="18" t="本設定可指定閒置瀏覽器的首頁 URL。電話的閒置畫面會顯示本頁。"/>
+		<phrase i="19" t="本設定可指定閒置瀏覽器的重新整理頻率，預設值為 0 秒。若設定為「0」，則不重新整理閒置瀏覽器。最短的重新整理週期是 5 秒。"/>
+		<phrase i="20" t="本設定可限制每頁可下載的物件總大小（XHTML 和圖案）。一旦達到此限制，就無法下載其他圖片，除非要求連結下一頁。"/>
+		<phrase i="21" t="本設定可指定主瀏覽器的首頁 URL。若您按下電話上的 [應用程式] 鍵，或選取電話主功能表的 [應用程式] 選項，則顯示本頁。"/>
+		<phrase i="22" t="本設定可指定主瀏覽器無任何活動多久後，才需顯示閒置畫面。若設定成「0」，則必須退出主瀏覽器，才能顯示閒置畫面。預設逾時值是 40 秒。"/>
+		<phrase i="23" t="本選項可指定何時顯示狀態列。若啟用，則您使用主瀏覽器時，就會自動顯示狀態列。若停用，則隱藏狀態列。預設值是停用。"/>
+		<phrase i="24" t="本設定讓您設定 HTTP 代理伺服器使用的位址。若您不指定位址，迷你瀏覽器就會使用正常、不用代理伺服器的 HTTP 位址。"/>
+		<phrase i="25" t="在下拉式功能表中選擇 [主動]，即可在電話螢幕上自動顯示網頁內容；選擇 [被動] 時，系統會通知您有可用的網頁內容。預設值是 [被動]。"/>
+		<phrase i="26" t="您可啟用或停用電話螢幕立即顯示新網頁或更新網頁內容的功能。若啟用，請在下方的 [網頁內容顯示模式] 清單方塊中選擇 [被動] 或 [主動]，指定是要立即顯示網頁內容（主動），還是在顯示前通知已有網頁內容（被動）。預設值為停用。"/>
+		<phrase i="27" t="本選項讓您選擇按下 [訊息] 鍵時，電話要顯示的畫面。若啟用，則 [訊息] 畫面會顯示語音信箱的留言清單。若停用（預設），則會顯示功能表項目 [訊息中心] 和 [即時訊息]。 " t.VVX_600="本選項讓您選擇按下狀態列上的 [訊息] 圖示時，電話要顯示的畫面。若啟用，則 [訊息] 畫面會顯示語音信箱的留言清單。若停用（預設），則會顯示功能表項目 [訊息中心] 和 [即時訊息]。" t.VVX_500="本選項讓您選擇按下狀態列上的 [訊息] 圖示時，電話要顯示的畫面。若啟用，則 [訊息] 畫面會顯示語音信箱的留言清單。若停用（預設），則會顯示功能表項目 [訊息中心] 和 [即時訊息]。 "/>
+		<phrase i="28" t="您可指定傳送 SIP 訊號時顯示的 IP 位址， 以透過 NAT 裝置讓流量轉址。若要使用 NAT 裝置，IP 位址就必須和 NAT 裝置使用的外部 IP 位址相同。"/>
+		<phrase i="29" t="請輸入電話將保持連線訊息傳送到閘道/NAT 裝置的頻率。若設定成「0」，則電話不會送出保持連線訊息。預設值是 0 秒。"/>
+		<phrase i="30" t="輸入傳送音效時所用的即時傳輸通訊協定 (RTP) 連接埠號碼開始值。您在這裡輸入的連接埠號碼，會取代 [連接埠範圍開始號碼] 設定。"/>
+		<phrase i="31" t="請輸入用於傳送 SIP 訊號的連接埠號碼。本連接埠號碼會取代 SIP 伺服器連接埠設定。"/>
+		<phrase i="32" t="本選項可決定鎖住的電話是否要顯示迷你瀏覽器。若設定成 [是]，則顯示迷你瀏覽器。若設定成 [否]，則不顯示迷你瀏覽器。預設值是 [否]。"/>
+		<phrase i="33" t="本選項可決定電話鎖機後，是否要進入請勿打擾 (DND) 模式。若設定成 [是]，則鎖住電話時進入請勿打擾模式。如果有來電，則電話不會響。若設定成 [否]，則鎖住電話後若有來電，鈴聲就會響起。預設值是 [否]。"/>
+		<phrase i="34" t="請輸入數字，決定電話閒置幾秒鐘後必須自動鎖住。若設定成「0」，則不鎖住電話。預設值是 0。"/>
+		<phrase i="35" t="選擇是否要鎖住電話鍵台。"/>
+		<phrase i="36" t="電話重新啟動/重開機時，請選擇是否將電話按鍵的預設狀態設定成鎖住。" t.Trio_8800="電話重新開機時，請選擇是否將電話按鍵的預設狀態設定成鎖住。"/>
+		<phrase i="37" t="本選項可決定是否要定期關閉電話的 LCD 螢幕，以節省電力。若啟用，則螢幕會在指定時間關閉。若停用，則不關閉螢幕。預設值是啟用。"/>
+		<phrase i="38" t="本設定可指定電話在非上班時間內閒置多久後，必須關閉螢幕。預設值是 1 分鐘。"/>
+		<phrase i="39" t="本設定可指定電話在上班時間內閒置多久後，必須關閉螢幕。預設值是 480 分鐘。" t.Trio_8800="本設定可指定電話在辦公時間內閒置多久後會關閉螢幕。預設值為 30 分鐘。" t.CCX_500="本設定可指定電話在辦公時間內閒置多久後會關閉螢幕。預設值為 30 分鐘。" t.CCX_700="本設定可指定電話在辦公時間內閒置多久後會關閉螢幕。預設值為 30 分鐘。"/>
+		<phrase i="40" t="本設定可指定電話事件（例如按下按鍵的動作或來電）發生後多久要讓電話進入閒置狀態，並且關閉螢幕。預設值是 10 分鐘。"/>
+		<phrase i="41" t="本設定可指定星期五的工作時數。預設值是 12 小時。"/>
+		<phrase i="42" t="本設定可指定星期一的工作時數。預設值是 12 小時。"/>
+		<phrase i="43" t="本設定可指定星期六的工作時數。預設值是 0 小時。"/>
+		<phrase i="44" t="本設定可指定星期日的工作時數。預設值是 0 小時。"/>
+		<phrase i="45" t="本設定可指定星期四的工作時數。預設值是 12 小時。"/>
+		<phrase i="46" t="本設定可指定星期二的工作時數。預設值是 12 小時。"/>
+		<phrase i="47" t="本設定可指定星期三的工作時數。預設值是 12 小時。"/>
+		<phrase i="48" t="本設定可指定星期五開始工作的時間。預設值是上午 7:00。"/>
+		<phrase i="49" t="本設定可指定星期一開始工作的時間。預設值是上午 7:00。"/>
+		<phrase i="50" t="本設定可指定星期六開始工作的時間。預設值是上午 8:00。"/>
+		<phrase i="51" t="本設定可指定星期日開始工作的時間。預設值是上午 8:00。"/>
+		<phrase i="52" t="本設定可指定星期四開始工作的時間。預設值是上午 7:00。"/>
+		<phrase i="53" t="本設定可指定星期二開始工作的時間。預設值是上午 7:00。"/>
+		<phrase i="54" t="本設定可指定星期三開始工作的時間。預設值是上午 7:00。"/>
+		<phrase i="55" t="本設定可指定非上班時間內，電話內建攝影機偵測您是否在場的敏感程度。若攝影機偵測到您在場，螢幕就不會關閉。您可輸入 0（不偵測）到 10（最敏感）之間的數字。若您輸入 0，代表關閉使用者偵測功能。這表示即使電話鈴響，螢幕仍然是在關閉狀態。預設值是 2。" t.Trio_8800="本設定可指定非上班時間內，電話的感應器偵測您是否在場的敏感程度。若感應器偵測到您在場，螢幕就不會關閉。您可輸入 0（不偵測）到 10（最敏感）之間的數字。若您輸入 0，代表關閉使用者偵測功能。這表示即使您在電話附近，螢幕仍然會是關閉狀態。預設值是 2。"/>
+		<phrase i="56" t="本設定可指定上班時間內，電話內建攝影機偵測您是否在場的敏感程度。若攝影機偵測到您在場，螢幕就不會關閉。您可輸入 0（不偵測）到 10（最敏感）之間的數字。若您輸入 0，代表關閉使用者偵測功能。這表示即使電話鈴響，螢幕仍然是在關閉狀態。預設值是 7。" t.Trio_8800="本設定可指定上班時間內，電話的感應器偵測您是否在場的敏感程度。若感應器偵測到您在場，螢幕就不會關閉。您可輸入 0（不偵測）到 10（最敏感）之間的數字。若您輸入 0，代表關閉使用者偵測功能。這表示即使您在電話附近，螢幕仍然會是關閉狀態。預設值是 7。"/>
+		<phrase i="57" t="您可指定封包的 Differentiated Services Code Point (DSCP)。若您設定 DSCP，則會取代之前在 [IP ToS] 項下指定的其他參數。可用值為 0 - 63、EF、AF11、AF12、AF13、AF21、AF22、AF23、AF31、AF32、AF33、AF41、AF42、AF43"/>
+		<phrase i="58" t="若啟用，則會設定 IP 表頭 [IP ToS] 欄位中的 max-reliability 位元。若停用，則不設定該位元。預設值是停用。"/>
+		<phrase i="59" t="若啟用，則會設定 IP 表頭 [IP ToS] 欄位中的 max-throughput 位元。若停用，則不設定該位元。預設值是停用。"/>
+		<phrase i="60" t="若啟用，則會設定 IP 表頭 [IP ToS] 欄位中的 min-cost 位元。若停用，則不設定該位元。預設值是停用。"/>
+		<phrase i="61" t="若啟用，則會設定 IP 表頭 [IP ToS] 欄位中的 min-delay 位元。若停用，則不設定該位元。預設值是啟用。"/>
+		<phrase i="62" t="設定 IP 表頭 [IP ToS] 欄位中的優先位元。"/>
+		<phrase i="63" t="讓您指定封包的 Differentiated Services Code Point（DSCP）。若設定此選項，則會取代之前在 [IP ToS] 項下指定的其他參數。可用值為 0 ~ 63、EF、AF11、AF12、AF13、AF21、AF22、AF23、AF31、AF32、AF33、AF41、AF42、AF43"/>
+		<phrase i="64" t="若啟用，則會設定 IP 表頭 [IP ToS] 欄位中的 max-reliability 位元。若停用，則不設定該位元。預設值是停用。"/>
+		<phrase i="65" t="若啟用，則會設定 IP 表頭 [IP ToS] 欄位中的 max-throughput 位元。若停用，則不設定該位元。預設值是啟用。"/>
+		<phrase i="66" t="若啟用，則會設定 IP 表頭 [IP ToS] 欄位中的 min-cost 位元。若停用，則不設定該位元。預設值是停用。"/>
+		<phrase i="67" t="若啟用，則會設定 IP 表頭 [IP ToS] 欄位中的 min-delay 位元。若停用，則不設定該位元。預設值是啟用。"/>
+		<phrase i="68" t="設定 IP 表頭 [IP ToS] 欄位中的優先位元。"/>
+		<phrase i="69" t="讓您指定封包的 Differentiated Services Code Point（DSCP）。若設定此選項，則會取代之前在 [IP ToS] 項下指定的其他參數。可用值為 0 ~ 63、EF、AF11、AF12、AF13、AF21、AF22、AF23、AF31、AF32、AF33、AF41、AF42、AF43"/>
+		<phrase i="70" t="若啟用，則會設定 IP 表頭 [IP ToS] 欄位中的 max-reliability 位元。若停用，則不設定該位元。預設值是停用。"/>
+		<phrase i="71" t="若啟用，則會設定 IP 表頭 [IP ToS] 欄位中的 max-throughput 位元。若停用，則不設定該位元。預設值是啟用。"/>
+		<phrase i="72" t="若啟用，則會設定 IP 表頭 [IP ToS] 欄位中的 min-cost 位元。若停用，則不設定該位元。預設值是停用。"/>
+		<phrase i="73" t="若啟用，則會設定 IP 表頭 [IP ToS] 欄位中的 min-delay 位元。若停用，則不設定該位元。預設值是啟用。"/>
+		<phrase i="74" t="設定 IP 表頭 [IP ToS] 欄位中的優先位元。"/>
+		<phrase i="75" t="將資料加密時所用的加密清單。每個密碼皆以「!」分隔。"/>
+		<phrase i="76" t="請輸入等多久之後，要將「保持連線」訊息傳送到通話伺服器（10 - 7200 秒）。預設值是 30 秒。"/>
+		<phrase i="77" t="請輸入若沒有前一則訊息的回應，則等多久之後要再將「保持連線」訊息傳送到通話伺服器（50 - 120 秒）。預設值是 20 秒。"/>
+		<phrase i="78" t="若啟用，則本選項會以 TCP 保持連線訊息，用於採用 TLS 傳輸方式的 SIP 訊號連線。預設值是「停用」。"/>
+		<phrase i="79" t="若啟用，則系統拒絕從非協調 IP 位址（透過 SDP）送來的即時傳輸通訊協定 (RTP) 封包。若停用，則接受封包。預設值是啟用。"/>
+		<phrase i="80" t="若啟用，則系統拒絕從非協調連接埠（透過 SDP）送來的即時傳輸通訊協定 (RTP) 封包。若停用，則接受封包。預設值是停用。"/>
+		<phrase i="81" t="請選擇 0 ~ 65535 之間的連接埠號碼。若啟用 [依 IP 位址過濾] 和 [依連接埠過濾] 兩個選項，則透過這個連接埠收發即時傳輸通訊協定 (RTP) 封包。預設連接埠是 0。"/>
+		<phrase i="82" t="系統從連接埠集區分配媒體使用的連接埠時，會從指定連接埠開始分配。如果是語音電話，則最多分配到（連接埠範圍開始號碼 + 47）的值；如果是視訊電話，則最多分配到（連接埠範圍開始號碼 + 95）的值。可設定值必須是 1024 - 65440 的複整數。預設值是 2222。"/>
+		<phrase i="83" t="當沒有 [DHCP 的 SNTP 伺服器] 時，或者 [取代 DHCP 的 SNTP 伺服器] 選項設為 [是] 時，將會使用 SNTP 伺服器位址。"/>
+		<phrase i="84" t="若啟用，則所顯示的時間會採用日光節約時間規則。預設值是啟用。"/>
+		<phrase i="85" t="本設定可指定如何計算日光節約時間日期。若停用，則使用月份、日期、星期。若啟用，則只用月份和日期。預設值是停用。"/>
+		<phrase i="86" t="若啟用 [固定日期]，則這是日光節約時間的開始日期。"/>
+		<phrase i="87" t="您在此指定的日期，就是電話使用的日光節約時間開始日期。"/>
+		<phrase i="88" t="若啟用本選項且停用 [固定日期]，則日光節約時間將在當月最後一完整週的最後一天（由「一週開始日」指定）開始。此時會忽略 [起始日期]。"/>
+		<phrase i="89" t="選擇日光節約時間的開始月份。"/>
+		<phrase i="90" t="以 24 小時制選擇日光節約時間的開始時間。"/>
+		<phrase i="91" t="若要讓電話自行計算日光節約時間到當月的最後一天開始，請選擇 [啟用]，然後停用 [固定日期]。若不要讓電話自行計算日光節約時間到當月的最後一天開始，請選擇 [停用]。"/>
+		<phrase i="92" t="您在此指定的日期，就是電話使用的日光節約時間結束日期。"/>
+		<phrase i="93" t="選擇是否要電話在當月的最後一天停止日光節約時間。"/>
+		<phrase i="94" t="選擇日光節約時間的停止月份。"/>
+		<phrase i="95" t="以 24 小時制選擇日光節約時間的停止時間。"/>
+		<phrase i="96" t="Simple Network Time Protocol (SNTP) 重新同步作業的間隔時間（秒）。預設時間是 86400（24 小時），也就是每天重新同步時間。"/>
+		<phrase i="97" t="啟用或停用 [耳機記憶模式]。若啟用，則系統依預設會將新開始通話的語音轉到耳機，而且電話機上的耳機鍵會亮起。結束通話後，電話機上的耳機鍵仍會亮著，而且後續所有通話的語音都會轉到耳機。若要關閉 [耳機記憶模式]，請選擇 [停用]，或按下電話鍵盤上的耳機鍵。"/>
+		<phrase i="98" t="若啟用，則使用者必須在撥打電話前，選擇使用 SIP（語音）還是 H.323（視訊）通訊協定（若已開啟兩個通訊協定的功能）。預設值是啟用。"/>
+		<phrase i="99" t="選擇您是否要顯示 [手動控制通訊協定路徑] 選項的控制功能鍵。若啟用 [功能鍵控制] 選項，則可使用功能鍵選擇 SIP 通訊協定或 H.323 通訊協定。若停用，則不會顯示通訊協定路徑的功能鍵。系統依預設會啟用功能鍵。"/>
+		<phrase i="100" t="啟用「單鍵語音信箱」功能時，您只要按下 [訊息] 鍵或圖示，就會立即撥號到語音信箱。若停用，則會顯示 [訊息中心] 摘要畫面，讓您撥號進入語音信箱。"/>
+		<phrase i="101" t="內有相框圖案的 USB 隨身碟資料夾路徑。"/>
+		<phrase i="102" t="幻燈片秀的每張圖案必須顯示多久（3 - 300 秒），才能跳到下一張圖片。預設值是 5 秒。"/>
+		<phrase i="103" t="電話必須閒置多久（1 - 9999 分鐘），才能顯示螢幕保護程式。預設值是 15 分鐘。"/>
+		<phrase i="104" t="若啟用，則系統會以本機聯絡人通訊錄中的名稱，當作辨識來電和去電對象身分的依據。若停用，則系統會以透過網路訊號提供的名稱，當作辨識來電和去電對象身分的依據。"/>
+		<phrase i="105" t="若啟用，則打開電話的電源時（又稱為冷開機），會播放開機音效。"/>
+		<phrase i="106" t="若啟用，則電話重開機或重新啟動時（又稱為暖開機），會播放開機音效。"/>
+		<phrase i="107" t="如啟用此功能，系統會在您開始通話時將視訊傳輸到遠端。如停用此功能，您必須按下 [開始我的視訊] 才會開始傳輸視訊。此參數控制傳送到遠端的視訊。如果遠端有視訊就會一律顯示。"/>
+		<phrase i="108" t="一開始為視訊電話協調頻寬時，所用的通話速率 (128 ~ 2048 kbps)。預設值是 512 kbps。" t.VVX_1500="一開始為視訊電話協調頻寬時，所用的通話速率 (128 ~ 1024 kbps)。預設值是 512 kbps。" t.Trio_8800="一開始為視訊通話協調頻寬時，所用的通話速率 (128 ~ 6144 kbps)。預設值為 2048 kbps。"/>
+		<phrase i="109" t="本地攝影機拍攝的視訊亮度。預設值是 [一般]。"/>
+		<phrase i="110" t="本地攝影機拍攝的視訊對比。預設值是 [無對比]。"/>
+		<phrase i="111" t="此舉可避免攝影機在指定頻率時閃爍。選項有：&lt;br/&gt;&lt;b&gt;50Hz&lt;/b&gt;：歐亞地區使用的交流電頻率。&lt;br/&gt;&lt;b&gt;60 Hz&lt;/b&gt;：北美洲使用的交流電頻率。&lt;br/&gt;預設值是 50Hz。" t.VVX_1500="此舉可避免攝影機在指定頻率時閃爍。選項有：&lt;br/&gt;&lt;b&gt;自動&lt;/b&gt;：自動設定可避免閃爍狀況的頻率。&lt;br/&gt;&lt;b&gt;50Hz&lt;/b&gt;：歐亞地區使用的交流電頻率。&lt;br/&gt;&lt;b&gt;60 Hz&lt;/b&gt;：北美洲使用的交流電頻率。&lt;br/&gt;預設值是 [自動]。" t.Trio_8800="此設定可避免攝影機在指定頻率時閃爍的現象。選項有：&lt;br/&gt;&lt;b&gt;停用&lt;/b&gt;：停用避免閃爍功能。&lt;br/&gt;&lt;b&gt;50 Hz&lt;/b&gt;：歐亞地區使用的交流電頻率。&lt;br/&gt;&lt;b&gt;60 Hz&lt;/b&gt;：北美地區使用的交流電頻率。&lt;br/&gt;預設值為 [停用]。"/>
+		<phrase i="112" t="設定 5（最不流暢）至 30（最流暢）的固定畫面速率（單位：每秒畫面格數）。預設值是 25。" t.Trio_8800="設定 5（最不流暢）至 30（最流暢）的固定畫面速率（單位：每秒畫面格數）。預設值為 30。"/>
+		<phrase i="113" t="本地攝影機拍攝的視訊飽和度。預設值是 [一般]。"/>
+		<phrase i="114" t="本地攝影機拍攝的視訊清晰度。預設值是 [一般]。"/>
+		<phrase i="115" t="若啟用，則所有撥出和接到的來電都使用視訊（若提供此功能）。若停用，則一律使用語音電話，不套用視訊處理選項。預設值是啟用。"/>
+		<phrase i="116" t="若啟用，則在全螢幕視訊電話中顯示本地攝影機畫面。若停用，則只顯示遠端站台畫面。預設值是啟用。"/>
+		<phrase i="117" t="若啟用 [全螢幕] 功能，您可設定如何以全螢幕顯示攝影機畫面。&lt;br/&gt;&lt;b&gt;[並列]&lt;/b&gt; 選項可在遠端站台來電視訊旁邊顯示您的攝影機畫面。&lt;br/&gt;&lt;b&gt;[子母畫面]&lt;/b&gt; 選項可顯示子母畫面的攝影機畫面，並與遠端站台視訊重疊。&lt;br/&gt;預設值是 [並列]。"/>
+		<phrase i="118" t="設定可用於通話的最大網路頻寬 (128 ~ 2048 kbps)。預設值是 768 kbps。" t.VVX_1500="設定可用於通話的最大網路頻寬 (128 ~ 1024 kbps)。預設值是 768 kbps。" t.Trio_8800="設定可用於通話的最大網路頻寬 (128 ~ 6144 kbps)。預設值為 4096 kbps。"/>
+		<phrase i="119" t="指定電話機在協調視訊電話的 CIF 解析度時，所使用的畫面速率除數。您可輸入 0 ~ 4 的值。若要停用這項功能，請輸入「0」。預設的畫面速率除數是「1」。"/>
+		<phrase i="120" t="指定電話機在協調視訊電話的 Quarter CIF 解析度時，所使用的畫面速率除數。您可輸入 0 ~ 4 的值。若要停用這項功能，請輸入「0」。預設的畫面速率除數是「1」。"/>
+		<phrase i="121" t="在協調視訊電話時啟用或停用 Annex D。"/>
+		<phrase i="122" t="指定電話機在協調視訊電話的 CIF 解析度時，所使用的畫面速率除數。您可輸入 0 ~ 32 的值。若要停用這項功能，請輸入「0」。預設的畫面速率除數是「1」。"/>
+		<phrase i="123" t="指定電話機在協調視訊電話的 Quarter CIF 解析度時，所使用的畫面速率除數。您可輸入 0 ~ 32 的值。若要停用這項功能，請輸入「0」。預設的畫面速率除數是「1」。"/>
+		<phrase i="124" t="指定電話機在協調視訊電話的 Sub Quarter CIF 解析度時，所使用的畫面速率除數。您可輸入 0 ~ 32 的值。若要停用這項功能，請輸入「0」。預設的畫面速率除數是「1」。"/>
+		<phrase i="125" t="指定電話機在協調視訊電話的 CIF 解析度時，所使用的畫面速率除數。您可輸入 0 ~ 32 的值。若要停用這項功能，請輸入「0」。預設的畫面速率除數是「1」。"/>
+		<phrase i="126" t="指定電話機在協調視訊電話的 Quarter CIF 解析度時，所使用的畫面速率除數。您可輸入 0 ~ 32 的值。若要停用這項功能，請輸入「0」。預設的畫面速率除數是「1」。"/>
+		<phrase i="127" t="指定電話機在協調視訊電話的 Sub Quarter CIF 解析度時，所使用的畫面速率除數。您可輸入 0 ~ 32 的值。若要停用這項功能，請輸入「0」。預設的畫面速率除數是「1」。"/>
+		<phrase i="128" t="在協調視訊電話時啟用或停用 Annex F。"/>
+		<phrase i="129" t="在協調視訊電話時啟用或停用 Annex I。"/>
+		<phrase i="130" t="在協調視訊電話時啟用或停用 Annex J。"/>
+		<phrase i="131" t="指定在協調視訊電話時要使用的 Annex K 值。您可輸入 0 ~ 4 的值。若要停用這項功能，請輸入「0」。預設值是「1」。"/>
+		<phrase i="132" t="指定在協調視訊電話時要使用的 Annex N 值。您可輸入 0 ~ 4 的值。若要停用這項功能，請輸入「0」。預設值是「1」。"/>
+		<phrase i="133" t="在協調視訊電話時啟用或停用 Annex T。"/>
+		<phrase i="134" t="指定視訊電話支援的基準設定檔中，最高的設定檔等級。本電話支援下列等級：1、1b、1.1、1.2、1.3、2。預設等級是 1.3。如需詳細資訊，請參閱 ITU-T H.264。" t.Trio_8800="指定視訊通話支援的基準設定檔中，最高的設定檔等級。電話支援以下等級：1、1b、1.1、1.2、1.3、2、2.1、2.2、3、3.1、3.2、4.0、4.1。預設等級為 4.1。如需詳細資訊，請參閱 ITU-T H.264。" t.VVX_1500="指定視訊電話支援的基準設定檔中，最高的設定檔等級。本電話支援下列等級：1、1b、1.1、1.2、1.3。預設等級是 1.3。如需詳細資訊，請參閱 ITU-T H.264。"/>
+		<phrase i="135" t="本選項可設定您傳送的視訊品質。請根據您的視訊用途選擇適當設定。如果視訊中的物體動作不大或靜止，請選擇 [清晰度]。如果視訊中的物體動作大或正在移動，請選擇 [動作]。預設值是 [無]。"/>
+		<phrase i="136" t="您可設定一般模式的視訊畫面大小。選項有：&lt;br/&gt;&lt;b&gt;正常&lt;/b&gt;：顯示視訊影像時四周留黑邊，以維持長寬比。&lt;br/&gt;&lt;b&gt;全螢幕&lt;/b&gt;：延伸視訊影像，填滿整個電話機螢幕。&lt;br/&gt;&lt;b&gt;裁切&lt;/b&gt;：裁切視訊影像，以維持正確的長寬比。&lt;br/&gt;預設值是 [正常]。"/>
+		<phrase i="137" t="您可設定全螢幕模式的視訊畫面大小。選項有：&lt;br/&gt;&lt;b&gt;正常&lt;/b&gt;：顯示視訊影像時四周留黑邊，以維持長寬比。&lt;br/&gt;&lt;b&gt;全螢幕&lt;/b&gt;：延伸視訊影像，填滿整個電話機螢幕。&lt;br/&gt;&lt;b&gt;裁切&lt;/b&gt;：裁切視訊影像，以維持正確的長寬比。&lt;br/&gt;預設值是 [正常]。"/>
+		<phrase i="138" t="啟用或停用 SIP 通訊協定（用於電話轉接、撥號安排方式、DTMF、URL 撥號）。預設值是啟用。"/>
+		<phrase i="139" t="若啟用，則所有要求的「From」欄位中，都會加入本產品專屬的「epid」參數，以支援 Microsoft Live Communications Server。若停用，則不支援 Microsoft Live Communications Server。預設值是停用。"/>
+		<phrase i="140" t="輸入本機 SIP 連接埠號碼，以收發 SIP 訊號封包。若設定成 0 或未設定，則使用 5060 的本機連接埠（預設值），但不在 SIP 訊號中公告。若設定成其他值 (0 - 65535)，則將以該值當作本機連接埠號碼，且在 SIP 訊號中公告。"/>
+		<phrase i="141" t="輸入 SIP 伺服器的 IP 位址或主機名稱，以接收電話傳送的所有要求。"/>
+		<phrase i="142" t="輸入 SIP 伺服器的連接埠號碼，以接收電話傳送的所有要求。請選擇 0 - 65535 的值。預設值是 0。"/>
+		<phrase i="143" t="選擇電話機與 SIP 伺服器連線時所用的傳輸方法。傳輸方法計有五種：&lt;br/&gt;&lt;br/&gt; &lt;ul&gt;&lt;li&gt;&lt;b&gt;DNSnaptr&lt;/b&gt;：執行 NAPTR 與 SRV 查詢作業，以搜尋傳輸方法、連接埠和伺服器。&lt;/li&gt;&lt;br/&gt;&lt;li&gt;&lt;b&gt;僅限 UDP&lt;/b&gt;：只用 UDP。&lt;/li&gt;&lt;br/&gt;&lt;li&gt;&lt;b&gt;偏好 TCP&lt;/b&gt;：優先使用 TCP。TCP 失敗時才用 UDP。&lt;/li&gt;&lt;br/&gt;&lt;li&gt; &lt;b&gt;僅限 TCP&lt;/b&gt;：只用 TCP。&lt;/li&gt;&lt;br/&gt;&lt;li&gt;&lt;b&gt;TLS&lt;/b&gt;：使用 TLS。若 TLS 失敗，則傳輸作業失敗。請將連接埠欄位留白，或設定成 5061。預設方法是 DNSnaptr。"/>
+		<phrase i="144" t="啟用本功能時，您會在使用共用線路時立刻聽到撥號音。若停用，則除非系統確認線路擷取要求並將線路擷取要求傳回電話，否則您不會聽到共用線路的撥號音。本功能只能用於共用線路，目的是加快處理速度。預設值是啟用。啟用本功能時，會使電話機處理線路擷取事件 SUBSCRIBE 的 200 OK 回應時，當作已經收到「Subscription State: active header」的線路擷取事件 NOTIFY。"/>
+		<phrase i="145" t="若啟用，則啟動通話時，根據 RFC 3264 使用 SDP 媒體方向屬性（例如 a=sendonly）。若停用，則使用過時的 c=0.0.0.0 RFC2543 技術。無論如何，電話都會處理來電保留訊號。預設值是停用。"/>
+		<phrase i="146" t="在首次開始播放以前，必須達到的最小抖動 (Jitter) 緩衝區深度。達到這個深度後，即使深度降到這一點以下，也會繼續播放。"/>
+		<phrase i="147" t="目前支援的最大抖動 (Jitter) 緩衝區深度。抖動一旦超出這個大小，就必定遺漏封包。請將本參數設定成可支援預期網路抖動情形的最小值。"/>
+		<phrase i="148" t="未遺漏封包的即時傳輸通訊協定 (RTP) 封包接收（將觸發抖動緩衝區大小調整作業）最短期間，以毫秒為單位。使用較小值（1000 毫秒）可減少已知正常網路的延遲問題。"/>
+		<phrase i="149" t="SDP 提供中偏好的傳輸裝載大小，用於缺少 ptime 協調時。"/>
+		<phrase i="150" t="若啟用，則可使用「自動轉接」功能（在聯絡人通訊錄中）轉接電話。若停用，則關閉「自動轉接」功能。預設值是啟用。"/>
+		<phrase i="151" t="輸入伺服器要將所有自動轉送電話轉到哪個號碼。若將轉送電話號碼設定為電話聯絡人目錄中的特定聯絡人，則會取代本轉送聯絡人電話號碼。"/>
+		<phrase i="152" t="允許或禁止共用線路的指定轉接功能。預設值是「是」。"/>
+		<phrase i="153" t="輸入忙線時要將來電轉到哪個號碼。若將本欄位留白，則將電話轉給「轉接聯絡人」。"/>
+		<phrase i="154" t="若啟用，則忙線時將來電轉送給「忙線聯絡人」。預設值是停用。"/>
+		<phrase i="155" t="輸入若電話啟動「請勿打擾」功能時，要將來電轉送到哪個電話號碼。"/>
+		<phrase i="156" t="若啟用，則啟動電話的「請勿打擾」功能時，將來電轉送到「請勿打擾聯絡人」。預設值是停用。"/>
+		<phrase i="157" t="若啟用，系統會將所有來電轉送到「一律轉送給聯絡人」選項中的聯絡人。預設值是停用。"/>
+		<phrase i="158" t="輸入若未在指定鈴聲響起次數內接聽來電時，要將來電轉送到哪個電話號碼。"/>
+		<phrase i="159" t="若啟用，則未在指定鈴聲響起次數內接聽來電時，系統會將來電轉送到「無人接聽聯絡人」。預設值是停用。"/>
+		<phrase i="160" t="輸入轉送未接來電前必須等待的鈴聲數。"/>
+		<phrase i="161" t="若將回撥模式設定成「聯絡人」，則電話在讀取留言時，會撥打這個號碼。"/>
+		<phrase i="162" t="您可設定本線的留言讀取和通知功能。&lt;br&gt;若設定成「註冊」，則電話會使用自己的註冊號碼與訊息中心伺服器連線。&lt;br&gt;若設定成「聯絡人」，則電話會撥打「回撥聯絡人」中指定的訊息中心伺服器。&lt;br&gt;若設定成「停用」，則停用留言讀取和留言通知功能。"/>
+		<phrase i="163" t="輸入訊息中心伺服器位址，讓電話開機後傳送登記要求。"/>
+		<phrase i="164" t="輸入對應授權電話號碼的名稱或說明。從鎖住的電話打電話時，就會顯示這個名稱。"/>
+		<phrase i="165" t="輸入電話被鎖住時可撥打的授權電話號碼。"/>
+		<phrase i="166" t="輸入電話向伺服器註冊時，所使用的線路識別位址。位址資訊可包含使用者名稱、電話 SIP URI 的主機，或是 H.323 ID/分機。舉例來說，若電話線路是 1002@poly.com，請輸入 1002 來作為 SIP，poly.com 則是伺服器。或者，您也可以輸入 1002@poly.com。如果未指定顯示名稱與標籤，則您輸入的任何位址都會被顯示為電話的線路。"/>
+		<phrase i="167" t="輸入註冊本線路時所用的驗證密碼（若有）。最大允許大小為 32 位元組。UTF-8 字元，例如 A、b、1 這類的字元各會佔掉 1 個位元。不過 Unicode 字元，例如 Ã、ç、ë 這類的字元可能各會佔掉 2 個位元組。舉例來說，如果密碼中的每個字母都是佔 2 個位元組的 Unicode 字元，那麼最多可允許 16 個字元，即總和為 32 個位元組。"/>
+		<phrase i="168" t="輸入註冊本線路時所用的驗證使用者名稱（若有）。"/>
+		<phrase i="169" t="針對本註冊線路對應的每個線路鍵，可進行或保留的通話數。"/>
+		<phrase i="170" t="SIP 訊號使用的顯示名稱。電話以這個名稱當作預設的來電顯示號碼。受話者的電話將顯示本名稱。"/>
+		<phrase i="171" t="輸入對應線路鍵旁顯示的文字。若尚未定義標籤，則系統會從位址中的使用者代號擷取標籤。"/>
+		<phrase i="172" t="與本註冊線路對應的線路鍵數目，預設值是 1。"/>
+		<phrase i="173" t="若啟用，則本註冊線路可使用 H.323 通訊協定訊號。預設值是停用。"/>
+		<phrase i="174" t="本設定可啟用或停用本註冊線路的 SIP 訊號。預設值是啟用。"/>
+		<phrase i="175" t="輸入要用於本 Bridged Line Appearance (BLA) 的線路識別碼。註冊 BLA 時才會出現本欄位。您必須將「類型」設定成「共用」才能註冊 BLA 線路。"/>
+		<phrase i="176" t="選擇「專用」或「共用」線路識別。若設定成「專用」，則使用標準通話訊號。若設定成「共用」，則多支電話共用通話狀態訂閱與通知設定。預設值是「專用」。"/>
+		<phrase i="177" t="輸入要接受註冊的 SIP 伺服器 IP 位址或主機名稱。若要設定本位址，請到 [簡單設定] &gt; [SIP 伺服器] 或 [設定] &gt; [SIP] &gt; [伺服器 1]。只要在一個地方套用設定值變更內容，兩個地方都會跟著改變。"/>
+		<phrase i="178" t="電話要求的註冊時間。此值必須至少是 10 秒。預設值是 3600 秒。"/>
+		<phrase i="179" t="所要求的線路擷取訂閱時間（0 - 65535 秒）。這是在回到閒置狀態之前，電話在拿起話筒後要播放撥號音的時間長度。預設值是 30 秒。"/>
+		<phrase i="180" t="輸入可接受註冊的 SIP 伺服器連接埠號碼。預設值是「0」。"/>
+		<phrase i="181" t="若停用，則將電話轉到外撥代理伺服器而不註冊。"/>
+		<phrase i="182" t="連線下一個可用伺服器之前的重試次數。若您不指定數值或數值是 0，則使用 3 的值。預設值是重試 3 次。"/>
+		<phrase i="183" t="本設定可指定重試頻率。若您不指定數值或數值是 0，則使用標準 RFC 3261 訊號重試作法（預設作法）。最小值是 100 毫秒。"/>
+		<phrase i="184" t="選擇電話與 SIP 伺服器通訊時，所用的傳輸方法。傳輸方法計有四種：&lt;br/&gt;&lt;br/&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;DNSnaptr&lt;/b&gt;：電話機執行 NAPTR 與 SRV 查詢作業，搜尋傳輸方法、連接埠和伺服器。DNSnaptr 是預設的傳輸方法。&lt;/li&gt;&lt;br/&gt;&lt;li&gt;&lt;b&gt;僅限 UDP&lt;/b&gt;：只用 UDP。&lt;/li&gt;&lt;br&gt;&lt;li&gt;&lt;b&gt;偏好 TCP&lt;/b&gt;：優先使用 TCP。TCP 失敗時才用 UDP。&lt;/li&gt;&lt;br/&gt;&lt;li&gt;&lt;b&gt;僅限 TCP&lt;/b&gt;：只用 TCP。&lt;/li&gt;&lt;br/&gt;&lt;li&gt;&lt;b&gt;TLS&lt;/b&gt;：若使用 TLS，請將連接埠欄位留白，電話機依預設會使用 5061；您也可以將連接埠設定成 5061。若 TLS 失敗，則傳輸作業失敗。&lt;/li&gt;&lt;/ul&gt;"/>
+		<phrase i="185" t="當沒有 [DHCP 的 SNTP 伺服器] 且 [SNTP 伺服器] 為空時，將會使用備用的 SNTP 伺服器位址。注意：若要設定本選項，請到 [簡單設定] &gt; [時間同步]，或 [選項設定] &gt; [日期和時間] &gt; [時間同步]。只要在一個地方套用設定值變更內容，兩個地方都會跟著改變。"/>
+		<phrase i="186" t="選擇電話所在時區。時區為根據位置與格林威治標準時間的差距來計算。請注意：此選項可在兩個地方設定，一個地方是 [簡單設定] &gt; [時間同步]，另一個地方則是 [選項設定] &gt; [日期和時間] &gt; [時間同步]。只要在一個地方套用設定變更，兩個地方都會跟著改變。" t.Trio_8800="選擇電話所在位置的 GMT 時區差距，以與格林威治標準時間 (GMT) 的小時差距來表示。請注意：此選項可在兩個地方設定，一個地方是 [簡單設定] &gt; [時間同步]，另一個地方則是 [選項設定] &gt; [日期和時間] &gt; [時間同步]。只要在一個地方套用設定變更，兩個地方都會跟著改變。"/>
+		<phrase i="187" t="電話向網域名稱系統 (DNS) 送出查詢時，所用的主要伺服器。"/>
+		<phrase i="188" t="電話向網域名稱系統 (DNS) 送出查詢時，所用的次要伺服器。"/>
+		<phrase i="189" t="輸入電話的網域名稱系統 (DNS)。"/>
+		<phrase i="190" t="啟用或停用序列連接埠。"/>
+		<phrase i="191" t="選擇電話從設置伺服器取得檔案時（例如電話軟體或組態檔），所用的通訊協定。"/>
+		<phrase i="192" t="若停用 DHCP 用戶端、DHCP 伺服器未送出開機伺服器選項，或開機伺服器的參數是「靜態」，則使用本設置伺服器。若使用 URL，則可套用使用者名稱和密碼。"/>
+		<phrase i="193" t="電話登入設置伺服器時所需的使用者名稱（若需要）。"/>
+		<phrase i="194" t="電話登入設置伺服器時所需的密碼（若需要）。"/>
+		<phrase i="195" t="本設定可指定檔案傳輸作業的嘗試次數，請選擇 1 - 10 的值。預設值是 3。"/>
+		<phrase i="196" t="本設定可指定開始新的檔案傳輸作業到重試檔案傳輸作業之間，必須經過的最短時間，您可指定 0 - 300 秒的值。預設值是 1 秒。"/>
+		<phrase i="197" t="本設定可指定是否要將電話序號（MAC 位址），加入所有 HTTP 或 HTTPS 設置要求的 User-Agent 表頭。啟用後會出現 MAC 位址，停用就不會。預設值是停用。"/>
+		<phrase i="198" t="本設定可決定電話機如何根據 DHCP 產生開機伺服器位址。&lt;br&gt;&lt;ul&gt;&lt;li&gt;選項 66：電話機會利用可接受的標準選項代碼 66，來指定開機伺服器 IP。&lt;/li&gt;&lt;li&gt;自訂：電話會利用您在下方輸入的自訂選項代碼，來指定開機伺服器 IP。&lt;/li&gt;&lt;li&gt;靜態：電話會忽略佈建位址的所有 DHCP 選項，改用前述在佈建伺服器中設定的位址。&lt;/li&gt;&lt;li&gt;自訂+選項66：電話會尋找自訂 IP 和選項 66。&lt;/li&gt;&lt;li&gt;DHCPv6：使用此選項，電話會在僅 IPv6模式時，從DHCPv6 伺服器取得佈建伺服器 IPv6 位址或完整網域名稱。&lt;/li&gt;&lt;li&gt;DHCPv6+選項 66：在雙重堆疊模式中，電話會從DHCP 伺服器取得佈建伺服器位址或完整網域名稱。如為 IPv6 優先模式，電話會先嘗試從 DHCPv6 自訂選項取得伺服器位址，否則電話會降級到 DHCPv4 選項 66。如為 IPv4 優先模式，電話會先嘗試從 DHCPv4 選項 66 取得伺服器位址，否則電話會從 DHCPv6 Poly 自訂選項取得取得位址。&lt;/li&gt;&lt;li&gt;DHCPv6+自訂：在雙重堆疊模式中，電話會從DHCP 伺服器取得佈建伺服器位址或完整網域名稱。如為 IPv6 優先模式，電話會先嘗試從 DHCPv6 自訂選項取得伺服器位址，否則電話會降級到 DHCPv4 自訂選項。如為 IPv4 優先模式，電話會先嘗試從 DHCPv4 自訂選項取得佈建伺服器位址，否則電話會從 DHCPv6 Poly 自訂選項取得伺服器位址。&lt;/li&gt;&lt;li&gt;DHCPv6+自訂+選項 66：在雙重堆疊模式中，電話會從DHCP 伺服器取得佈建伺服器位址或完整網域名稱。如為 IPv6 優先模式，電話會先嘗試從 DHCPv6 自訂選項取得伺服器位址，否則電話會降級到 DHCPv4 自訂或選項 66 選項。如為 IPv4 優先模式，電話會先嘗試從 DHCPv4 自訂選項或選項 66 取得佈建伺服器位址，否則電話會從 DHCPv6 Poly 自訂選項取得伺服器位址。&lt;/li&gt;&lt;/ul&gt;&lt;br&gt;依預設，電話會尋找自訂 IP 和選項 66。"/>
+		<phrase i="199" t="若將開機伺服器設定成「自訂」或「自訂 + 選項 66」，電話會尋找您指定的 DHCP 選項號碼。"/>
+		<phrase i="200" t="選擇系統解讀開機伺服器選項的方式。"/>
+		<phrase i="201" t="選擇廠商識別資訊的顯示格式。"/>
+		<phrase i="202" t="用於電話的開機伺服器選項。"/>
+		<phrase i="203" t="啟用或停用 DHCP。預設值是啟用。"/>
+		<phrase i="204" t="電話的 IP 位址。"/>
+		<phrase i="205" t="電話的子網路遮罩。"/>
+		<phrase i="206" t="電話的預設路由器。"/>
+		<phrase i="207" t="若啟用，則電話將使用剩下的組態參數，滿足每個 EAP 方法的各種協調需求。"/>
+		<phrase i="208" t="啟用或停用電話的阻斷服務（DoS）Storm Prevention 乙太網路封包過濾功能，避免無效或過量資料導致 TCP/IP 堆疊溢位。預設值是啟用。"/>
+		<phrase i="209" t="LAN 連接埠模式，可透過乙太網路設定網路速度。&lt;br/&gt;HD=半雙工；FD=全雙工"/>
+		<phrase i="210" t="PC 連接埠模式，可透過乙太網路設定網路速度。&lt;br/&gt;HD=半雙工；FD=全雙工"/>
+		<phrase i="211" t="所選取的 EAP 驗證方法。驗證 EAP-TLS 時，電話會使用預先安裝的裝置憑證。啟用「802.1X 驗證」功能時，就已經啟用 EAP 方法。"/>
+		<phrase i="212" t="輸入 802.1X 驗證方法需要的使用者名稱。最短需 6 碼。"/>
+		<phrase i="213" t="輸入 802.1X 驗證方法需要的密碼。最短需 6 碼。"/>
+		<phrase i="214" t=""/>
+		<phrase i="215" t="輸入建立安全通道以進行通道驗證和 FAST 驗證時，所需的匿名使用者名稱。"/>
+		<phrase i="216" t="輸入將「偵測 DHCP VLAN」設定成「自訂」時，所要用的 VLAN ID。"/>
+		<phrase i="217" t="啟用或停用電話的 VLAN 乙太網路封包過濾功能。該過濾功能可避免無效或過量資料導致 TCP/IP 堆疊溢位。預設值是停用。"/>
+		<phrase i="218" t="若啟用，則由電話決定 VLAN ID，並透過 LLDP 協調功率。"/>
+		<phrase i="219" t="若啟用，則由電話決定 VLAN ID，並透過 CDP 協調功率。"/>
+		<phrase i="220" t="輸入將「偵測 DHCP VLAN」設定成「自訂」時，所要用的 DHCP VLAN 選項。預設值是 129。"/>
+		<phrase i="221" t="選擇停用偵測 DHCP VLAN 的功能，或選擇固定或自訂的選項號碼。&lt;br&gt; 若您選擇固定的廠商專屬選項號碼，則系統會忽略「VLAN ID 選項」欄位。若您選擇自訂號碼，請在下方的「DHCP VLAN 選項」欄位中輸入自訂號碼。預設值是停用。"/>
+		<phrase i="222" t="啟用或停用序列連接埠 USB 網路功能。"/>
+		<phrase i="223" t="選擇「停用」時可停用「DHCP」功能表；選擇「啟用」時可停用「靜態 IP」和「NETMASK」功能表。"/>
+		<phrase i="224" t="若將開機伺服器參數設定成「自訂」，請輸入能將電話轉到自訂開機伺服器的 DHCP 選項號碼。"/>
+		<phrase i="225" t="若啟用 USBNet-DHCP Client Enable，則停用本選項。若停用 USBNet Enable，則忽略本選項。"/>
+		<phrase i="226" t="若啟用 USBNet-DHCP Client Enable，則停用本選項。若停用 USBNet Enable，則忽略本選項。"/>
+		<phrase i="227" t="預設的閘道 IP 位址。"/>
+		<phrase i="228" t="若要啟用裝置的 Wi-Fi 功能，請按一下「啟用」。若要停用 Wi-Fi，請按一下「停用」。預設值是「停用」。"/>
+		<phrase i="229" t="Service Set Identifier，也就是網路名稱。請用字母數字 [1 - 32] 字元。"/>
+		<phrase i="230" t="若啟用，則電話連接到支援 Cisco Compatible Extension 的無線基地台。"/>
+		<phrase i="231" t="若啟用，則電話連接的無線基地台，會指定用戶端的 Admission Control Mandatory。"/>
+		<phrase i="232" t="讓您選取 Wi-Fi 連線使用的安全模式。"/>
+		<phrase i="233" t="開放式系統或共用識別碼驗證機制。"/>
+		<phrase i="234" t="若啟用，則電話將以 WEP 對資料訊框加密。"/>
+		<phrase i="235" t="要在「金鑰」(1 - 4) 欄位中輸入的金鑰長度 (40bit/104bit)。"/>
+		<phrase i="236" t="40bit/104bit 金鑰。"/>
+		<phrase i="237" t="40bit/104bit 金鑰。"/>
+		<phrase i="238" t="40bit/104bit 金鑰。"/>
+		<phrase i="239" t="40bit/104bit 金鑰。"/>
+		<phrase i="240" t="選擇密碼或十六進位金鑰。"/>
+		<phrase i="241" t="若將金鑰類型選取為密碼，請輸入字母數字字元，範圍是 8 - 63。若將金鑰類型選取為十六進位金鑰，請輸入 64 碼十六進位金鑰。"/>
+		<phrase i="242" t="密碼或十六進位金鑰。"/>
+		<phrase i="243" t="若將金鑰類型選取為密碼，請輸入字母數字字元，範圍是 8 - 63。若將金鑰類型選取為十六進位金鑰，請輸入 64 碼十六進位金鑰。"/>
+		<phrase i="244" t="字母數字字元，用於在驗證伺服器上表明使用者身分。"/>
+		<phrase i="245" t="字母數字字元，用於在驗證伺服器上確認使用者身分。"/>
+		<phrase i="246" t="電話與目前使用的無線基地台斷線時，為漫遊到其他無線基地台而選擇的技術。"/>
+		<phrase i="247" t="電話向伺服器和用戶端進行身分驗證時，所採用的 Extensible Authentication Protocol 方法。"/>
+		<phrase i="248" t="輸入由字母數字字元組成的密碼，以便將 Protected Access Credential (PAC) 檔案解密。"/>
+		<phrase i="249" t="使用本電話時所在的規範領域。"/>
+		<phrase i="250" t="若啟用，則電話會設法掃描連線，並與適當的無線基地台以 5GHz 波段建立連線，且採用副波段指定的頻道。"/>
+		<phrase i="251" t="啟用或停用副波段 1。"/>
+		<phrase i="252" t="電話以副波段 1 傳輸訊框時的最大功率。"/>
+		<phrase i="253" t="啟用或停用副波段 2。"/>
+		<phrase i="254" t="電話以副波段 2 傳輸訊框時的最大功率。"/>
+		<phrase i="255" t="啟用或停用副波段 3。"/>
+		<phrase i="256" t="電話以副波段 3 傳輸訊框時的最大功率。"/>
+		<phrase i="257" t="啟用或停用副波段 4。"/>
+		<phrase i="258" t="電話以副波段 4 傳輸訊框時的最大功率。"/>
+		<phrase i="259" t="若啟用，則電話會設法掃描連線，並與適當的無線基地台以 2.4GHz 波段建立連線，且採用所選規範領域指定的頻道。"/>
+		<phrase i="260" t="電話以 2.4GHz 波段傳輸訊框時的最大功率。"/>
+		<phrase i="261" t=""/>
+		<phrase i="262" t=""/>
+		<phrase i="263" t="伺服器的 IP 位址。"/>
+		<phrase i="264" t="接收位置更新封包時所用的 UDP 連接埠號碼。預設連接埠是 8552。"/>
+		<phrase i="265" t="選擇是否要將輪詢資料傳送到所設定的輪詢 URL 或要求程式。傳送輪詢資料時，一律採取 XML 格式。"/>
+		<phrase i="266" t="選擇電話所在時區。時區為根據位置與格林威治標準時間的差距來計算。請注意：此選項可在兩個地方設定，一個地方是 [簡單設定] &gt; [時間同步]，另一個地方則是 [選項設定] &gt; [日期和時間] &gt; [時間同步]。只要在一個地方套用設定變更，兩個地方都會跟著改變。" t.Trio_8800="選擇電話所在位置的 GMT 時區差距，以與格林威治標準時間 (GMT) 的小時差距來表示。請注意：此選項可在兩個地方設定，一個地方是 [簡單設定] &gt; [時間同步]，另一個地方則是 [選項設定] &gt; [日期和時間] &gt; [時間同步]。只要在一個地方套用設定變更，兩個地方都會跟著改變。"/>
+		<phrase i="267" t="接受註冊的 SIP 伺服器 IP 位址或主機名稱。"/>
+		<phrase i="268" t="接受註冊的 SIP 伺服器連接埠號碼。"/>
+		<phrase i="269" t="電話傳送通話處理狀態/裝置/網路資訊時，所設定的目標 URL。所用的通訊協定可以是 HTTP 以及 HTTPS。"/>
+		<phrase i="270" t="輸入電話進行電話狀態輪詢的驗證作業時，所需的使用者名稱。"/>
+		<phrase i="271" t="輸入電話進行電話狀態輪詢的驗證作業時，所需的密碼。"/>
+		<phrase i="272" t="選擇要從應用程式伺服器推轉到電話機的訊息優先等級。"/>
+		<phrase i="273" t="您在此輸入的應用程式伺服器 URL 將會與電話機位址結合在一起，並傳送到電話的瀏覽器。"/>
+		<phrase i="274" t="輸入推轉要求接受驗證時要提供的使用者名稱。"/>
+		<phrase i="275" t="輸入推轉要求接受驗證時要提供的密碼。"/>
+		<phrase i="276" t="在下拉式功能表中，選擇語音即時傳輸通訊協定 (RTP) 封包的優先等級。預設優先等級是 5。"/>
+		<phrase i="277" t="在下拉式功能表中，選擇視訊即時傳輸通訊協定 (RTP) 封包的優先等級。預設優先等級是 5。"/>
+		<phrase i="278" t="在下拉式功能表中，選擇通話控制封包的優先等級。預設優先等級是 5。"/>
+		<phrase i="279" t="在下拉式功能表中，選擇缺少不同通訊協定專屬設定的封包優先等級。預設優先等級是 2。"/>
+		<phrase i="280" t="設置作業用的加密清單。若不設定，則使用針對 sec.TLS.cipherList 設定的加密清單。"/>
+		<phrase i="281" t="SIP 用的加密清單。若不設定，則使用針對 sec.TLS.cipherList 設定的加密清單。"/>
+		<phrase i="282" t="公司目錄用的加密清單。若不設定，則使用針對 sec.TLS.cipherList 設定的加密清單。"/>
+		<phrase i="283" t="Syslog 用的加密清單。若不設定，則使用針對 sec.TLS.cipherList 設定的加密清單。"/>
+		<phrase i="284" t="CMA 目前狀態用的加密清單。若不設定，則使用針對 sec.TLS.cipherList 設定的加密清單。"/>
+		<phrase i="285" t="瀏覽器用的加密清單。若不設定，則使用針對 sec.TLS.cipherList 設定的加密清單。"/>
+		<phrase i="286" t="SIP 伺服器的 IP 位址或主機名稱，以接收電話傳送的所有要求。"/>
+		<phrase i="287" t="SIP 伺服器的連接埠，以接收電話傳送的所有要求。"/>
+		<phrase i="288" t="選擇電話與 SIP 伺服器通訊時，所用的傳輸方法。傳輸方法計有四種：&lt;br/&gt;&lt;br/&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;DNSnaptr&lt;/b&gt;：若外撥代理伺服器位址是主機名稱，且連接埠是「0」，則電話會執行 NAPTR 與 SRV 查詢作業，搜尋傳輸方法、連接埠和伺服器。若外撥代理伺服器位址是 IP 位址，且已指定連接埠，則電話會使用 UDP。DNSnaptr 是預設的傳輸方法。&lt;/li&gt;&lt;br/&gt;&lt;li&gt;&lt;b&gt;僅限 UDP&lt;/b&gt;：只用 UDP。&lt;/li&gt;&lt;br/&gt;&lt;li&gt;&lt;b&gt;偏好 TCP&lt;/b&gt;：以 TCP 為偏好傳輸方法，若 TCP 失敗，則用 UDP。&lt;/li&gt;&lt;br/&gt;&lt;li&gt;&lt;b&gt;僅限 TCP&lt;/b&gt;：只用 TCP。&lt;/li&gt;&lt;br/&gt;&lt;li&gt;&lt;b&gt;TLS&lt;/b&gt;：若使用 TLS，請將連接埠欄位留白，電話機依預設會使用 5061；您也可以將連接埠設定成 5061。若 TLS 失敗，則傳輸作業失敗。&lt;/li&gt;&lt;/ul&gt;"/>
+		<phrase i="289" t="接受註冊的 SIP 伺服器 IP 位址或主機名稱。"/>
+		<phrase i="290" t="接受註冊的 SIP 伺服器連接埠號碼。"/>
+		<phrase i="291" t="選擇電話機與 SIP 伺服器連線時所用的傳輸方法。傳輸方法計有五種：&lt;br/&gt;&lt;br/&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;DNSnaptr&lt;/b&gt;：執行 NAPTR 與 SRV 查詢作業，以搜尋傳輸方法、連接埠和伺服器。&lt;/li&gt;&lt;br/&gt;&lt;li&gt;&lt;b&gt;僅限 UDP&lt;/b&gt;：只用 UDP。&lt;/li&gt;&lt;br/&gt;&lt;li&gt;&lt;b&gt;偏好 TCP&lt;/b&gt;：優先使用 TCP。TCP 失敗時才用 UDP。&lt;b&gt;僅限 TCP&lt;/b&gt;：只用 TCP。&lt;/li&gt;&lt;br/&gt;&lt;li&gt;&lt;b&gt;TLS&lt;/b&gt;：使用 TLS。若 TLS 失敗，則傳輸作業失敗。請將連接埠欄位留白，或設定成 5061。預設方法是 DNSnaptr。"/>
+		<phrase i="292" t="電話要求的註冊時間（秒）。"/>
+		<phrase i="293" t="若停用，則將電話轉到外撥代理伺服器而不註冊。"/>
+		<phrase i="294" t="若設定成「0」，則使用標準 RFC 3261 訊號重試作法。否則由 retryTimeOut 決定重試頻率。單位 = 毫秒。（最小值 = 100 毫秒）。"/>
+		<phrase i="295" t="若設定成「0」，則使用 3。重試 retryMaxCount 次後才會連線下一個可用伺服器。"/>
+		<phrase i="296" t="所要求的線路擷取訂閱時間。"/>
+		<phrase i="297" t="啟用或停用鎖住電話功能。"/>
+		<phrase i="298" t="選擇是否要查閱內容顯示啟動錯誤訊息的記錄檔。"/>
+		<phrase i="299" t="僅在 Poly 技術支援代表要求時啟用。不經意啟用此選項可能會導致效能降低。若啟用，則可將記錄檔送到標準輸出（Serial Terminal 和 Shell Terminal），以供存取並進行故障排除。" t.Trio_8800="Poly 建議您不要停用此設定。若啟用，則可將記錄檔送到標準輸出（Serial Terminal 和 Shell Terminal），以供技術支援人員存取並進行故障排除。"/>
+		<phrase i="300" t=""/>
+		<phrase i="301" t=""/>
+		<phrase i="302" t=""/>
+		<phrase i="303" t=""/>
+		<phrase i="304" t=""/>
+		<phrase i="305" t=""/>
+		<phrase i="306" t=""/>
+		<phrase i="307" t="只有在 EAP 驗證法是 EAP-FAST 時，才能使用本選項。"/>
+		<phrase i="308" t="若啟用，則將 H.323 通訊協定用於電話轉接、撥號安排方式、DTMF、URL 撥號。"/>
+		<phrase i="309" t="用於收發 H.323 訊號封包的本機連接埠。若停用，則將 1720 當作本機連接埠號碼，但不在 H.323 訊號中公告。若設定成其他值，則將以該值當作本機連接埠號碼，且在 H.323 訊號中公告。"/>
+		<phrase i="310" t="若啟用，則電話將在缺少靜態設定的閘道管理員位址時，設法利用標準的多點傳送技術，偵測 H.323 閘道管理員位址。若停用，則電話不會送出閘道管理員偵測訊息。"/>
+		<phrase i="311" t="若啟用，則電話會以 H.323 訊號頻道傳送 DTMF 按下按鍵的訊號。"/>
+		<phrase i="312" t="若啟用，則電話可支援 H.245 訊號頻道字母數字模式 DTMF 傳輸功能。注意：若同時啟用字母數字和訊號模式，則電話將優先以字母數字模式傳送 DTMF。"/>
+		<phrase i="313" t="若啟用，則電話可支援 H.245 訊號頻道訊號模式 DTMF 傳輸功能。"/>
+		<phrase i="314" t="輸入 H.323 閘道管理員的位址。若有任何一行 H.323 閘道管理員位址空白，則使用此值。"/>
+		<phrase i="315" t="用於傳送 H.323 訊號的連接埠。若使用「0」，則使用 1719（H.323 RAS 訊號）。"/>
+		<phrase i="316" t="電話機與伺服器的有效註冊時間（秒）。若有任何一行 H.323 線路註冊時間空白，則使用此值。預設值是 3600 秒。"/>
+		<phrase i="317" t="若啟用，則使用 H.235 語音設定檔即時傳輸通訊協定 (RTP) 媒體加密功能。若對方線路要求，則協調媒體加密機制。"/>
+		<phrase i="318" t="若啟用，則即時傳輸通訊協定 (RTP) 媒體加密功能也會同時啟用，並與對方線路開始媒體加密協調程序。但是協調作業成功與否並非完成通話的必要條件。"/>
+		<phrase i="319" t="若啟用，則即時傳輸通訊協定 (RTP) 媒體加密功能也會同時啟用，並與對方線路開始或完成媒體加密協調程序。若協調失敗，則取消通話。"/>
+		<phrase i="320" t="若啟用，且電話已經接上 USB 隨身碟，並且尚未設定閒置瀏覽器，則循環播放 USB 隨身碟中的圖片幻燈片秀。您必須將圖片儲存在 USB 隨身碟中的適當目錄。"/>
+		<phrase i="321" t="啟用或停用自動接聽所有 SIP 通話的功能。"/>
+		<phrase i="322" t="啟用或停用自動接聽所有 H.323 通話的功能。"/>
+		<phrase i="323" t="若啟用，則自動接聽電話後，一開始先將麥克風靜音。"/>
+		<phrase i="324" t="若啟用，則自動接聽電話後，一開始會先停用視訊傳輸（暫停）。"/>
+		<phrase i="325" t="選擇電話自動接聽來電時的鈴聲類別。"/>
+		<phrase i="326" t="啟用或停用不拿話筒直接撥號功能。本功能讓您不需拿起話筒，就能直接撥出電話。"/>
+		<phrase i="327" t="若啟用，則按下電話鍵台上的任何按鍵（功能鍵除外）即可接聽來電。"/>
+		<phrase i="328" t="啟用或停用 Polycom Desktop Connector 用戶端 (PDC) 功能。預設值為停用。若啟用，則會出現 PDC 欄位選項。"/>
+		<phrase i="329" t="指定 Polycom Desktop Connector 視訊畫面要在電腦監視器的左邊還是右邊。"/>
+		<phrase i="330" t="Polycom Desktop Connector 在啟用並連線後，這個欄位將顯示所連線的電腦名稱。"/>
+		<phrase i="331" t="Polycom Desktop Connector 在啟用並連線後，這個欄位將顯示所連線的電腦 IP 位址。"/>
+		<phrase i="332" t="Polycom Desktop Connector 透過本連接埠連接您的電腦。"/>
+		<phrase i="333" t="輸入接上電話機的 PSTN 線路分機。這個分機可當作標籤，顯示在電話機的閒置畫面上。"/>
+		<phrase i="334" t="您可設定轉接時間。在 SoundStation Duo 上，這個功能就是以按下「會議」鍵的動作，代表切斷電話線並掛上話筒的整個流程。轉接時間各國不同。請在下拉式功能表中選擇轉接時間。"/>
+		<phrase i="335" t="本欄位可啟用/停用來電顯示功能。"/>
+		<phrase i="336" t="輸入電話取得軟體和升級檔時，所使用的下載伺服器 URL。"/>
+		<phrase i="337" t="啟用或停用無線網路卡的動態主機組態通訊協定 (DHCP) 功能。預設值是「啟用」。若啟用，則「IP 位址」和「子網路遮罩」欄位會無法使用。"/>
+		<phrase i="338" t=""/>
+		<phrase i="339" t="無線網路卡的 IP 位址（若未使用 DHCP）。"/>
+		<phrase i="340" t="無線網路卡的子網路遮罩位址（若未使用 DHCP）。"/>
+		<phrase i="341" t="無線網路卡的設置伺服器 IP 位址（若未使用 DHCP）。"/>
+		<phrase i="342" t="指定要使用 device.wifi.wep.key1 到 device.wifi.wep.key4 的哪個金鑰。"/>
+		<phrase i="343" t="收發傳呼音效時所用的多點傳送 IP 位址。"/>
+		<phrase i="344" t="收發傳呼音效時所用的連接埠。"/>
+		<phrase i="345" t="緊急傳呼功能會以最大音量蓋掉進行中的通話與傳呼。您不能設定或取代緊急傳呼音量。"/>
+		<phrase i="346" t="若啟用，則會將通話等候行為套用到新傳呼。若停用，則不會將通話等候行為套用到新傳呼。"/>
+		<phrase i="347" t="若啟用，則所有 PTT 通訊協定行為將與主流的 SpectraLink 電話相容。"/>
+		<phrase i="348" t="您可啟用或停用群組廣播功能。群組廣播功能讓使用電話的人能對外廣播給傳呼群組。只有登記該傳呼群組的使用者才能收到傳呼訊息。按一下「啟用」即可在底下使用「群組廣播」功能。"/>
+		<phrase i="349" t="指定可接收傳呼訊息的預設傳呼群組。預設群組是 1。請用下拉式功能表變更預設傳呼群組的號碼。"/>
+		<phrase i="350" t="除非啟用「請勿打擾」功能，或剛好在播放緊急傳呼，否則對方一定會收到發送給這個群組的傳呼。預設優先群組是 24。"/>
+		<phrase i="351" t="發送給這個群組的傳呼屬於緊急狀態。所有登記用戶都會收到緊急傳呼，並以最大音量播放。之後的非緊急傳呼則會恢復正常音量。若登記用戶正在通話，則緊急傳呼會蓋掉目前的通話。即使啟用「請勿打擾」功能，免持聽筒喇叭仍會播放緊急傳呼。"/>
+		<phrase i="352" t="若啟用，則在通話時播放傳呼。若停用，則會保留傳呼，等到通話結束後為止。您只能關掉預設群組發出的傳呼。通話期間仍會播放優先群組和緊急群組發出的傳呼。"/>
+		<phrase i="353" t="輸入傳呼群組受話者能看到的來電顯示號碼。"/>
+		<phrase i="354" t="裝載大小是每個即時傳輸通訊協定 (RTP) 封包中音效資料的長度，以毫秒為單位（毫秒）。"/>
+		<phrase i="355" t="選擇用於外送傳呼的轉碼程式。Poly 建議登記到同一傳呼群組的所有電話機，都使用相同轉碼程式。"/>
+		<phrase i="356" t="輸入終止群呼的時間（秒）。若設定成 0 就會持續送出群呼，除非手動結束。在此輸入時間後，電話上會顯示&lt;i&gt;「延長」&lt;/i&gt;功能鍵。按下&lt;i&gt;「延長」&lt;/i&gt;功能鍵即可延長「加入逾時」欄位中的時間；實際延長秒數以您在「延長逾時」中輸入的秒數為準。預設增加的逾時時限是「0」。"/>
+		<phrase i="357" t="輸入以秒為單位的時間，增加群呼作業結束前的「加入逾時」時限。在「加入逾時」中輸入時間後，電話上會顯示&lt;i&gt;「延長」&lt;/i&gt;功能鍵。按下&lt;i&gt;「延長」&lt;/i&gt;功能鍵即可延長「加入逾時」欄位中的時間；實際延長秒數以您在「延長逾時」中輸入的秒數為準。預設逾時延長值是 60 秒。"/>
+		<phrase i="358" t="您可啟用或停用即按即說 (PTT) 模式。PTT 讓特定頻道的所有登記用戶，都能將訊息發送到登記相同頻道的其他使用者。按一下「啟用」即可在底下使用 PTT 功能。"/>
+		<phrase i="359" t="指定用來收發 PTT 呼叫的 PTT 預設頻道。預設頻道是 1。請用下拉式功能表變更預設頻道號碼。"/>
+		<phrase i="360" t="除非啟用「請勿打擾」功能，或剛好在播放緊急傳送，否則對方一定會收到發送給這個頻道的傳送內容。預設優先頻道是 24。"/>
+		<phrase i="361" t="發送給這個頻道的傳送作業屬於緊急狀態。所有登記用戶都會收到緊急傳送內容，並以最大音量播放。之後的非緊急傳送則會恢復正常音量。若登記用戶正在通話，則緊急傳送內容會蓋掉目前的通話。即使啟用「請勿打擾」功能，免持聽筒喇叭仍會播放緊急傳送內容。"/>
+		<phrase i="362" t="若啟用，則在通話時播放對講來訊廣播。若停用，則會保留對講來訊廣播，等到通話結束為止。您只能關掉預設群組發出的對講廣播。系統仍會在通話期間播放優先群組和緊急群組發出的廣播。"/>
+		<phrase i="363" t="輸入對講頻道受話者能看到的來電顯示號碼。"/>
+		<phrase i="364" t="裝載大小是每個即時傳輸通訊協定 (RTP) 封包中音效資料的長度，以毫秒為單位（毫秒）。"/>
+		<phrase i="365" t="外送 PTT 模式傳呼使用的音效轉碼程式。解碼時則一律採用內送封包指定的轉碼程式處理內送傳呼。"/>
+		<phrase i="366" t="管理員可允許/禁止電話使用者取得 PTT 頻道。"/>
+		<phrase i="367" t="管理員可允許/禁止使用者傳送內容到 PTT 頻道。若要傳送內容到特定頻道，必須啟用該頻道群組的「可通話」和「登記」選項。"/>
+		<phrase i="368" t="管理員可決定使用者能否登記特定 PTT 頻道。"/>
+		<phrase i="369" t="宣告傳呼或在傳呼通話外觀下辨認使用中頻道時，所用的描述性標籤。"/>
+		<phrase i="370" t="管理員可允許/禁止電話使用者加入傳呼群組。"/>
+		<phrase i="371" t="管理員可允許/禁止使用者傳呼到傳呼群組。若要傳呼到特定傳呼群組，必須啟用該傳呼群組的「可通話」和「登記」選項。"/>
+		<phrase i="372" t="管理員可決定使用者能否登記特定傳呼群組。"/>
+		<phrase i="373" t="宣告傳呼或在傳呼通話外觀下辨認使用中傳呼群組時，所用的描述性標籤。"/>
+		<phrase i="374" t="您可選擇電話顯示的背景顏色。注意：紅色、綠色、藍色的數值必須相同，灰階顯示時才能正確。"/>
+		<phrase i="375" t="您可指定背景圖案亮度。"/>
+		<phrase i="376" t="選擇功能鍵和線路鍵的標籤顏色。"/>
+		<phrase i="377" t="輸入 PEM 格式的 CA 憑證 URL，然後按一下 [安裝] 按鈕。平台 CA 必須和以下的 TLS 設定檔相同。"/>
+		<phrase i="378" t="輸入 PEM 格式的 CA 憑證 URL，然後按一下 [安裝] 按鈕。平台 CA 必須和以下的 TLS 設定檔相同。"/>
+		<phrase i="379" t="輸入電話應用程式接受驗證時需要的 CA 憑證。"/>
+		<phrase i="380" t="安裝在電話上的裝置憑證，用於 MTLS 驗證。"/>
+		<phrase i="381" t="安裝在電話上的裝置憑證，用於 MTLS 驗證。"/>
+		<phrase i="382" t="安裝在電話上的裝置憑證，用於 MTLS 驗證。"/>
+		<phrase i="383" t="平台設定檔 1 的通用加密清單。值不能為空白。若提供無效的值，那麼電話將保留預設值。"/>
+		<phrase i="384" t="平台設定檔 2 的通用加密清單。值不能為空白。若提供無效的值，那麼電話將保留預設值。"/>
+		<phrase i="385" t="應用程式設定檔的通用加密清單。值不能為空白。若提供無效的值，那麼電話將保留預設值。"/>
+		<phrase i="386" t="針對平台設定檔 1 選擇一個 CA 憑證選項。"/>
+		<phrase i="387" t="針對平台設定檔 2 選擇一個 CA 憑證選項。"/>
+		<phrase i="388" t="針對您要使用的每個應用程式設定檔，選擇 CA 憑證組態。"/>
+		<phrase i="389" t="可用於本設定檔的裝置憑證來源。"/>
+		<phrase i="390" t="可用於本設定檔的裝置憑證來源。"/>
+		<phrase i="391" t="電話上可用於本設定檔的裝置憑證。"/>
+		<phrase i="392" t="在下拉式功能表中，選擇要用於 802.1x 的 TLS 平台設定檔。"/>
+		<phrase i="393" t="在下拉式功能表中，選擇要用於設置伺服器的 TLS 平台設定檔。"/>
+		<phrase i="394" t="在下拉式功能表中，選擇要用於 SIP 的 TLS 平台設定檔或應用程式設定檔。"/>
+		<phrase i="395" t="在下拉式功能表中，選擇要用於電話網路服務的 TLS 平台設定檔或應用程式設定檔。"/>
+		<phrase i="396" t="在下拉式功能表中，選擇要用於系統記錄的 TLS 平台設定檔或應用程式設定檔。"/>
+		<phrase i="397" t="在下拉式功能表中，選擇要用於目前狀態功能的 TLS 平台設定檔或應用程式設定檔。"/>
+		<phrase i="398" t="在下拉式功能表中，選擇要用於公司目錄的 TLS 平台設定檔或應用程式設定檔。"/>
+		<phrase i="399" t="請輸入要將電話語音事件通知傳送到哪個 URL。輸入 URL 後，按一下 [新增] 按鈕。若要移除 URL，請按一下 URL，然後按一下 [移除] 按鈕。"/>
+		<phrase i="400" t="請輸入要將電話語音事件通知傳送到哪個 URL。輸入 URL 後，按一下 [新增] 按鈕。若要移除 URL，請按一下 URL，然後按一下 [移除] 按鈕。"/>
+		<phrase i="401" t="若要電話傳送資訊，指明哪個線路已在通話伺服器上註冊，請在本選項格中打勾。"/>
+		<phrase i="402" t="若要電話傳送來電和事件的相關資訊，請在本選項格中打勾。"/>
+		<phrase i="403" t="若要電話傳送撥出電話和事件的相關通話資訊，請在本選項格中打勾。"/>
+		<phrase i="404" t="若要電話傳送掛上電話事件的相關資訊，請在本選項格中打勾。"/>
+		<phrase i="405" t="若要電話傳送拿起話筒電話事件的相關資訊，請在本選項格中打勾。"/>
+		<phrase i="406" t="若要電話傳送登入和登出事件的相關資訊，請在本選項格中打勾。"/>
+		<phrase i="407" t="若要電話傳送目前電話會議狀態的變更資訊，請在本選項格中打勾。"/>
+		<phrase i="408" t="輸入舊密碼。"/>
+		<phrase i="409" t="輸入新密碼。sec.pwd.length.admin 值可決定密碼欄位的最短長度。"/>
+		<phrase i="410" t="確認新密碼。sec.pwd.length.admin 值可決定密碼欄位的最短長度。"/>
+		<phrase i="411" t="選擇要在那一類伺服器上尋找可用軟體版本，然後按一下 [檢查有無更新]，取得可用軟體。若您選擇 [自訂伺服器]，則可在顯示的文字欄位中指定伺服器。"/>
+		<phrase i="412" t="輸入自訂伺服器的位址，以便尋找軟體更新。"/>
+		<phrase i="413" t="在下拉式功能表中選擇軟體版本。目前安裝的版本以藍色顯示、舊版以紅色顯示、新版以綠色顯示。"/>
+		<phrase i="414" t="將組態檔匯入電話。若要匯入組態檔，請按一下 [選擇檔案]。這時會開啟對話方塊。選擇要匯入的組態檔，然後按一下 [開啟]。文字欄位中顯示檔案名稱時，按一下 [匯入] 按鈕。"/>
+		<phrase i="415" t="若要將電話備份檔匯出到本機系統，請按一下 [電話備份] 按鈕。"/>
+		<phrase i="416" t="若要將電話備份組態檔匯入到電話，請按一下 [選擇檔案]。在對話方塊中前往您要匯入的備份檔，然後按一下 [開啟]。按一下 [還原] 按鈕。"/>
+		<phrase i="417" t="若要將電話組態還原成出廠預設值，請按一下 [還原] 按鈕。此時會顯示確認對話方塊。如要還原請選擇 [是]，如要取消請選擇 [否]。"/>
+		<phrase i="418" t="選取您要清除/匯出/重新整理的記錄檔類型。"/>
+		<phrase i="419" t="在下拉視窗中選取您要使用的記錄等級過濾條件，以便檢視記錄檔。"/>
+		<phrase i="420" t="選擇「Poly 代管伺服器」可檢查有無軟體。"/>
+		<phrase i="421" t="選擇「自訂伺服器」即可在自訂伺服器上尋找軟體更新。若您選擇自訂伺服器，請在下方「自訂伺服器」欄位中指定自訂伺服器位址，然後按一下「檢查有無更新」按鈕。"/>
+		<phrase i="422" t="以所選版本升級電話軟體。"/>
+		<phrase i="423" t="選擇特定鈴聲以識別本線路的來電。"/>
+		<phrase i="424" t="選擇預設鈴聲以區別特定線路或電話的來電。"/>
+		<phrase i="425" t=""/>
+		<phrase i="426" t=""/>
+		<phrase i="427" t=""/>
+		<phrase i="428" t="決定是否允許 EAP-FAST In-Band 設置的旗標。In-Band 設置讓電話以無線方式從 RADIUS 伺服器自動重新取得認證（請見下方），而非由您將認證下載到電話。若您啟用「802.1X 驗證」功能並在「EAP 驗證法」中選取「EAP-FAST」，就會啟用「EAP-FAST In-Band 設置」。"/>
+		<phrase i="429" t="按一下可檢查伺服器上有無可用的軟體版本。"/>
+		<phrase i="430" t="啟用或停用電話機的 PDC 設定。您必須啟用 PDC 功能才能看到本選項。"/>
+		<phrase i="431" t="您可選擇讓電話鍵台在閒置了指定時間後自動鎖住。但您仍可撥打授權的電話，例如緊急電話號碼。"/>
+		<phrase i="432" t="指定要自動鎖住電話鍵台的閒置時間。"/>
+		<phrase i="433" t="您可設定 &lt;b&gt;SIP&lt;/b&gt; 記錄檔的記錄等級，&lt;b&gt;SIP&lt;/b&gt; 記錄檔的預設記錄等級是 Minor Error。"/>
+		<phrase i="434" t="您可設定&lt;b&gt;支援物件&lt;/b&gt;記錄檔的記錄等級，&lt;b&gt;支援物件&lt;/b&gt;記錄檔的預設記錄等級是 Minor Error。"/>
+		<phrase i="435" t="您可設定&lt;b&gt;應用程式&lt;/b&gt;記錄檔的記錄等級，&lt;b&gt;應用程式&lt;/b&gt;記錄檔的預設記錄等級是 Minor Error。"/>
+		<phrase i="436" t="您可設定 &lt;b&gt;SSPS&lt;/b&gt; 記錄檔的記錄等級，&lt;b&gt;SSPS&lt;/b&gt; 記錄檔的預設記錄等級是 Minor Error。"/>
+		<phrase i="437" t="您可設定 &lt;b&gt;PPS&lt;/b&gt; 記錄檔的記錄等級，&lt;b&gt;PPS&lt;/b&gt; 記錄檔的預設記錄等級是 Minor Error。"/>
+		<phrase i="438" t="您可設定&lt;b&gt;網路&lt;/b&gt;記錄檔的記錄等級，&lt;b&gt;網路&lt;/b&gt;記錄檔的預設記錄等級是 Minor Error。"/>
+		<phrase i="439" t="您可設定&lt;b&gt;組態&lt;/b&gt;記錄檔的記錄等級，&lt;b&gt;組態&lt;/b&gt;記錄檔的預設記錄等級是 Minor Error。"/>
+		<phrase i="440" t="您可設定 &lt;b&gt;CDP&lt;/b&gt; 記錄檔的記錄等級，&lt;b&gt;CDP&lt;/b&gt; 記錄檔的預設記錄等級是 Minor Error。"/>
+		<phrase i="441" t="您可設定 &lt;b&gt;LLDP&lt;/b&gt; 記錄檔的記錄等級，&lt;b&gt;LLDP&lt;/b&gt; 記錄檔的預設記錄等級是 Minor Error。"/>
+		<phrase i="442" t="您可設定 &lt;b&gt;WLAN&lt;/b&gt; 記錄檔的記錄等級，&lt;b&gt;WLAN&lt;/b&gt; 記錄檔的預設記錄等級是 Minor Error。"/>
+		<phrase i="443" t="您可設定 &lt;b&gt;PMT&lt;/b&gt; 記錄檔的記錄等級，&lt;b&gt;PMT&lt;/b&gt; 記錄檔的預設記錄等級是 Minor Error。"/>
+		<phrase i="444" t="您可設定 &lt;b&gt;ARES&lt;/b&gt; 記錄檔的記錄等級，&lt;b&gt;ARES&lt;/b&gt; 記錄檔的預設記錄等級是 Minor Error。"/>
+		<phrase i="445" t="您可設定 &lt;b&gt;DNS&lt;/b&gt; 記錄檔的記錄等級，&lt;b&gt;DNS&lt;/b&gt; 記錄檔的預設記錄等級是 Minor Error。"/>
+		<phrase i="446" t="您可設定 &lt;b&gt;HTTP 伺服器&lt;/b&gt;記錄檔的記錄等級，&lt;b&gt;HTTP 伺服器&lt;/b&gt;記錄檔的預設記錄等級是 Minor Error。"/>
+		<phrase i="447" t="您可設定 &lt;b&gt;RAM 磁碟&lt;/b&gt;記錄檔的記錄等級，&lt;b&gt;RAM 磁碟&lt;/b&gt;記錄檔的預設記錄等級是 Minor Error。"/>
+		<phrase i="448" t="您可設定&lt;b&gt;複製公用程式&lt;/b&gt;記錄檔的記錄等級，&lt;b&gt;複製公用程式&lt;/b&gt;記錄檔的預設記錄等級是 Minor Error。"/>
+		<phrase i="449" t="您可設定&lt;b&gt;排程&lt;/b&gt;記錄檔的記錄等級，&lt;b&gt;排程&lt;/b&gt;記錄檔的預設記錄等級是 Event 3。"/>
+		<phrase i="450" t="您可設定&lt;b&gt;資源尋找&lt;/b&gt;記錄檔的記錄等級，&lt;b&gt;資源尋找&lt;/b&gt;記錄檔的預設記錄等級是 Minor Error。"/>
+		<phrase i="451" t="您可設定&lt;b&gt;主要觀察系統&lt;/b&gt;記錄檔的記錄等級，&lt;b&gt;主要觀察系統&lt;/b&gt;記錄檔的預設記錄等級是 Minor Error。"/>
+		<phrase i="452" t="您可設定&lt;b&gt;藍牙&lt;/b&gt;記錄檔的記錄等級，&lt;b&gt;藍牙&lt;/b&gt;記錄檔的預設記錄等級是 Minor Error。"/>
+		<phrase i="453" t="您可設定&lt;b&gt;記錄&lt;/b&gt;記錄檔的記錄等級，&lt;b&gt;記錄&lt;/b&gt;記錄檔的預設記錄等級是 Minor Error。"/>
+		<phrase i="454" t="您可設定 &lt;b&gt;CURL&lt;/b&gt; 記錄檔的記錄等級，&lt;b&gt;CURL&lt;/b&gt; 記錄檔的預設記錄等級是 Minor Error。"/>
+		<phrase i="455" t="您可設定 &lt;b&gt;RTOS&lt;/b&gt; 記錄檔的記錄等級，&lt;b&gt;RTOS&lt;/b&gt; 記錄檔的預設記錄等級是 Minor Error。"/>
+		<phrase i="456" t="您可設定&lt;b&gt;迷你瀏覽器&lt;/b&gt;記錄檔的記錄等級，&lt;b&gt;迷你瀏覽器&lt;/b&gt;記錄檔的預設記錄等級是 Minor Error。"/>
+		<phrase i="457" t="您可設定&lt;b&gt;閒置瀏覽器&lt;/b&gt;記錄檔的記錄等級，&lt;b&gt;閒置瀏覽器&lt;/b&gt;記錄檔的預設記錄等級是 Minor Error。"/>
+		<phrase i="458" t="您可設定 &lt;b&gt;LDAP&lt;/b&gt; 記錄檔的記錄等級，&lt;b&gt;LDAP&lt;/b&gt; 記錄檔的預設記錄等級是 Minor Error。"/>
+		<phrase i="459" t="您可設定&lt;b&gt;省電&lt;/b&gt;記錄檔的記錄等級，&lt;b&gt;省電&lt;/b&gt;記錄檔的預設記錄等級是 Minor Error。"/>
+		<phrase i="460" t="您可設定&lt;b&gt;簡報&lt;/b&gt;記錄檔的記錄等級，&lt;b&gt;簡報&lt;/b&gt;記錄檔的預設記錄等級是 Minor Error。"/>
+		<phrase i="461" t="您可設定 &lt;b&gt;H.323&lt;/b&gt; 記錄檔的記錄等級，&lt;b&gt;H.323&lt;/b&gt; 記錄檔的預設記錄等級是 Minor Error。"/>
+		<phrase i="462" t="您可設定&lt;b&gt;網路管理員&lt;/b&gt;記錄檔的記錄等級，&lt;b&gt;網路管理員&lt;/b&gt;記錄檔的預設記錄等級是 Minor Error。"/>
+		<phrase i="463" t="若要安裝 PAC 檔案，請輸入欲安裝之 PAC 檔案的 URL (http/ftp)，然後按一下「安裝」按鈕。"/>
+		<phrase i="464" t="若要移除 PAC 檔案，請按一下 [移除] 按鈕。"/>
+		<phrase i="465" t="這個清單列出電話目前顯示的功能鍵。您可以變更功能鍵的排列順序。「使用中功能鍵」清單最上方的功能鍵會顯示在電話的最左邊。按向上箭頭可將功能鍵移到左邊；按向下箭頭可將功能鍵移到右邊。"/>
+		<phrase i="466" t="若要刪除電話的預設功能鍵標籤，請勾選這個方塊。系統不會真的刪除這個清單中的功能鍵。取消方塊中的勾號就能看到所有功能鍵。"/>
+		<phrase i="467" t="按下這個按鈕即可設定新的功能鍵。"/>
+		<phrase i="468" t="輸入功能鍵的標籤。功能鍵上會顯示這個標籤。"/>
+		<phrase i="469" t="輸入您要功能鍵執行的 EFK 功能名稱。按下功能鍵時就會執行這個動作。"/>
+		<phrase i="470" t="若要檢視、編輯 EFK 功能的巨集程式碼，請勾選這個方塊。"/>
+		<phrase i="471" t="輸入您要功能鍵執行的 EFK 功能巨集程式碼。"/>
+		<phrase i="472" t="電話機使用介面目前顯示的線路鍵和快速撥號鍵。"/>
+		<phrase i="473" t=""/>
+		<phrase i="474" t="若要在電話上將註冊線路設定成線路鍵，請選擇本選項。系統會要求您前往 [線路註冊] 頁，您亦可選擇 [設定] &gt; [線路]。"/>
+		<phrase i="475" t="若要將 BLF 聯絡人資訊加入電話的線路鍵，請選擇本選項。"/>
+		<phrase i="476" t="這是預設的線路鍵功能。若要在電話的線路鍵中加入快速撥號聯絡人，請選擇本選項。"/>
+		<phrase i="477" t="若要將 EFK 功能加入電話的線路鍵，請選擇本選項。"/>
+		<phrase i="478" t="輸入快速撥號聯絡人的名字（不含姓）。"/>
+		<phrase i="479" t="輸入快速撥號聯絡人的姓氏。"/>
+		<phrase i="480" t="輸入快速撥號聯絡人的聯絡號碼。聯絡號碼可以是電話號碼也可以是 IP 位址，依資源而定。"/>
+		<phrase i="481" t="顯示在線路鍵旁邊的標籤，可識別快速撥號聯絡人。"/>
+		<phrase i="482" t="選擇快速撥號聯絡人的鈴聲。"/>
+		<phrase i="483" t="若啟用，則電話會將這個聯絡號碼打來的電話，自動轉送到您在此輸入的位址。"/>
+		<phrase i="484" t="啟用或停用自動拒絕功能。若啟用，則拒接這個聯絡號碼打來的電話。若啟用自動轉接功能，則忽略自動拒絕選項。"/>
+		<phrase i="485" t="啟用或停用自動轉接功能。若啟用，則電話會將這個聯絡號碼打來的電話，自動轉送到「轉接聯絡人」指定的位址。若啟用自動轉接功能，則忽略自動拒絕選項。"/>
+		<phrase i="486" t="啟用或停用封鎖好友功能。若啟用，則可讓聯絡人看不到您的狀態。"/>
+		<phrase i="487" t="啟用或停用追蹤好友功能。若啟用，則可監控聯絡人的狀態。"/>
+		<phrase i="488" t="輸入 EFK 線路鍵的標籤。EFK 線路鍵的旁邊會顯示本標籤。"/>
+		<phrase i="489" t="在下拉式功能表中選擇 EFK 線路鍵的功能。"/>
+		<phrase i="490" t="輸入 BLF 聯絡人的識別標籤。該 BLF 聯絡人資訊的線路鍵旁邊會顯示本標籤。"/>
+		<phrase i="491" t="輸入您要登記、監控的 BLF 聯絡人位址。"/>
+		<phrase i="492" t="在下拉式功能表中指定 BLF 聯絡人是正常還是自動。您選擇的設備類型，決定線路鍵的功能。&lt;br/&gt;&lt;br/&gt;正常：按下 BLF 線路鍵時，若使用者處於閒置或忙線狀態，電話機就會撥號給該聯絡人。若該名聯絡人的電話響起，您可接聽該電話，也就是代接電話。若您正在通話中，則按下 BLF 線路鍵時就會保留目前通話。&lt;br/&gt;&lt;br/&gt;自動：若在通話期間按下 BLF 線路鍵，就會執行來電駐留/盲轉功能。若您並未通話，而且所監控的設備正在響鈴或忙線中，則可按 BLF 線路鍵執行駐留/代接電話功能。"/>
+		<phrase i="493" t="線路鍵類型。"/>
+		<phrase i="494" t="輸入標籤，以便指定本線路鍵的已註冊線路。這個已註冊線路的線路鍵旁邊會顯示本標籤。"/>
+		<phrase i="495" t="指定這個已註冊線路要顯示的代表線數。"/>
+		<phrase i="496" t="輸入要接受註冊要求的 SIP 伺服器 IP 位址或主機名稱。"/>
+		<phrase i="497" t="系統記錄伺服器 IP 位址或主機名稱。"/>
+		<phrase i="498" t="電話寫入系統記錄伺服器時所用的通訊協定。若設定成「無」則不傳輸，但保留伺服器位址設定。"/>
+		<phrase i="499" t="描述產生記錄訊息的設備。預設值是 16，對應到 Local 0。"/>
+		<phrase i="500" t="指定應寫入系統記錄的最低層級事件。依據是 log.render.level，而且數值可更低。"/>
+		<phrase i="501" t="若啟用，則會將電話的 MAC 位址，加入被傳送到系統記錄伺服器的記錄訊息前方。"/>
+		<phrase i="502" t="您可設定 &lt;b&gt;Dot1x&lt;/b&gt; 記錄檔的記錄等級，&lt;b&gt;Dot1x&lt;/b&gt; 記錄檔的預設記錄等級是 Minor Error。"/>
+		<phrase i="503" t="在下拉式功能表中，選取電話所在國"/>
+		<phrase i="504" t="您可選擇廠商識別資訊要採用 RFC 3925 格式還是 ASCII 格式。"/>
+		<phrase i="505" t="&lt;b&gt;未使用&lt;/b&gt;：若要將未使用的音效轉碼程式移到 [使用中] 欄位，請按一下 [未使用] 欄位內的音效轉碼程式，然後按一下向右箭頭，如此轉碼程式就會出現在 [使用中] 欄位內。"/>
+		<phrase i="506" t="&lt;b&gt;使用中&lt;/b&gt;：若要變更音效轉碼程式的優先等級，請按一下 [使用中] 欄位內的音效轉碼程式，然後按向上或向下箭頭。&lt;br/&gt;若要移除 [使用中] 欄位內的音效轉碼程式，請按一下 [使用中] 欄位內的音效轉碼程式，然後按一下向左箭頭。此時轉碼程式會出現在 [未使用] 欄位內。&lt;br/&gt;注意：這個平台不支援以灰色字樣顯示的轉碼程式。"/>
+		<phrase i="507" t="&lt;b&gt;未使用&lt;/b&gt;：若要將未使用的視訊轉碼程式移到 [使用中] 欄位，請按一下 [未使用] 欄位內的視訊轉碼程式，然後按一下向右箭頭，如此轉碼程式就會出現在 [使用中] 欄位內。"/>
+		<phrase i="508" t="&lt;b&gt;使用中&lt;/b&gt;：若要變更視訊轉碼程式的優先等級，請按一下 [使用中] 欄位內的視訊轉碼程式，然後按向上或向下箭頭。&lt;br/&gt;&lt;br/&gt;若要移除 [使用中] 欄位內的視訊轉碼程式，請按一下視訊轉碼程式，然後按一下向左箭頭，如此轉碼程式會出現在 [未使用] 欄位內。"/>
+		<phrase i="509" t="輸入 PEM 格式的 CA 憑證 URL，然後按一下 [安裝] 按鈕。平台 CA 必須和以下的 TLS 設定檔相同。"/>
+		<phrase i="510" t="安裝在電話上的裝置憑證，用於 MTLS 驗證。輸入包含憑證以及私密金鑰（合併在一起，並使用 PEM 格式）的檔案 URL，然後按一下 [安裝] 按鈕。"/>
+		<phrase i="511" t="您可讓使用者存取 Exchange 伺服器，以便查閱 Exchange 行事曆。您可從 Exchange 行事曆查詢會議資訊、撥號加入會議，並管理會議資訊。Exchange 行事曆功能依預設是停用的。"/>
+		<phrase i="512" t="輸入您要存取的 Exchange 伺服器 URL。"/>
+		<phrase i="513" t="輸入您要在電話 [應用程式] 功能表上顯示的應用程式網頁 URL。"/>
+		<phrase i="514" t="您在這裡輸入的應用程式名稱，會成為電話上應用程式功能表的標籤。"/>
+		<phrase i="515" t="輸入設置伺服器的 URL/設置伺服器中的檔案名稱。"/>
+		<phrase i="516" t="您在此指定的星期，就是電話使用的日光節約時間開始星期。"/>
+		<phrase i="517" t="您在此指定的星期，就是電話使用的日光節約時間停止星期。"/>
+		<phrase i="518" t="在下拉式功能表中，選擇平台設定檔的預設密碼或自訂密碼。"/>
+		<phrase i="519" t="將以下視窗中顯示的記錄訊息換行/取消換行。"/>
+		<phrase i="520" t="在下拉式功能表中，選擇應用程式設定檔的預設密碼或自訂密碼。"/>
+		<phrase i="521" t="顯示/隱藏 Exchange 行事曆的提醒項目。"/>
+		<phrase i="522" t="您可定義每個可用軟體子系統元件的記錄等級。指定要傳送到記錄檔案的最低嚴重性事件。預設值是 Minor Error。"/>
+		<phrase i="523" t="輸入 H.323 閘道管理員的位址。若此值空白，則電話將使用已在 H.323 整體閘道管理員位址中設定的值：[設定] &gt; [H.323] &gt; [閘道管理員設定]。"/>
+		<phrase i="524" t="用於傳送 H.323 訊號的連接埠。若使用「0」，則使用 1719（H.323 RAS 訊號）。"/>
+		<phrase i="525" t="輸入舊密碼。"/>
+		<phrase i="526" t="設定功能鍵所用的電話狀態。"/>
+		<phrase i="527" t="新增或刪除可在電話機和擴充模組上顯示的背景圖案。"/>
+		<phrase i="528" t="如果支援，則允許選擇電話機和擴充模組的背景圖案。"/>
+		<phrase i="529" t="這個清單方塊會列出您上傳的圖案名稱。按一下清單中的圖案名稱時，「預覽電話」區域就會顯示預覽畫面。"/>
+		<phrase i="530" t="顯示所設定的擴充模組圖案檔案名稱。在這個清單方塊中選取橫列時，「延伸模組預覽」中會顯示所選的「擴充模組」圖案。"/>
+		<phrase i="531" t="按一下本圖示即可從電腦或圖案的 URL 上傳圖案檔。選擇檔案時，清單中會出現檔案名稱。"/>
+		<phrase i="532" t=""/>
+		<phrase i="533" t="若要刪除清單中的背景圖案，請選擇檔案，然後按一下本圖示。"/>
+		<phrase i="534" t="您在「背景圖案」清單方塊中點選圖案時就能顯示預覽畫面。"/>
+		<phrase i="535" t="顯示所選的擴充模組圖案/背景顏色。"/>
+		<phrase i="536" t="電話機與伺服器的有效註冊時間（秒）。這個欄位空白時，電話將使用已在整體過期選項中設定的時間：[設定] &gt; [H.323] &gt; [閘道管理員設定]。"/>
+		<phrase i="537" t="將組態檔匯出到其他電話。在下拉式功能表中，選擇組態檔的匯出來源。選擇來源後，按一下 [匯出] 按鈕。預設值是所有來源。"/>
+		<phrase i="538" t="從右邊的選項設定 CA 憑證平台設定檔。您只能針對每個平台 CA，選取一個 CA 憑證選項。"/>
+		<phrase i="539" t="從右邊的選項設定 CA 憑證應用程式設定檔。您可針對每個應用程式 CA 選取多個 CA 憑證。"/>
+		<phrase i="540" t="電話重開機或重新啟動時，要當作開機音效播放的音效檔。"/>
+		<phrase i="541" t="指定連接到電話機側面 2.5mm 插孔的裝置類型。"/>
+		<phrase i="542" t="選擇電話機應使用 PSTN 還是 SIP。若您選擇「自動」，電話機將自動根據您插入的連接埠運作。預設值是「自動」。"/>
+		<phrase i="543" t="輸入新密碼。sec.pwd.length.user 值可決定密碼欄位的最短長度。"/>
+		<phrase i="544" t="確認新密碼。sec.pwd.length.user 值可決定密碼欄位的最短長度。"/>
+		<phrase i="545" t="若要建立新的線路鍵，請按一下這個按鈕。&lt;br/&gt;本選項讓您建立已註冊線路、快速撥號、靜態 BLF 線路或 EFK 功能鍵。"/>
+		<phrase i="546" t="您可以將電話機的組態檔匯出到另一支電話。在下拉式清單中選擇組態檔的匯出來源，然後按一下「匯出」。對話方塊讓您選擇是要開啟組態檔，還是將組態檔儲存到電腦上。檔案匯出之後，請在另一支電話上使用「網路組態公用程式」匯入該檔。&lt;br/&gt;&lt;br/&gt;預設組態來源是「所有組態」。您可以匯出下列來源的組態檔：&lt;br/&gt;"/>
+		<phrase i="547" t="您可設定 &lt;b&gt;Pnet&lt;/b&gt; 記錄檔的記錄等級，&lt;b&gt;Pnet&lt;/b&gt; 記錄檔的預設記錄等級是 Minor Error。"/>
+		<phrase i="548" t="您可設定&lt;b&gt;授權&lt;/b&gt;記錄檔的記錄等級，&lt;b&gt;授權&lt;/b&gt;記錄檔的預設記錄等級是 Minor Error。"/>
+		<phrase i="549" t="您可設定&lt;b&gt;推轉&lt;/b&gt;記錄檔的記錄等級，&lt;b&gt;推轉&lt;/b&gt;記錄檔的預設記錄等級是 Minor Error。"/>
+		<phrase i="550" t="您可設定 &lt;b&gt;C-Link &lt;/b&gt; 記錄檔的記錄等級，&lt;b&gt;C-Link &lt;/b&gt; 記錄檔的預設記錄等級是 Minor Error。"/>
+		<phrase i="551" t="您可設定 &lt;b&gt;Syslog&lt;/b&gt; 的記錄等級，&lt;b&gt;Syslog&lt;/b&gt; 的預設記錄等級是 Minor Error。"/>
+		<phrase i="552" t=""/>
+		<phrase i="553" t="您可設定&lt;b&gt;通話媒體檔播放&lt;/b&gt;記錄檔的記錄等級，&lt;b&gt;通話媒體檔播放&lt;/b&gt;記錄檔的預設記錄等級是 Minor Error。"/>
+		<phrase i="554" t="您可設定 &lt;b&gt;HTTP TA &lt;/b&gt; 記錄檔的記錄等級，&lt;b&gt;HTTP TA &lt;/b&gt; 記錄檔的預設記錄等級是 Minor Error。"/>
+		<phrase i="555" t="您可設定&lt;b&gt;媒體錄製工具&lt;/b&gt;記錄檔的記錄等級，&lt;b&gt;媒體錄製工具&lt;/b&gt;記錄檔的預設記錄等級是 Minor Error。"/>
+		<phrase i="556" t="您可設定 &lt;b&gt;WiFi Manager&lt;/b&gt; 記錄檔的記錄等級，&lt;b&gt;WiFi Manager&lt;/b&gt; 記錄檔的預設記錄等級是 Minor Error。"/>
+		<phrase i="557" t="您可設定&lt;b&gt;硬體說明&lt;/b&gt;記錄檔的記錄等級，&lt;b&gt;硬體說明&lt;/b&gt;記錄檔的預設記錄等級是 Minor Error。"/>
+		<phrase i="558" t="您可設定 &lt;b&gt;XMPP &lt;/b&gt; 記錄檔的記錄等級，&lt;b&gt;XMPP&lt;/b&gt; 記錄檔的預設記錄等級是 Minor Error。"/>
+		<phrase i="559" t="您可設定&lt;b&gt;雛菊鏈&lt;/b&gt;記錄檔的記錄等級，&lt;b&gt;雛菊鏈&lt;/b&gt;記錄檔的預設記錄等級是 Minor Error。"/>
+		<phrase i="560" t="您可設定 &lt;b&gt;EFK&lt;/b&gt; 記錄檔的記錄等級，&lt;b&gt;EFK&lt;/b&gt; 記錄檔的預設記錄等級是 Minor Error。"/>
+		<phrase i="561" t="您可設定 &lt;b&gt;DHCP 用戶端&lt;/b&gt;記錄檔的記錄等級，&lt;b&gt;DHCP 用戶端&lt;/b&gt;記錄檔的預設記錄等級是 Minor Error。"/>
+		<phrase i="562" t="您可設定 &lt;b&gt;SSH 用戶端&lt;/b&gt;記錄檔的記錄等級，&lt;b&gt;SSH 用戶端&lt;/b&gt;記錄檔的預設記錄等級是 Minor Error。"/>
+		<phrase i="563" t="您可設定 &lt;b&gt;SOEM&lt;/b&gt; 記錄檔的記錄等級，&lt;b&gt;SOEM&lt;/b&gt; 記錄檔的預設記錄等級是 Minor Error。"/>
+		<phrase i="564" t="您可設定&lt;b&gt;視訊畫面&lt;/b&gt;記錄檔的記錄等級，&lt;b&gt;視訊畫面&lt;/b&gt;記錄檔的預設記錄等級是 Minor Error。"/>
+		<phrase i="565" t="您可設定&lt;b&gt;對講&lt;/b&gt;記錄檔的記錄等級，&lt;b&gt;對講&lt;/b&gt;記錄檔的預設記錄等級是 Minor Error。"/>
+		<phrase i="566" t="您可設定 &lt;b&gt;HTTP 驗證&lt;/b&gt;記錄檔的記錄等級，&lt;b&gt;HTTP 驗證&lt;/b&gt;記錄檔的預設記錄等級是 Minor Error。"/>
+		<phrase i="567" t="您可設定 &lt;b&gt;Util-Trace &lt;/b&gt; 記錄檔的記錄等級，&lt;b&gt;Util-Trace &lt;/b&gt; 記錄檔的預設記錄等級是 Minor Error。"/>
+		<phrase i="568" t="您可設定 &lt;b&gt;PSTN&lt;/b&gt; 記錄檔的記錄等級，&lt;b&gt;PSTN&lt;/b&gt; 記錄檔的預設記錄等級是 Minor Error。"/>
+		<phrase i="569" t="您可設定&lt;b&gt;耳機&lt;/b&gt;記錄檔的記錄等級，&lt;b&gt;耳機&lt;/b&gt;記錄檔的預設記錄等級是 Minor Error。"/>
+		<phrase i="570" t="您可設定&lt;b&gt;緩衝區&lt;/b&gt;記錄檔的記錄等級，&lt;b&gt;緩衝區&lt;/b&gt;記錄檔的預設記錄等級是 Minor Error。"/>
+		<phrase i="571" t="您可設定 &lt;b&gt;OAI 通訊協定&lt;/b&gt;記錄檔的記錄等級，&lt;b&gt;OAI 通訊協定&lt;/b&gt;記錄檔的預設記錄等級是 Minor Error。"/>
+		<phrase i="572" t="您可設定 &lt;b&gt;Ethernet Filter &lt;/b&gt; 記錄檔的記錄等級，&lt;b&gt;Ethernet Filter &lt;/b&gt; 記錄檔的預設記錄等級是 Minor Error。"/>
+		<phrase i="573" t="您可設定 &lt;b&gt;Tetris &lt;/b&gt; 記錄檔的記錄等級，&lt;b&gt;Tetris &lt;/b&gt; 記錄檔的預設記錄等級是 Minor Error。"/>
+		<phrase i="574" t="您可設定 &lt;b&gt;USB I/O&lt;/b&gt; 記錄檔的記錄等級，&lt;b&gt;USB I/O&lt;/b&gt; 記錄檔的預設記錄等級是 Minor Error。"/>
+		<phrase i="575" t="您可設定&lt;b&gt;輪詢&lt;/b&gt;記錄檔的記錄等級，&lt;b&gt;輪詢&lt;/b&gt;記錄檔的預設記錄等級是 Minor Error。"/>
+		<phrase i="576" t="您可設定 &lt;b&gt;Srtp&lt;/b&gt; 記錄檔的記錄等級，&lt;b&gt;Srtp&lt;/b&gt; 記錄檔的預設記錄等級是 Minor Error。"/>
+		<phrase i="577" t="您可設定&lt;b&gt;視訊顯示&lt;/b&gt;記錄檔的記錄等級，&lt;b&gt;視訊顯示&lt;/b&gt;記錄檔的預設記錄等級是 Minor Error。"/>
+		<phrase i="578" t="您可設定&lt;b&gt;螢幕顯示&lt;/b&gt;記錄檔的記錄等級，&lt;b&gt;螢幕顯示&lt;/b&gt;記錄檔的預設記錄等級是 Minor Error。"/>
+		<phrase i="579" t="您可設定 &lt;b&gt;USB&lt;/b&gt; 記錄檔的記錄等級，&lt;b&gt;USB&lt;/b&gt; 記錄檔的預設記錄等級是 Minor Error。"/>
+		<phrase i="580" t="您可設定&lt;b&gt;瀏覽器&lt;/b&gt;記錄檔的記錄等級，&lt;b&gt;瀏覽器&lt;/b&gt;記錄檔的預設記錄等級是 Minor Error。"/>
+		<phrase i="581" t="您可設定 &lt;b&gt;Niche&lt;/b&gt; 記錄檔的記錄等級，&lt;b&gt;Niche&lt;/b&gt; 記錄檔的預設記錄等級是 Minor Error。"/>
+		<phrase i="582" t="您可設定&lt;b&gt;行動電話&lt;/b&gt;記錄檔的記錄等級，&lt;b&gt;行動電話&lt;/b&gt;記錄檔的預設記錄等級是 Minor Error。"/>
+		<phrase i="583" t="您可設定&lt;b&gt;公用程式工作&lt;/b&gt;記錄檔的記錄等級，&lt;b&gt;公用程式工作&lt;/b&gt;記錄檔的預設記錄等級是 Minor Error。"/>
+		<phrase i="584" t="您可設定&lt;b&gt;硬體訊號&lt;/b&gt;記錄檔的記錄等級，&lt;b&gt;硬體訊號&lt;/b&gt;記錄檔的預設記錄等級是 Minor Error。"/>
+		<phrase i="585" t="您可設定&lt;b&gt;背景對話方塊&lt;/b&gt;記錄檔的記錄等級，&lt;b&gt;背景對話方塊&lt;/b&gt;記錄檔的預設記錄等級是 Minor Error。"/>
+		<phrase i="586" t="您可設定 &lt;b&gt;Exchange 用戶端&lt;/b&gt;記錄檔的記錄等級，&lt;b&gt;Exchange 用戶端&lt;/b&gt;記錄檔的預設記錄等級是 Minor Error。"/>
+		<phrase i="587" t="您可設定 &lt;b&gt;Wapp Mgr &lt;/b&gt; 記錄檔的記錄等級，&lt;b&gt;Wapp Mgr &lt;/b&gt; 記錄檔的預設記錄等級是 Minor Error。"/>
+		<phrase i="588" t="您可設定&lt;b&gt;安全性&lt;/b&gt;記錄檔的記錄等級，&lt;b&gt;安全性&lt;/b&gt;記錄檔的預設記錄等級是 Minor Error。"/>
+		<phrase i="589" t="您可設定 &lt;b&gt;Util-Main&lt;/b&gt; 記錄檔的記錄等級，&lt;b&gt;Util-Main&lt;/b&gt; 記錄檔的預設記錄等級是 Minor Error。"/>
+		<phrase i="590" t="您可設定&lt;b&gt;按鈕樣式&lt;/b&gt;記錄檔的記錄等級，&lt;b&gt;按鈕樣式&lt;/b&gt;記錄檔的預設記錄等級是 Minor Error。"/>
+		<phrase i="591" t="您可設定&lt;b&gt;應用程式通訊&lt;/b&gt;記錄檔的記錄等級，&lt;b&gt;應用程式通訊&lt;/b&gt;記錄檔的預設記錄等級是 Minor Error。"/>
+		<phrase i="592" t="您可設定 &lt;b&gt;Watch-dog&lt;/b&gt; 記錄檔的記錄等級，&lt;b&gt;Watch-dog&lt;/b&gt; 記錄檔的預設記錄等級是 Minor Error。"/>
+		<phrase i="593" t="您可設定&lt;b&gt;憑證&lt;/b&gt;記錄檔的記錄等級，&lt;b&gt;憑證&lt;/b&gt;記錄檔的預設記錄等級是 Minor Error。"/>
+		<phrase i="594" t="若要在辦公時間內啟用閒置逾時功能，請在本選項格中打勾。"/>
+		<phrase i="595" t="指定在辦公時間內過多久後要將狀態自動顯示成「離開」。預設值是 15 分鐘。"/>
+		<phrase i="596" t="若要在下班時間內啟用閒置逾時功能，請在本選項格中打勾。"/>
+		<phrase i="597" t="指定在下班時間內過多久後要將狀態自動顯示成「離開」。預設值是 15 分鐘。"/>
+		<phrase i="598" t="選擇要系統問您是否接受邀請，還是自動接受邀請。"/>
+		<phrase i="599" t="您可設定&lt;b&gt;條碼&lt;/b&gt;記錄檔的記錄等級，&lt;b&gt;條碼&lt;/b&gt;記錄檔的預設記錄等級是 Minor Error。"/>
+		<phrase i="600" t="您可設定&lt;b&gt;藍牙驅動程式&lt;/b&gt;記錄檔的記錄等級，&lt;b&gt;藍牙驅動程式&lt;/b&gt;記錄檔的預設記錄等級是 Minor Error。"/>
+		<phrase i="601" t="您可設定 &lt;b&gt;DAA&lt;/b&gt; 記錄檔的記錄等級，&lt;b&gt;DAA&lt;/b&gt; 記錄檔的預設記錄等級是 Minor Error。"/>
+		<phrase i="602" t="您可設定 &lt;b&gt;USB 底座&lt;/b&gt;記錄檔的記錄等級，&lt;b&gt;USB 底座&lt;/b&gt;記錄檔的預設記錄等級是 Minor Error。"/>
+		<phrase i="603" t="您可設定 &lt;b&gt;RTLS&lt;/b&gt; 記錄檔的記錄等級，&lt;b&gt;RTLS&lt;/b&gt; 記錄檔的預設記錄等級是 Minor Error。"/>
+		<phrase i="604" t="您可設定&lt;b&gt;目前狀態&lt;/b&gt;記錄檔的記錄等級，&lt;b&gt;目前狀態&lt;/b&gt;記錄檔的預設記錄等級是 Minor Error。"/>
+		<phrase i="605" t="您可設定&lt;b&gt;資料庫&lt;/b&gt;記錄檔的記錄等級，&lt;b&gt;資料庫&lt;/b&gt;記錄檔的預設記錄等級是 Minor Error。"/>
+		<phrase i="606" t="您可設定 &lt;b&gt;PDC&lt;/b&gt; 記錄檔的記錄等級，&lt;b&gt;PDC&lt;/b&gt; 記錄檔的預設記錄等級是 Minor Error。"/>
+		<phrase i="607" t="您可設定 &lt;b&gt;TLS&lt;/b&gt; 記錄檔的記錄等級，&lt;b&gt;TLS&lt;/b&gt; 記錄檔的預設記錄等級是 Minor Error。"/>
+		<phrase i="608" t="您可設定 &lt;b&gt;OCSP&lt;/b&gt; 記錄檔的記錄等級，&lt;b&gt;OCSP&lt;/b&gt; 記錄檔的預設記錄等級是 Minor Error。"/>
+		<phrase i="609" t="您可設定 &lt;b&gt;TR-069&lt;/b&gt; 記錄的記錄等級，&lt;b&gt;TR-069&lt;/b&gt; 記錄的預設記錄等級是 Minor Error。"/>
+		<phrase i="610" t="您可設定 &lt;b&gt;TA&lt;/b&gt; 記錄檔的記錄等級，&lt;b&gt;TA&lt;/b&gt; 記錄檔的預設記錄等級是 Fatal Error。"/>
+		<phrase i="611" t="您可上傳要在「網路組態公用程式」中顯示的其他語言檔案。請按一下「新增」，此時會顯示對話方塊。您可以從電腦匯入檔案，也可以指定檔案的 URL。"/>
+		<phrase i="612" t="電話連線到佈建伺服器時，若要電話對佈建伺服器的憑證通用名稱進行驗證，請選擇本選項。"/>
+		<phrase i="613" t="電話連線到 SIP 伺服器時，若要電話對 SIP 伺服器的憑證通用名稱進行驗證，請選擇本選項。"/>
+		<phrase i="614" t="設定右邊應用程式的通用名稱驗證功能。"/>
+		<phrase i="615" t="選擇特定鈴聲以區別本私人專線的來電。"/>
+		<phrase i="616" t="選擇是否要採取使用者的帳號密碼。"/>
+		<phrase i="617" t="選擇是否要啟用 SRTP。"/>
+		<phrase i="618" t="選擇是否要在 SIP INVITE 的 SDP 的一般非安全媒體說明中包含安全媒體串流說明。"/>
+		<phrase i="619" t="選擇要讓電話與哪一台伺服器互通。"/>
+		<phrase i="620" t="選擇要讓電話與哪一台伺服器互通。"/>
+		<phrase i="621" t="決定是否啟用 Mutual TLS。與商務用 Skype 搭配使用。"/>
+		<phrase i="622" t="決定是否自動偵測伺服器位址。與商務用 Skype 搭配使用。"/>
+		<phrase i="623" t="選擇電話要使用的基本設定檔。若不要透過商務用 Skype Server 進行佈建，請選擇「一般」。若要讓系統在佈建電話時，提供電話機向商務用 Skype Server 註冊時所需的基本參數，請選擇「商務用 Skype」。" t.Trio_8800="選擇電話要使用的基本設定檔。若不要透過商務用 Skype Server 進行佈建，請選擇 [一般]。若要讓系統在佈建電話時，提供電話機向商務用 Skype Server 註冊時所需的基本參數，請選擇 [商務用 Skype]。若將 Poly Trio 連接到 Microsoft Room System 或 Microsoft Surface Hub，請選擇 [Microsoft USB 最佳化]。若要在電話上使用 Microsoft Teams 帳戶，請選擇 [Microsoft Teams]。若將 Poly Trio 連接到執行 Zoom Rooms 應用程式的 PC 或 Mac，請選擇 [Zoom Rooms]。"/>
+		<phrase i="624" t="選擇電話在傳送伺服器掌控功能要求時所用的網路訊號方法。"/>
+		<phrase i="625" t="輸入驗證伺服器的網域名稱。"/>
+		<phrase i="626" t="選擇要用於已註冊商務用 Skype 線路的通話轉送類型。"/>
+		<phrase i="627" t="輸入伺服器要將所有自動轉送電話轉到哪個號碼。"/>
+		<phrase i="628" t="選擇要啟用漫遊好友功能的線路。"/>
+		<phrase i="629" t="選擇啟用/停用由伺服器控制的指定轉接功能。"/>
+		<phrase i="630" t="選擇啟用或停用藍牙功能。"/>
+		<phrase i="631" t="選擇開啟或關閉藍牙訊號。必須先開啟藍牙訊號才能將其他裝置透過藍牙連線到此裝置。"/>
+		<phrase i="632" t="選擇電話機使用的螢幕保護程式類型。"/>
+		<phrase i="633" t="您可以上傳您要的音效檔。按一下「新增」就會顯示一個對話方塊。您可以從電腦匯入檔案，或者指定檔案的 URL。"/>
+		<phrase i="634" t="啟用/停用「保留音樂」功能。"/>
+		<phrase i="635" t="您可上傳自己喜歡的其他「保留音樂」檔案。請按一下「新增」，此時會顯示對話方塊。您可以從電腦匯入檔案，也可以指定檔案的 URL。"/>
+		<phrase i="636" t="選擇啟用/停用「目前狀態」功能。"/>
+		<phrase i="637" t="指定電話機在協調視訊電話的 CIF4 解析度時，所使用的畫面速率除數。您可輸入 0 ~ 32 的值。若要停用這項功能，請輸入「0」。預設的畫面速率除數是「1」。"/>
+		<phrase i="638" t="指定電話機在協調視訊電話的 CIF4 解析度時，所使用的畫面速率除數。您可輸入 0 ~ 32 的值。若要停用這項功能，請輸入「0」。預設的畫面速率除數是「1」。"/>
+		<phrase i="639" t="在下拉式功能表中，選擇要用於 TR-069 伺服器的 TLS 平台設定檔。"/>
+		<phrase i="640" t="輸入 TR-069 自動組態伺服器 URL。"/>
+		<phrase i="641" t="在連線到 ACS 時，驗證 CPE 所用的使用者名稱。"/>
+		<phrase i="642" t="在連線到 ACS 時，驗證 CPE 所用的密碼。"/>
+		<phrase i="643" t="向 CPE 提出連線要求時，驗證 ACS 所用的使用者名稱。"/>
+		<phrase i="644" t="向 CPE 提出連線要求時，驗證 ACS 所用的密碼。"/>
+		<phrase i="645" t="這項設定指定 CPE 是否必須定期傳送 CPE 資訊到 ACS（透過 Inform 方法通話）。"/>
+		<phrase i="646" t="CPE 必須嘗試連線到 ACS 及撥打通知方法的持續秒數。必須啟用「定期通知」才能使用此選項。"/>
+		<phrase i="647" t="CPE 撥打定期方法通話的時間。必須啟用「定期通知」才能使用此選項。"/>
+		<phrase i="648" t="這項設定指定所設定的 ACS 是否將管理 CPE 的升級。若啟用，則 CPE 應僅使用 ACS 來搜尋可用的更新。若停用，則 CPE 可以使用其他除了 ACS 以外的方法。"/>
+		<phrase i="649" t="此舉會清除「PSTN 轉接時間」和「來電顯示」值。"/>
+		<phrase i="650" t="您可設定&lt;b&gt;商務用 Skype ABS&lt;/b&gt; 記錄檔的記錄等級，&lt;b&gt;商務用 Skype ABS&lt;/b&gt; 記錄檔的預設記錄等級是 Minor Error。"/>
+		<phrase i="651" t="您可設定 &lt;b&gt;EM&lt;/b&gt; 記錄檔的記錄等級，&lt;b&gt;EM&lt;/b&gt; 記錄檔的預設記錄等級是 Minor Error。"/>
+		<phrase i="652" t="決定 DHCP 的 SNTP 伺服器（如果 DHCP 有提供的話）是否應被 SNTP 伺服器位址取代。"/>
+		<phrase i="653" t="決定 tcpIpApp.sntp.gmtOffset 是否取代 GMT 時區的 device.sntp.gmtOffset 參數。"/>
+		<phrase i="654" t="選擇用於登入商務用 Skype 的驗證類型。"/>
+		<phrase i="655" t="輸入您的商務用 Skype 分機。如使用電話號碼，請輸入完整的號碼，包括國家代碼。"/>
+		<phrase i="656" t="輸入您的商務用 Skype PIN 碼。這是您的撥入會議 PIN 碼。"/>
+		<phrase i="657" t="電話要求的訂閱時間 (秒)。"/>
+		<phrase i="658" t="電話要求的訂閱時間。設定值必須為至少 10 秒。預設值是 3600 秒。"/>
+		<phrase i="659" t="在下拉式功能表中選擇要用於 SOPI 的 TLS 平台設定檔或應用程式設定檔。"/>
+		<phrase i="660" t="您可以設定&lt;b&gt;網路票證&lt;/b&gt;記錄檔的記錄等級，&lt;b&gt;網路票證&lt;/b&gt;記錄檔的預設記錄等級是 Minor Error。"/>
+		<phrase i="661" t="您可以設定 &lt;b&gt;Genband 通訊錄&lt;/b&gt;記錄檔的記錄等級，&lt;b&gt;Genband 通訊錄&lt;/b&gt;記錄檔的預設記錄等級是 Minor Error。"/>
+		<phrase i="662" t="您可以設定&lt;b&gt;通話記錄&lt;/b&gt;的記錄等級，&lt;b&gt;通話記錄&lt;/b&gt;記錄檔的預設記錄等級是 Minor Error。"/>
+		<phrase i="663" t="選擇後即可啟用或停用電話上的「線路識別封鎖」功能表。如為使用者啟用功能表，則他們可以在撥號前選擇隱藏電話號碼。"/>
+		<phrase i="664" t="「拒絕匿名電話」功能讓使用者可自動拒絕匿名的來電方，這些來電方已對其來電者識別設定限制。為使用者啟用此功能後，他們可以從電話功能表啟用或關閉來電拒絕功能。"/>
+		<phrase i="665" t="「BroadWorks Remote Office」功能讓使用者可在其辦公室電話上設定一個電話號碼，讓來電轉送到行動電話裝置或住宅辦公室號碼。這項功能可讓使用者在設定的電話上接聽辦公室電話的來電。從該電話上撥打的通話會顯示為辦公室的電話號碼。"/>
+		<phrase i="666" t="您可以設定 &lt;b&gt;BroadSoft UC-One&lt;/b&gt; 記錄檔的記錄等級，&lt;b&gt;BroadSoft UC-One&lt;/b&gt; 記錄檔的預設記錄等級是 Minor Error。"/>
+		<phrase i="667" t="選擇後即可啟用或停用「BroadSoft UC-One」功能。啟用此功能後也會在電話上顯示「UC-One 電話設定」功能表。"/>
+		<phrase i="668" t="「同時響鈴」功能讓使用者可將電話號碼加入一個特定的聯絡人清單中，如此當使用者收到來電時清單中的聯絡人電話也會同時響起。為使用者啟用此功能後，他們可以從電話上啟用或關閉「同時響鈴」功能，也可以決定要在「同時響鈴」群組中加入哪些號碼。"/>
+		<phrase i="669" t="「BroadWorks Anywhere」功能讓使用者可使用一個電話號碼來從其桌面電話、行動電話或住宅辦公室電話接聽及撥打電話。如啟用此功能，則電話上會顯示「BroadWorks Anywhere」功能表，使用者可以在電話上新增 BroadWorks Anywhere 位置。"/>
+		<phrase i="670" t="這個選項可決定轉接電話時要使用的轉接類型。"/>
+		<phrase i="671" t="這個選項讓您設定專屬的線路標籤。"/>
+		<phrase i="672" t="這個選項讓您變更標籤省略設定。"/>
+		<phrase i="673" t="這個選項讓您設定/取代 DHCP Option 43 提供的 STS-URI。"/>
+		<phrase i="674" t="選擇啟用/停用共用線路轉送功能"/>
+		<phrase i="675" t="啟用後，系統就會使用 SSLv2 和 SSLv3。預設值是「停用」。"/>
+		<phrase i="676" t="管理員可允許/禁止使用者接聽 PTT 頻道的來電。若要接收頻道傳來的資料，必須啟用該頻道群組的「可通話」和「登記」選項。"/>
+		<phrase i="677" t="管理員可允許/禁止使用者接聽傳呼群組的來電。若要接收群組傳來的資料，必須啟用該傳呼群組的「可通話」和「登記」選項"/>
+		<phrase i="678" t="選擇啟用/停用 REST API 功能。"/>
+		<phrase i="679" t="您可設定 &lt;b&gt;REST API&lt;/b&gt; 記錄檔的記錄等級，&lt;b&gt;REST API&lt;/b&gt; 記錄檔的預設記錄等級是 Minor Error。"/>
+		<phrase i="680" t="您可設定 &lt;b&gt;AFE&lt;/b&gt; 記錄檔的記錄等級，&lt;b&gt;AFE&lt;/b&gt; 記錄檔的預設記錄等級是 Fatal Error。"/>
+		<phrase i="681" t="您可設定 &lt;b&gt;ICE&lt;/b&gt; 記錄檔的記錄等級，&lt;b&gt;ICE&lt;/b&gt; 記錄檔的預設記錄等級是 Minor Error。"/>
+		<phrase i="682" t="您可設定 &lt;b&gt;BToE&lt;/b&gt; 記錄檔的記錄等級，&lt;b&gt;BToE&lt;/b&gt; 記錄檔的預設記錄等級是 Minor Error。"/>
+		<phrase i="683" t="您可設定 &lt;b&gt;FIPS&lt;/b&gt; 記錄檔的記錄等級，&lt;b&gt;FIPS&lt;/b&gt; 記錄檔的預設記錄等級是 Minor Error。"/>
+		<phrase i="684" t="您可設定&lt;b&gt;位置管理員&lt;/b&gt;記錄檔的記錄等級，&lt;b&gt;位置管理員&lt;/b&gt;記錄檔的預設記錄等級是 Minor Error。"/>
+		<phrase i="685" t="您可設定&lt;b&gt;保留音樂&lt;/b&gt;記錄檔的記錄等級，&lt;b&gt;保留音樂&lt;/b&gt;記錄檔的預設記錄等級是 Minor Error。"/>
+		<phrase i="686" t="您可設定&lt;b&gt;封包擷取&lt;/b&gt;記錄檔的記錄等級，&lt;b&gt;封包擷取&lt;/b&gt;記錄檔的預設記錄等級是 Minor Error。"/>
+		<phrase i="687" t="您可設定&lt;b&gt;電源管理員&lt;/b&gt;記錄檔的記錄等級，&lt;b&gt;電源管理員&lt;/b&gt;記錄檔的預設記錄等級是 Minor Error。"/>
+		<phrase i="688" t="您可設定 &lt;b&gt;SIPp&lt;/b&gt; 記錄檔的記錄等級，&lt;b&gt;SIPp&lt;/b&gt; 記錄檔的預設記錄等級是 Minor Error。"/>
+		<phrase i="689" t="您可設定 &lt;b&gt;SIPt&lt;/b&gt; 記錄檔的記錄等級，&lt;b&gt;SIPt&lt;/b&gt; 記錄檔的預設記錄等級是 Minor Error。"/>
+		<phrase i="690" t="您可設定 &lt;b&gt;XML&lt;/b&gt; 記錄檔的記錄等級，&lt;b&gt;XML&lt;/b&gt; 記錄檔的預設記錄等級是 Minor Error。"/>
+		<phrase i="691" t="您可設定 &lt;b&gt;PCD&lt;/b&gt; 記錄檔的記錄等級，&lt;b&gt;PCD&lt;/b&gt; 記錄檔的預設記錄等級是 Minor Error。"/>
+		<phrase i="692" t="按一下即可開始擷取 VVX D60 裝置記錄檔。"/>
+		<phrase i="693" t="按一下即可停止擷取 VVX D60 裝置記錄檔"/>
+		<phrase i="694" t="您可以使用此設定來啟用或停用 VVX D60 設定檔。若停用，則將無法正常使用 VVX D60 基地台和其話筒。"/>
+		<phrase i="695" t="配對模式可讓電話連接到 VVX D60 裝置。&lt;b&gt;自動&lt;/b&gt;：在子網路中偵測並列出可用的 VVX D60 裝置。&lt;b&gt;手動&lt;/b&gt;：讓您透過輸入 VVX D60 基地台的 IP 位址來手動配對電話。&lt;b&gt;PC 連接埠&lt;/b&gt;：將 VVX D60 基地台連接到電話上的 PC 連接埠以自動配對。"/>
+		<phrase i="696" t="輸入 VVX D60 裝置的 IP 位址。"/>
+		<phrase i="697" t="與所輸入的 VVX D60 裝置配對。"/>
+		<phrase i="698" t="列出偵測到的 VVX D60 裝置以及其個別 MAC 和 IP 位址。選擇要配對的裝置然後按一下「配對」。"/>
+		<phrase i="699" t="與上方清單中所選取的 VVX D60 裝置配對。"/>
+		<phrase i="700" t="按一下「再試一次」以在子網路中偵測並列出可用的 VVX D60 裝置。"/>
+		<phrase i="701" t="連接的 VVX D60 裝置名稱。您可以重新命名裝置。名稱應為最短 1 個字元，最長 13 個字元（位元組）。"/>
+		<phrase i="702" t="VVX D60 裝置的狀態。"/>
+		<phrase i="703" t="按一下「取消配對」來將 VVX D60 裝置從 VVX 電話取消配對。當 VVX D60 裝置不再與電話配對之後，話筒將無法運作。"/>
+		<phrase i="704" t="連接的 VVX D60 裝置的 MAC 位址。"/>
+		<phrase i="705" t="連接的 VVX D60 裝置的 IP 位址。"/>
+		<phrase i="706" t="這項功能可啟用和停用 VVX D60 裝置上的對講機功能。"/>
+		<phrase i="707" t="向連接的 VVX D60 裝置註冊的話筒數。"/>
+		<phrase i="708" t="重新整理話筒詳細資料。"/>
+		<phrase i="709" t="這個選項能啟用 VVX D60 的註冊模式。VVX D60 進入這個模式後，您可以向 VVX 電話機註冊話筒。"/>
+		<phrase i="710" t="將 VVX 線路對應到已經註冊的話筒。按一下這個連結就會顯示線路清單視窗，供您對應話筒之用。"/>
+		<phrase i="711" t="按一下「尋找話筒」即可尋找非使用中的話筒。 "/>
+		<phrase i="712" t="已註冊話筒和所處狀態的清單。狀態選項如下：&lt;br/&gt; &lt;b&gt;可用&lt;/b&gt;：話筒目前在訊號範圍內，可正常使用。&lt;b&gt;不可用&lt;/b&gt;：話筒不在訊號範圍內，無法正常使用。&lt;b&gt;刪除中&lt;/b&gt;：正在註銷，無法正常使用話筒。"/>
+		<phrase i="713" t="您可以重新命名話筒，名稱長度應為最短 1 個字元，最長 16 個字元（位元組）。"/>
+		<phrase i="714" t="顯示線路對應到其各自話筒的清單。按一下來變更或更新線路對應。"/>
+		<phrase i="715" t="預設線路為各個話筒用於撥出電話的主要線路。&lt;br/&gt;您可以選擇任何對應的線路來作為預設線路。"/>
+		<phrase i="716" t="從 VVX D60 基地台取消註冊各個話筒。話筒被取消註冊後，將無法撥打或接聽電話。"/>
+		<phrase i="717" t="若啟用，則電話會在使用者收到行事曆活動提醒通知時發出警示音。若停用，則電話不會在使用者收到行事曆活動提醒通知時發出警示音。請注意若為啟用，只有當「exchange.meeting.reminderEnabled」也為啟用狀態時警示音才會生效。"/>
+		<phrase i="718" t="您可設定&lt;b&gt;應用程式&lt;/b&gt;記錄檔的記錄等級，&lt;b&gt;應用程式&lt;/b&gt;記錄檔的預設記錄等級是 Minor Error。"/>
+		<phrase i="719" t="您可設定&lt;b&gt;精確時間通訊協定&lt;/b&gt;記錄檔的記錄等級，&lt;b&gt;精確時間通訊協定&lt;/b&gt;記錄檔的預設記錄等級是 Minor Error。"/>
+		<phrase i="720" t="您可設定 &lt;b&gt;BFCP 內容&lt;/b&gt;記錄檔的記錄等級，&lt;b&gt;BFCP 內容&lt;/b&gt;記錄檔的預設記錄等級是 Minor Error。"/>
+		<phrase i="721" t="您可設定 &lt;b&gt;Poly Experience Cloud&lt;/b&gt; 記錄檔的記錄等級，&lt;b&gt;Poly Experience Cloud&lt;/b&gt; 記錄檔的預設記錄等級是 Minor Error。"/>
+		<phrase i="722" t="您可設定&lt;b&gt;網路裝置&lt;/b&gt;記錄檔的記錄等級，&lt;b&gt;網路裝置&lt;/b&gt;記錄檔的預設記錄等級是 Minor Error。"/>
+		<phrase i="723" t="您可設定&lt;b&gt;網路裝置攝影機&lt;/b&gt;記錄檔的記錄等級，&lt;b&gt;網路裝置攝影機&lt;/b&gt;記錄檔的預設記錄等級是 Minor Error。"/>
+		<phrase i="724" t="您可設定&lt;b&gt;網路裝置顯示&lt;/b&gt;記錄檔的記錄等級，&lt;b&gt;網路裝置顯示&lt;/b&gt;記錄檔的預設記錄等級是 Minor Error。"/>
+		<phrase i="725" t="您可設定&lt;b&gt;網路裝置管理員&lt;/b&gt;記錄檔的記錄等級，&lt;b&gt;網路裝置管理員&lt;/b&gt;記錄檔的預設記錄等級是 Minor Error。"/>
+		<phrase i="726" t="您可設定 &lt;b&gt;Polycom Content Application&lt;/b&gt; 記錄檔的記錄等級，&lt;b&gt;Polycom Content Application&lt;/b&gt; 記錄檔的預設記錄等級是 Minor Error。"/>
+		<phrase i="727" t="您可設定&lt;b&gt;近接感測&lt;/b&gt;記錄檔的記錄等級，&lt;b&gt;近接感測&lt;/b&gt;記錄檔的預設記錄等級是 Minor Error。"/>
+		<phrase i="728" t="您可設定&lt;b&gt;網路裝置音效&lt;/b&gt;記錄檔的記錄等級，&lt;b&gt;網路裝置音效&lt;/b&gt;記錄檔的預設記錄等級是 Minor Error。"/>
+		<phrase i="729" t="指定視訊通話支援的高級設定檔中，最高的設定檔等級。電話支援以下等級：1、1b、1.1、1.2、1.3、2。預設等級為 2。如需詳細資訊，請參閱 ITU-T H.264。" t.Trio_8800="指定視訊通話支援的高級設定檔中，最高的設定檔等級。電話支援以下等級：1、1b、1.1、1.2、1.3、2、2.1、2.2、3、3.1、3.2、4.0、4.1。預設等級為 4.1。如需詳細資訊，請參閱 ITU-T H.264。"/>
+		<phrase i="730" t="設定封包模式。封包模式指定 RTP 裝載中允許哪些 NAL 單位。值一指出非間隔模式。為了與其他商務用 Skype 裝置維持相互操作，不得修改此值。"/>
+		<phrase i="731" t="指定多工作階段傳輸封包模式。NI-TC 的值指出非間隔結合的時間戳記和 CS-DON 模式。為了與其他商務用 Skype 裝置維持相互操作，不得修改此值。"/>
+		<phrase i="732" t="選擇電話與內容伺服器連線時所用的傳輸方式。傳輸方式有兩種：UDP 和 TCP"/>
+		<phrase i="733" t="設定內容畫面的傳輸連接埠"/>
+		<phrase i="734" t="設定自動參加會議"/>
+		<phrase i="735" t="啟用或停用自動接受所有會議內容畫面的功能。"/>
+		<phrase i="736" t="指定是否使用 Poly Experience Cloud 記錄功能。若設為傳送，則診斷和使用資料將會被傳送到 Poly。"/>
+		<phrase i="737" t="指定應寫入 PEC 的最低層級事件。依據是 log.render.level，而且數值可更低。"/>
+		<phrase i="738" t="本設定決定電話將記錄檔案上傳到 PEC 伺服器的頻率。"/>
+		<phrase i="739" t="PEC 伺服器 IP 位址或主機名稱。"/>
+		<phrase i="740" t="您可設定&lt;b&gt;網路裝置連線&lt;/b&gt;記錄檔的記錄等級，&lt;b&gt;網路裝置連線&lt;/b&gt;記錄檔的預設記錄等級是 Minor Error。"/>
+		<phrase i="741" t="您可設定&lt;b&gt;藍牙 PPS&lt;/b&gt; 記錄檔的記錄等級，&lt;b&gt;藍牙 PPS&lt;/b&gt; 記錄檔的預設記錄等級是 Minor Error。"/>
+		<phrase i="742" t="您可設定 &lt;b&gt;USB PPS&lt;/b&gt; 記錄檔的記錄等級，&lt;b&gt;USB PPS&lt;/b&gt; 記錄檔的預設記錄等級是 Minor Error。"/>
+		<phrase i="743" t="您可設定&lt;b&gt;消費型電子產品控制&lt;/b&gt;記錄檔的記錄等級，&lt;b&gt;消費型電子產品控制&lt;/b&gt;記錄檔的預設記錄等級是 Minor Error。"/>
+		<phrase i="744" t="此裝置的名稱，將會在藍牙上向其他裝置顯示。"/>
+		<phrase i="745" t="設定其他裝置可在藍牙上看到此裝置的時間（秒）。若設為 0，則其他裝置永遠都可以在藍牙上看到此裝置。"/>
+		<phrase i="746" t="啟用或停用 Polycom Content Application 伺服器"/>
+		<phrase i="747" t=""/>
+		<phrase i="748" t="設定 WPA2 Enterprise 驗證的「憑證授權單位」憑證"/>
+		<phrase i="749" t="設定 WPA2 Enterprise 驗證的「用戶端」憑證"/>
+		<phrase i="750" t="啟用或停用 NFC 配對功能。若啟用，則使用者可以將具備 NFC 功能的裝置與 Poly Trio 解決方案配對。"/>
+		<phrase i="751" t="啟用或停用 USB 主機連接埠。若啟用，則主機連接埠可用於隨身碟、滑鼠、鍵盤以及充電裝置。" t.CCX_500="啟用或停用 USB 主機連接埠。若啟用，則可用於隨身碟、滑鼠以及鍵盤。" t.CCX_700="啟用或停用 USB 主機連接埠。若啟用，則可用於隨身碟、滑鼠以及鍵盤。"/>
+		<phrase i="752" t="啟用或停用 USB 裝置連接埠。裝置連接埠讓使用者可使用 Poly Trio 作為筆記型電腦的音訊裝置。" t.CCX_500="啟用或停用 USB 裝置連接埠。" t.CCX_700="啟用或停用 USB 裝置連接埠。"/>
+		<phrase i="753" t="設定電話主畫面上顯示圖示的行列數。舉例來說，若選取 3x2，則會顯示三行和兩列圖示。"/>
+		<phrase i="754" t="輸入要配對的 Poly 裝置的 MAC 位址（產品序號 [S/N]）。"/>
+		<phrase i="755" t="為配對的 Poly Trio Visual+ 顯示器設定背景圖案。可選取指定的背景圖案或「自動」。若選取了「自動」，則 Poly Trio Visual+ 顯示器會自動循環播放所有的背景圖案。"/>
+		<phrase i="756" t="啟用或停用 Poly Trio 與 Poly Trio Visual+ 間通訊的 TLS。"/>
+		<phrase i="757" t="指定是否用 SRTP 來加密及驗證 Poly Trio 和 Poly Trio Visual+ 間傳送的音訊訊號。"/>
+		<phrase i="758" t="指定是否用 SRTP 來加密及驗證音訊訊號。"/>
+		<phrase i="759" t="指定是否啟用攝影機自動對焦。不建議在群組通話設定使用自動對焦。"/>
+		<phrase i="760" t="指定攝影機最佳對焦目標的距離。"/>
+		<phrase i="761" t="選擇在省電模式時是否在 Poly Trio Visual+ 顯示器上顯示全黑畫面，或者關閉傳入 Poly Trio Visual+ 顯示器的 HDMI 訊號。"/>
+		<phrase i="762" t="啟用或停用消費型電子產品控制 (CEC)。若啟用 CEC，則當 Poly Trio 進入省電模式時，Poly Trio Visual+ 顯示器會切換為待命模式，並在 Poly Trio 結束省電模式時啟動。若停用 CEC，則 Poly Trio Visual+ 顯示器行為僅由「powerSaving.tvStandbyMode」所設定的值控制。"/>
+		<phrase i="763" t="若啟用，則將允許最高 7.5W 的電源來為連接到 USB 連接埠的裝置充電。若停用，則將無法從 USB 充電連接埠為連接的 USB 裝置充電。"/>
+		<phrase i="764" t="若啟用，則 Poly Trio LAN OUT 介面將為連接的裝置提供 PoE。若停用，則將不由 LAN OUT 連接埠提供 PoE 電源。"/>
+		<phrase i="765" t="指定 LAN OUT PoE 等級。"/>
+		<phrase i="766" t="若設定成&lt;b&gt;「電話喇叭」&lt;/b&gt;，則音訊僅會在 Poly Trio 上播放。若設定成&lt;b&gt;「電視喇叭」&lt;/b&gt;，則音訊僅會在配對的 Poly Trio Visual+ 電視上播放。若設定成&lt;b&gt;「自動：根據通話類型」&lt;/b&gt;，則僅語音通話會在 Poly Trio 上播放，而視訊通話會在配對的 Poly Trio Visual+ 電視上播放。"/>
+		<phrase i="767" t="若為手動，則使用者必須輸入會議電話的 IP 位址才可與其配對。若停用，則使用者將無法使用 SmartPairing 來與會議電話配對。"/>
+		<phrase i="768" t="用於 SmartPairing 超音波信標的相對音量。"/>
+		<phrase i="769" t="設定在過了閒置期間之後，電話的實體使用者介面的狀態。"/>
+		<phrase i="770" t="設定 Poly Trio 的名稱，此名稱將顯示在配對的 Poly Trio Visual+ 顯示器上。"/>
+		<phrase i="771" t="輸入 Poly Trio 解決方案時所在操作國家的兩碼國家代碼，並啟用 Wi-Fi。"/>
+		<phrase i="772" t="啟用或停用 Polycom NoiseBlock 技術。"/>
+		<phrase i="773" t="為要播放的視訊媒體，設定傳送給視訊會議伺服器視訊設定檔的要求。"/>
+		<phrase i="774" t="RTCP 頻寬偵測"/>
+		<phrase i="775" t="若啟用，則傳入的商務用 Skype 內容畫面將會被自動接受（如果內容畫面目前並未串流到顯示器上的話）。若停用，則使用者必須手動接受內容畫面。"/>
+		<phrase i="776" t="您可設定&lt;b&gt;藍牙 PPS&lt;/b&gt; 記錄檔的記錄等級，&lt;b&gt;藍牙 PPS&lt;/b&gt; 記錄檔的預設記錄等級是 Minor Error。"/>
+		<phrase i="777" t="控制 Poly Trio 是否會在按下 Poly Trio Visual+ 上的配對按鈕時收到通知。若啟用，則通知會顯示在 Poly Trio LCD 上的狀態列中，外觀為跳動的配對圖示。"/>
+		<phrase i="778" t="設定最低鈴聲音量"/>
+		<phrase i="779" t="從右邊的選項設定「網路伺服器設定檔」。"/>
+		<phrase i="780" t="在下拉式功能表中，選擇網路伺服器設定檔的預設密碼或自訂密碼。"/>
+		<phrase i="781" t="「網路伺服器設定檔」的通用加密清單。"/>
+		<phrase i="782" t="選擇啟用或停用 TR-069 功能。"/>
+		<phrase i="783" t="若選取此核取方塊則將啟用 BToE 功能"/>
+		<phrase i="784" t="使用者可在 BToE 功能為啟用時選擇 BToE 配對模式。"/>
+		<phrase i="785" t="選擇此選項即表示電話應驗證正嘗試連線的 LDAP 伺服器的憑證上的通用名稱。"/>
+		<phrase i="786" t="選擇啟用或停用 IPv6 VLAN 偵測方法。"/>
+		<phrase i="787" t="取代伺服器記錄等級設定。&lt;br/&gt;關閉～低：減少記錄等級資訊。&lt;br/&gt;高～中：增加記錄等級資訊。&lt;br/&gt;伺服器：將記錄等級重設為伺服器預先定義的等級。&lt;br/&gt;在重新開機/重新啟動/重新註冊期間，記錄等級的值會自動覆寫到伺服器記錄等級。" t.Trio_8800="取代伺服器記錄等級設定。&lt;br/&gt;關閉～低：減少記錄等級資訊。&lt;br/&gt;高～中：增加記錄等級資訊。&lt;br/&gt;伺服器：將記錄等級重設為伺服器預先定義的等級。&lt;br/&gt;在重新開機/重新註冊期間，記錄等級的值會自動覆寫到伺服器記錄等級。"/>
+		<phrase i="788" t="指定 IPv4 模式的網路介面最大傳輸單位（以位元組計）。"/>
+		<phrase i="789" t="指定 IPv6/雙模式的網路介面最大傳輸單位（以位元組計）。"/>
+		<phrase i="790" t="您可以定義 &lt;b&gt;VVX D60 &lt;/b&gt; 記錄的紀錄層級，&lt;b&gt;VVX D60&lt;/b&gt; 記錄的預設紀錄層級為 Minor Error。"/>
+		<phrase i="791" t="您可以定義 &lt;b&gt;VVX D60 PPS &lt;/b&gt; 記錄的紀錄層級，&lt;b&gt;VVX D60 PPS &lt;/b&gt; 記錄的預設紀錄層級為 Minor Error。"/>
+		<phrase i="792" t="選擇電話的 IP 模式。"/>
+		<phrase i="793" t="選擇雙重堆疊模式中的優先網路。"/>
+		<phrase i="794" t="選擇從 DHCPv6 或 SLAAC 取得電話的 IPv6 位址和相關參數或者靜態設定。"/>
+		<phrase i="795" t="為電話輸入一個有效的全域 IPv6 單點傳播位址。"/>
+		<phrase i="796" t="為電話輸入一個有效的本機連結 IPv6 位址。"/>
+		<phrase i="797" t="為電話輸入一個有效的專屬本機 IPv6 (ULA) 位址。"/>
+		<phrase i="798" t="輸入電話的預設閘道 IPv6 位址。"/>
+		<phrase i="799" t="選擇是否需要安全媒體串流。"/>
+		<phrase i="800" t="選擇是否要在允許使用者參加私人會議前提示要求輸入 PIN 碼。"/>
+		<phrase i="801" t="啟用或停用網路組態公用程式登入頁面上的安全性橫幅。"/>
+		<phrase i="802" t="自訂顯示在網路組態公用程式登入頁面上的安全性橫幅。"/>
+		<phrase i="803" t="您可設定 &lt;b&gt;USB 音效&lt;/b&gt;記錄檔的記錄等級，&lt;b&gt;USB 音效&lt;/b&gt;記錄檔的預設記錄等級是 Minor Error。"/>
+		<phrase i="804" t="您可設定 &lt;b&gt;USB HID&lt;/b&gt; 記錄檔的記錄等級，&lt;b&gt;USB HID&lt;/b&gt; 記錄檔的預設記錄等級是 Minor Error。"/>
+		<phrase i="805" t="最多可與 VVX D60 配對的話筒數量。"/>
+		<phrase i="806" t="輸入/變更 VVX D60 裝置的 MAC 位址。"/>
+		<phrase i="807" t="選擇 802.1x 的最低 TLS 通訊協定版本。"/>
+		<phrase i="808" t="選擇系統日誌的最低 TLS 通訊協定版本。"/>
+		<phrase i="809" t="選擇佈建伺服器的最低 TLS 通訊協定版本。"/>
+		<phrase i="810" t="選擇 SIP 的最低 TLS 通訊協定版本。"/>
+		<phrase i="811" t="選擇電話網路服務的最低 TLS 通訊協定版本。"/>
+		<phrase i="812" t="選擇目前狀態功能的最低 TLS 通訊協定版本。"/>
+		<phrase i="813" t="選擇公司通訊錄的最低 TLS 通訊協定版本。"/>
+		<phrase i="814" t="選擇 SOPI 的最低 TLS 通訊協定版本。"/>
+		<phrase i="815" t="選擇網頁伺服器的最低 TLS 通訊協定版本。"/>
+		<phrase i="816" t="選擇啟用或停用 FIPS 模式。"/>
+		<phrase i="817" t="您可設定&lt;b&gt;驗證服務&lt;/b&gt;記錄檔的記錄等級，&lt;b&gt;驗證服務&lt;/b&gt;記錄檔的預設記錄等級是 Event 2。"/>
+		<phrase i="818" t="您可設定&lt;b&gt;代理伺服器服務&lt;/b&gt;記錄檔的記錄等級，&lt;b&gt;代理伺服器服務&lt;/b&gt;記錄檔的預設記錄等級是 Event 2。"/>
+		<phrase i="819" t="您可設定 &lt;b&gt;WAD 服務&lt;/b&gt;記錄檔的記錄等級，&lt;b&gt;WAD 服務&lt;/b&gt;記錄檔的預設記錄等級是 Event 2。"/>
+		<phrase i="820" t="您可設定&lt;b&gt;裝置配對服務&lt;/b&gt;記錄檔的記錄等級，&lt;b&gt;裝置配對服務&lt;/b&gt;記錄檔的預設記錄等級是 Event 2。"/>
+		<phrase i="821" t="您可設定 &lt;b&gt;NI 服務&lt;/b&gt;記錄檔的記錄等級，&lt;b&gt;NI 服務&lt;/b&gt;記錄檔的預設記錄等級是 Event 2。"/>
+		<phrase i="822" t="您可設定&lt;b&gt;資源服務&lt;/b&gt;記錄檔的記錄等級，&lt;b&gt;資源服務&lt;/b&gt;記錄檔的預設記錄等級是 Event 2。"/>
+		<phrase i="823" t="選擇 Exchange 服務的最低 TLS 通訊協定版本。"/>
+		<phrase i="824" t="使用右邊的選項來設定「Exchange 服務設定檔」。"/>
+		<phrase i="825" t="在下拉式功能表中，選擇 Exchange 服務設定檔的預設加密或自訂加密。"/>
+		<phrase i="826" t="Exchange 服務設定檔的通用加密清單。"/>
+		<phrase i="827" t="啟用或停用 AirPlay 內容伺服器。"/>
+		<phrase i="828" t="輸入要作為本機 AirPlay 伺服器的系統名稱。若留空，則將使用預設系統名稱（以「system.name」表示）。"/>
+		<phrase i="829" t="選擇一個 AirPlay 驗證類型"/>
+		<phrase i="830" t="啟用或停用無線顯示器內容伺服器。"/>
+		<phrase i="831" t="輸入要作為本機無線顯示器伺服器的系統名稱。若留空，則將使用預設系統名稱（以「system.name」表示）。"/>
+		<phrase i="832" t="選擇一個無線顯示器驗證類型"/>
+		<phrase i="833" t="您可設定 &lt;b&gt;AirPlay &lt;/b&gt;記錄檔的記錄等級，&lt;b&gt;AirPlay&lt;/b&gt; 記錄檔的預設記錄等級是 Minor Error。"/>
+		<phrase i="834" t="您可設定 &lt;b&gt;AirPlay 程式庫&lt;/b&gt;記錄檔的記錄等級，&lt;b&gt;AirPlay 程式庫 &lt;/b&gt;記錄檔的預設記錄等級是 Minor Error。"/>
+		<phrase i="835" t="您可設定 &lt;b&gt;AirPlay 服務&lt;/b&gt;記錄檔的記錄等級，&lt;b&gt;AirPlay 服務&lt;/b&gt;記錄檔的預設記錄等級是 Minor Error。"/>
+		<phrase i="836" t="您可設定&lt;b&gt;無線顯示器&lt;/b&gt;記錄檔的記錄等級，&lt;b&gt;無線顯示器&lt;/b&gt;記錄檔的預設記錄等級是 Minor Error。"/>
+		<phrase i="837" t="您可設定 &lt;b&gt;Microsoft USB 更新&lt;/b&gt;記錄檔的記錄等級，&lt;b&gt;Microsoft USB 更新&lt;/b&gt;記錄檔的預設記錄等級是 Minor Error。"/>
+		<phrase i="838" t="所有在電話上輸入的數字都會與此設定所指定的數字規則表比較。若數字符合數字規則表模式，則會自動撥打通話而無需再按 [傳送] 鍵。您可以在數字規則表中指定一或多組模式。"/>
+		<phrase i="839" t="本設定控制要將數字規則表中的每種模式套用幾秒。"/>
+		<phrase i="840" t="此設定會決定若輸入的數字不符合數字規則表中的模式時的處理方式。若設為 0，則數字會被立即傳送到通話伺服器。若設為 1，則會在電話上播放重排順序音效。若設為 2，則會等待按下 [傳送] 鍵之後才將數字傳送到通話伺服器。預設值為 0。"/>
+		<phrase i="841" t="某些電話會在您輸入數字然後按下 # 時撥號。「移除撥號結束標記」設定，可決定電話是否刪除所輸入數字最後的 #。若啟用，則移除最後的 #。若停用，則不移除最後的 #。預設值為啟用。"/>
+		<phrase i="842" t="啟用線路式撥號安排方式。"/>
+		<phrase i="843" t="輸入要用於 Microsoft Exchange Server 的目標信箱。"/>
+		<phrase i="844" t="輸入 Exchange 會議的網域。"/>
+		<phrase i="845" t="輸入 Exchange 會議的使用者名稱。"/>
+		<phrase i="846" t="輸入 Exchange 會議的密碼。"/>
+		<phrase i="847" t="輸入 WPA2 Enterprise 驗證所需的匿名使用者名稱。"/>
+		<phrase i="848" t="您可設定&lt;b&gt;面板技術支援&lt;/b&gt;記錄檔的記錄等級，&lt;b&gt;面板技術支援&lt;/b&gt;記錄檔的預設記錄等級是 Minor Error。"/>
+		<phrase i="849" t="您可設定&lt;b&gt;音效與視訊管理系統&lt;/b&gt;記錄檔的記錄等級，&lt;b&gt;音效與視訊管理系統&lt;/b&gt;記錄檔的預設記錄等級是 Minor Error。"/>
+		<phrase i="850" t="您可設定&lt;b&gt;轉碼程式&lt;/b&gt;記錄檔的記錄等級，&lt;b&gt;轉碼程式&lt;/b&gt;記錄檔的預設記錄等級是 Minor Error。"/>
+		<phrase i="851" t="啟用或停用 Exchange 行事曆多個事件。"/>
+		<phrase i="852" t="啟用或停用透過藍牙偵測 AirPlay 內容伺服器。"/>
+		<phrase i="853" t="當公共區域電話功能為啟用時，使用者可選擇公共區域電話模式。"/>
+		<phrase i="854" t="您可設定 &lt;b&gt;Polycom Cloud Connector &lt;/b&gt;記錄檔的記錄等級，&lt;b&gt;Polycom Cloud Connector &lt;/b&gt;記錄檔的預設記錄等級為 Minor Error。"/>
+		<phrase i="855" t="您可設定&lt;b&gt;網路通訊端&lt;/b&gt;記錄檔的記錄等級，&lt;b&gt;網路通訊端&lt;/b&gt;記錄檔的預設記錄等級為 Minor Error。"/>
+		<phrase i="856" t="您可設定&lt;b&gt;視訊快速更新要求&lt;/b&gt;記錄檔的記錄等級，&lt;b&gt;視訊快速更新要求&lt;/b&gt;記錄檔的預設記錄等級為 Minor Error。"/>
+		<phrase i="857" t="您可設定&lt;b&gt;多方控制單位&lt;/b&gt;記錄檔的記錄等級，&lt;b&gt;多方控制單位&lt;/b&gt;記錄檔的預設記錄等級為 Minor Error。"/>
+		<phrase i="858" t="您可設定&lt;b&gt;媒體封包事件&lt;/b&gt;記錄檔的記錄等級，&lt;b&gt;媒體封包事件&lt;/b&gt;記錄檔的預設記錄等級為 Minor Error。"/>
+		<phrase i="859" t="您可設定&lt;b&gt;視訊來源要求&lt;/b&gt;記錄檔的記錄等級，&lt;b&gt;視訊來源要求&lt;/b&gt;記錄檔的預設記錄等級為 Minor Error。"/>
+		<phrase i="860" t="您可設定&lt;b&gt;裝置分析&lt;/b&gt;記錄檔的記錄等級，&lt;b&gt;裝置分析&lt;/b&gt;記錄檔的預設記錄等級為 Event 2。"/>
+		<phrase i="861" t="您可以啟用或停用「Exchange 自動偵測」功能。"/>
+		<phrase i="862" t="若啟用，則電話將會嘗試與次要伺服器註冊。若註冊成功，則繼續與次要伺服器傳送訊號。"/>
+		<phrase i="863" t="選擇容錯回復模式。容錯回復模式有四種。&lt;br/&gt;&lt;br/&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;持續時間&lt;/b&gt;：電話將在指定的時間之後嘗試主要伺服器。預設的容錯回復模式為「持續時間」。&lt;/li&gt;&lt;br/&gt;&lt;li&gt;&lt;b&gt;新要求&lt;/b&gt;：無論上次使用的伺服器為何，所有新要求一律先傳給主要伺服器。&lt;/li&gt;&lt;br&gt;&lt;li&gt;&lt;b&gt;DNS TTL&lt;/b&gt;：電話將在為電話註冊的伺服器所設定的 DNS TTL 逾時之後，重新嘗試主要伺服器。&lt;/li&gt;&lt;br/&gt;&lt;li&gt;&lt;b&gt;註冊&lt;/b&gt;：電話將在註冊更新訊號開始時重試主要伺服器。&lt;/li&gt;&lt;/ul&gt;"/>
+		<phrase i="864" t="所要球的容錯回復逾時週期（從 0 到 65535 秒）。在容錯回復發生之前要等候的時間（以秒計）。預設值為 3600 秒。"/>
+		<phrase i="865" t="若啟用，則電話將會嘗試與次要伺服器註冊。若註冊成功，則繼續與次要伺服器傳送訊號。"/>
+		<phrase i="866" t="選擇容錯回復模式。容錯回復模式有四種。&lt;br/&gt;&lt;br/&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;持續時間&lt;/b&gt;：電話將在指定的時間之後嘗試主要伺服器。預設的容錯回復模式為「持續時間」。&lt;/li&gt;&lt;br/&gt;&lt;li&gt;&lt;b&gt;新要求&lt;/b&gt;：無論上次使用的伺服器為何，所有新要求一律先傳給主要伺服器。&lt;/li&gt;&lt;br&gt;&lt;li&gt;&lt;b&gt;DNS TTL&lt;/b&gt;：電話將在為電話註冊的伺服器所設定的 DNS TTL 逾時之後，重新嘗試主要伺服器。&lt;/li&gt;&lt;br/&gt;&lt;li&gt;&lt;b&gt;註冊&lt;/b&gt;：電話將在註冊更新訊號開始時重試主要伺服器。&lt;/li&gt;&lt;/ul&gt;"/>
+		<phrase i="867" t="所要球的容錯回復逾時週期（從 0 到 65535 秒）。在容錯回復發生之前要等候的時間（以秒計）。預設值為 3600 秒。"/>
+		<phrase i="868" t="Olson 時區 ID。若設定此功能，則將會取代任何 GMT 時區差距和日光節約設定。若設定為無效或無法識別的值，時區將會被設定為 GMT 並停用日光節約。"/>
+		<phrase i="869" t="安裝在電話上的裝置憑證，用於 MTLS 驗證。"/>
+		<phrase i="870" t="您可設定 &lt;b&gt;SCEP 憑證註冊&lt;/b&gt;記錄檔的記錄等級。&lt;b&gt;SCEP 憑證註冊&lt;/b&gt;記錄檔的預設記錄等級是 Minor Error。"/>
+		<phrase i="871" t="啟用或停用 SCEP 功能。"/>
+		<phrase i="872" t="輸入 SCEP 伺服器的 URL 以便取得憑證。"/>
+		<phrase i="873" t="輸入在要求憑證時要與憑證申請書一起送出的挑戰密碼。"/>
+		<phrase i="874" t="設定有效性間隔以在該期間之後開始更新程序"/>
+		<phrase i="875" t="設定在嘗試更新憑證之前的時間間隔"/>
+		<phrase i="876" t="註冊程序失敗時要重試的次數"/>
+		<phrase i="877" t="輸入 CA 憑證的指紋以在註冊期間確認 CA 回應的確實性"/>
+		<phrase i="878" t="輸入要用於憑證申請書產生的通用名稱"/>
+		<phrase i="879" t="輸入要用於憑證申請書產生的組織名稱"/>
+		<phrase i="880" t="輸入要用於憑證申請書產生的國家/地區名稱"/>
+		<phrase i="881" t="輸入要用於憑證申請書產生的州/省名稱"/>
+		<phrase i="882" t="輸入要用於憑證申請書產生的電子郵件地址"/>
+		<phrase i="883" t="輸入當 SCEP 伺服器對「憑證註冊回應訊息」傳回「待處理」回應時，要輪詢 SCEP 伺服器的次數"/>
+		<phrase i="884" t="輸入當 SCEP 伺服器對「憑證註冊回應訊息」傳回「待處理」回應時，在輪詢嘗試之間要等候的次數"/>
+		<phrase i="885" t="輸入用於 SCEP 伺服器驗證的使用者名稱。"/>
+		<phrase i="886" t="輸入用於 SCEP 伺服器驗證的密碼。"/>
+		<phrase i="887" t="輸入重試註冊程序的時間間隔秒數"/>
+		<phrase i="888" t="平台 CA 必須和以下的一個 TLS 設定檔相符。"/>
+		<phrase i="889" t="自動佈建設定檔的 CA 憑證。"/>
+		<phrase i="890" t="自動佈建設定檔的裝置憑證。"/>
+		<phrase i="891" t="在下拉式功能表中，選擇自動佈建設定檔的預設加密或自訂加密。"/>
+		<phrase i="892" t="自動佈建設定檔的通用加密清單。值不能為空白。若提供無效的值，那麼電話將保留預設值。"/>
+		<phrase i="893" t="您可設定&lt;b&gt;本機內容&lt;/b&gt;記錄檔的記錄等級。&lt;b&gt;本機內容&lt;/b&gt;記錄檔的預設記錄等級是 Minor Error。"/>
+		<phrase i="894" t="已設定要使用的自動佈建 CA 憑證平台設定檔。"/>
+		<phrase i="895" t="自動對焦本機攝影機拍攝的視訊。此功能預設為啟用。"/>
+		<phrase i="896" t="本機攝影機拍攝視訊的手動對焦等級。預設值為「一般」。"/>
+		<phrase i="897" t="電話機使用介面目前顯示的線路鍵。"/>
+		<phrase i="898" t="啟用 Alexa for Business 功能"/>
+		<phrase i="899" t="啟用喚醒詞偵測機制來叫用 Alexa"/>
+		<phrase i="900" t="選擇要啟用或停用透過藍牙來公告電話 IP 位址的藍牙信標功能。"/>
+		<phrase i="901" t="選擇一個 Poly Content Application 驗證類型。「無」會停用驗證，而「密碼」則會將 Poly Trio 設定為產生一個隨機的 4 位密碼。"/>
+		<phrase i="902" t="允許透過按下 [靜音] 按鈕來接聽來電。這項功能在會議電話上相當實用。設為「0」時此功能為關閉"/>
+		<phrase i="903" t="攝影機自動白平衡"/>
+		<phrase i="904" t="攝影機背光補償"/>
+		<phrase i="905" t="攝影機色差補正"/>
+		<phrase i="906" t="攝影機色調"/>
+		<phrase i="907" t="攝影機白平衡"/>
+		<phrase i="908" t="攝影機位置"/>
+		<phrase i="909" t="攝影機廣域動態範圍"/>
+		<phrase i="910" t="攝影機外觀介面增強功能"/>
+		<phrase i="911" t="攝影機失真修正"/>
+		<phrase i="912" t="攝影機出席計數啟用"/>
+		<phrase i="913" t="攝影機出席計數間隔"/>
+		<phrase i="914" t="攝影機預設位置索引"/>
+		<phrase i="915" t="指定是否啟用攝影機自動對焦。不建議在群組通話設定使用自動對焦。"/>
+		<phrase i="916" t="指定攝影機最佳對焦目標的距離。"/>
+		<phrase i="917" t="攝影機自動白平衡"/>
+		<phrase i="918" t="攝影機背光補償"/>
+		<phrase i="919" t="攝影機色差補正"/>
+		<phrase i="920" t="攝影機色調"/>
+		<phrase i="921" t="攝影機白平衡"/>
+		<phrase i="922" t="攝影機位置"/>
+		<phrase i="923" t="攝影機廣域動態範圍"/>
+		<phrase i="924" t="攝影機外觀介面增強功能"/>
+		<phrase i="925" t="攝影機失真修正"/>
+		<phrase i="926" t="攝影機出席計數啟用"/>
+		<phrase i="927" t="攝影機出席計數間隔"/>
+		<phrase i="928" t="攝影機預設位置索引"/>
+		<phrase i="929" t="本地攝影機拍攝的視訊亮度。預設值是 [一般]。"/>
+		<phrase i="930" t="本地攝影機拍攝的視訊對比。預設值是 [無對比]。"/>
+		<phrase i="931" t="本地攝影機拍攝的視訊飽和度。預設值是 [一般]。"/>
+		<phrase i="932" t="本地攝影機拍攝的視訊清晰度。預設值是 [一般]。"/>
+		<phrase i="933" t="攝影機類型"/>
+		<phrase i="934" t="自動攝影機追蹤功能已啟用"/>
+		<phrase i="935" t="自動攝影機追蹤取景大小"/>
+		<phrase i="936" t="自動攝影機追蹤子母畫面已啟用"/>
+		<phrase i="937" t="自動攝影機追蹤速度"/>
+		<phrase i="938" t="自動攝影機追蹤取景模式"/>
+		<phrase i="939" t="此舉可避免攝影機在指定頻率時閃爍。選項有：&lt;br/&gt;&lt;b&gt;50Hz&lt;/b&gt;：歐亞地區使用的交流電頻率。&lt;br/&gt;&lt;b&gt;60 Hz&lt;/b&gt;：北美洲使用的交流電頻率。&lt;br/&gt;預設值是 50Hz。" t.VVX_1500="此舉可避免攝影機在指定頻率時閃爍。選項有：&lt;br/&gt;&lt;b&gt;自動&lt;/b&gt;：自動設定可避免閃爍狀況的頻率。&lt;br/&gt;&lt;b&gt;50Hz&lt;/b&gt;：歐亞地區使用的交流電頻率。&lt;br/&gt;&lt;b&gt;60 Hz&lt;/b&gt;：北美洲使用的交流電頻率。&lt;br/&gt;預設值是 [自動]。" t.Trio_8800="此設定可避免攝影機在指定頻率時閃爍的現象。選項有：&lt;br/&gt;&lt;b&gt;停用&lt;/b&gt;：停用避免閃爍功能。&lt;br/&gt;&lt;b&gt;50 Hz&lt;/b&gt;：歐亞地區使用的交流電頻率。&lt;br/&gt;&lt;b&gt;60 Hz&lt;/b&gt;：北美地區使用的交流電頻率。&lt;br/&gt;預設值為 [停用]。"/>
+		<phrase i="940" t="您可設定 &lt;b&gt;Alexa &lt;/b&gt;記錄檔的記錄等級。&lt;b&gt;Alexa &lt;/b&gt;記錄檔的預設記錄等級是 Minor Error。"/>
+		<phrase i="941" t="您可設定 &lt;b&gt;OPXY &lt;/b&gt;記錄檔的記錄等級。&lt;b&gt;OPXY &lt;/b&gt;記錄檔的預設記錄等級是 Minor Error。"/>
+		<phrase i="942" t="此設定指定在發生失敗的時候，電話將嘗試韌體升級幾次。"/>
+		<phrase i="943" t="啟用或停用 Alexa 工具提示。"/>
+		<phrase i="944" t="選擇是否要自動將自訂背景影像調暗，以提昇所配對之 Trio Visual+ 的閒置畫面上文字的可閱讀性。"/>
+		<phrase i="945" t="選擇是否需要安全媒體串流。"/>
+		<phrase i="946" t="設定您的藍牙裝置的可供探索性。"/>
+		<phrase i="947" t="啟用或停用 SIP PnP 佈建功能。"/>
+		<phrase i="948" t="進行 SIP PnP 佈建時，要將「登記」訊息傳送至的位址。"/>
+		<phrase i="949" t="進行 SIP PnP 佈建時，要用於傳送「登記」訊息的連接埠。"/>
+		<phrase i="950" t="選擇是否啟用 SRTP。"/>
+		<phrase i="951" t="選擇是否要在 SIP INVITE 的 SDP 的一般非安全媒體說明中包含安全媒體串流說明。"/>
+		<phrase i="952" t="選擇啟用或停用藍牙語音功能。"/>
+		<phrase i="953" t="設定藍牙配對裝置的數量上限。"/>
+		<phrase i="954" t="設定配對裝置逾時。"/>
+		<phrase i="955" t="啟用或停用上方 USB 連接埠的電源"/>
+		<phrase i="956" t="啟用或停用背面 USB 連接埠的電源"/>
+		<phrase i="957" t="必須提供 URL 以透過網路登入來登入 Exchange 用戶端"/>
+		<phrase i="958" t="必須提供代碼以透過網路登入來登入 Exchange 用戶端"/>
+	</paramHelpPhrases>
+	<jsPhrases>
+		<phrase i="0" t="電話"/>
+		<phrase i="1" t="無法載入語言。"/>
+		<phrase i="2" t="正在下載語言檔案。"/>
+		<phrase i="3" t="無法從 Poly 代管伺服器取得可用軟體。如果問題持續發生，請稍後再試一次，或聯絡網路管理員。"/>
+		<phrase i="4" t="無法從自訂伺服器取得可用軟體。如果問題持續發生，請稍後再試一次，或聯絡網路管理員。"/>
+		<phrase i="5" t="擴充模組"/>
+		<phrase i="6" t="網頁"/>
+		<phrase i="7" t="CMA"/>
+		<phrase i="8" t="TR-069"/>
+		<phrase i="9" t="本地"/>
+		<phrase i="10" t="錯誤"/>
+		<phrase i="11" t="確認"/>
+		<phrase i="12" t="資訊"/>
+		<phrase i="13" t="成功"/>
+		<phrase i="14" t="連按兩下該列即可播放音效檔。如要設定自訂鈴聲，請選取並上傳一個音訊檔到電話。&lt;br/&gt;第一個設定的鈴聲將用於電話開機音效。"/>
+		<phrase i="15" t="等幾秒鐘，讓電話匯出記錄檔案。"/>
+		<phrase i="16" t="不同來源的參數值都列在此處。若從多個管道設定同一個參數值，則電話會採用優先級最高的來源。"/>
+		<phrase i="17" t="安裝"/>
+		<phrase i="18" t="所在位置"/>
+		<phrase i="19" t="等幾秒鐘，讓電話重新整理記錄檔資料。"/>
+		<phrase i="20" t="無法處理"/>
+		<phrase i="21" t="無"/>
+		<phrase i="22" t="若要加入自訂鈴聲，請選取音效檔並上傳到電話。"/>
+		<phrase i="23" t="啟用或停用某個欄位時，必須重新啟動電腦，才能使變更內容生效。"/>
+		<phrase i="24" t=""/>
+		<phrase i="25" t=""/>
+		<phrase i="26" t=""/>
+		<phrase i="27" t=""/>
+		<phrase i="28" t=""/>
+		<phrase i="29" t=""/>
+		<phrase i="30" t=""/>
+		<phrase i="31" t=""/>
+		<phrase i="32" t=""/>
+		<phrase i="33" t=""/>
+		<phrase i="34" t=""/>
+		<phrase i="35" t=""/>
+		<phrase i="36" t="您要重設「%s」頁嗎？"/>
+		<phrase i="37" t="若重設為預設值，則會清除「%s」頁的組態。&lt;br/&gt;您要重設為預設值嗎？"/>
+		<phrase i="38" t="無法載入網頁。"/>
+		<phrase i="39" t="無法取得記錄檔。"/>
+		<phrase i="40" t="您要儲存變更過的密碼嗎？"/>
+		<phrase i="41" t="無法更新組態。"/>
+		<phrase i="42" t="更新組態成功。"/>
+		<phrase i="43" t="資料無效，請輸入有效值。"/>
+		<phrase i="44" t="無法建立 XMLHTTP 事例。"/>
+		<phrase i="45" t="正在更新組態..."/>
+		<phrase i="46" t="已經設定 10 個 URL。"/>
+		<phrase i="47" t="伺服器內部錯誤，請再試一次。"/>
+		<phrase i="48" t="背景圖案檔上傳成功。"/>
+		<phrase i="49" t="音效檔上傳成功。"/>
+		<phrase i="50" t="憑證檔上傳成功。"/>
+		<phrase i="51" t="已經超出音效檔儲存容量限制。"/>
+		<phrase i="52" t="無法將憑證上傳到電話，已經超出憑證檔儲存容量上限。"/>
+		<phrase i="53" t="SSL 憑證安裝成功。"/>
+		<phrase i="54" t="SSL 憑證安裝失敗。"/>
+		<phrase i="55" t="SSL 憑證檔下載失敗。"/>
+		<phrase i="56" t="您要刪除音效檔嗎？"/>
+		<phrase i="57" t="您要永遠刪除電話中所選的背景圖案嗎？"/>
+		<phrase i="58" t="將背景設定成圖案而非顏色時，只會顯示亮度欄位。"/>
+		<phrase i="59" t="所選的背景圖案或顏色將以灰色陰影顯示。"/>
+		<phrase i="60" t="背景圖案將在電話上以灰色陰影顯示。"/>
+		<phrase i="61" t="背景顏色將以灰色陰影顯示。"/>
+		<phrase i="62" t="無法刪除組態參數。"/>
+		<phrase i="63" t="已順利刪除背景圖案。"/>
+		<phrase i="64" t="已順利刪除音效檔。"/>
+		<phrase i="65" t="已更新組態。"/>
+		<phrase i="66" t="未變更組態。"/>
+		<phrase i="67" t="在「網路組態公用程式」中變更密碼時，電話登入密碼也會跟著變更。"/>
+		<phrase i="68" t="管理員密碼錯誤，請再試一次。"/>
+		<phrase i="69" t="使用者密碼錯誤，請再試一次。"/>
+		<phrase i="70" t="管理員密碼和使用者密碼相同。"/>
+		<phrase i="71" t="本平台只支援含白色背景的轉碼程式。"/>
+		<phrase i="72" t="您要儲存變更過的組態嗎？"/>
+		<phrase i="73" t="資料無效，系統不會將該資料送到電話。"/>
+		<phrase i="74" t="尚未為電話語音通知設定任何 URL。按一下「新增」，然後設定 URL。"/>
+		<phrase i="75" t="所設定的電話語音通知 URL 數量達到上限。若要刪除 URL，請選取一列並按一下「移除」。"/>
+		<phrase i="76" t="您要刪除已安裝的 PAC 檔案嗎？"/>
+		<phrase i="77" t="已順利刪除 PAC 檔案。"/>
+		<phrase i="78" t="無法刪除 PAC 檔案。"/>
+		<phrase i="79" t="PAC 檔案上傳成功。"/>
+		<phrase i="80" t="無法上傳 PAC 檔案。"/>
+		<phrase i="81" t="上傳與安裝 PAC 檔案前，請設定 PAC 檔案密碼組態。這是必要動作，因為系統會個別處理 PAC 檔案上傳作業。"/>
+		<phrase i="82" t="正在要求網頁..."/>
+		<phrase i="83" t="所要求的網頁顯示成功。"/>
+		<phrase i="84" t="正在更新組態..."/>
+		<phrase i="85" t="正在載入記錄訊息..."/>
+		<phrase i="86" t="記錄訊息載入成功。"/>
+		<phrase i="87" t="功能鍵/線路鍵組態預覽"/>
+		<phrase i="88" t="正在上傳檔案..."/>
+		<phrase i="89" t="已修改的組態參數"/>
+		<phrase i="90" t="組態參數"/>
+		<phrase i="91" t="原始值"/>
+		<phrase i="92" t="已變更值"/>
+		<phrase i="93" t=""/>
+		<phrase i="94" t="頻道組態"/>
+		<phrase i="95" t="組態檔匯入成功。"/>
+		<phrase i="96" t="電話可用空間不足，無法匯入組態檔。"/>
+		<phrase i="97" t="無法匯入組態檔。"/>
+		<phrase i="98" t="所選取的組態匯出來源無效。"/>
+		<phrase i="99" t="無法匯出組態檔。"/>
+		<phrase i="100" t="已經修改組態參數，您要儲存變更過的組態嗎？&lt;br/&gt;按一下「儲存」即可儲存變更內容，而不匯入檔案。&lt;br/&gt;按一下「匯入」可捨棄所有變更內容，並匯入檔案。"/>
+		<phrase i="101" t=""/>
+		<phrase i="102" t=""/>
+		<phrase i="103" t="管理員密碼和使用者密碼錯誤，請再試一次。"/>
+		<phrase i="104" t="這些欄位需要電話重開機/重新啟動。" t.Trio_8800="這些欄位需要電話重新開機。"/>
+		<phrase i="105" t="選取/輸入下方組態參數的有效值。"/>
+		<phrase i="106" t="變更內容是否有效？"/>
+		<phrase i="107" t="組態參數需要電話重開機/重新啟動。" t.Trio_8800="組態參數需要電話重新開機。"/>
+		<phrase i="108" t="請等幾秒鐘，讓電話清除記錄檔案。"/>
+		<phrase i="109" t="記錄檔案名稱無效。"/>
+		<phrase i="110" t="偵測到不支援的字元：&lt;&gt;`&quot;[]{}()。"/>
+		<phrase i="111" t="已順利清除記錄檔案。"/>
+		<phrase i="112" t="無法清除記錄檔案。"/>
+		<phrase i="113" t="無法取得記錄檔案內容。"/>
+		<phrase i="114" t="正在清除記錄檔案..."/>
+		<phrase i="115" t="正在從 Poly 代管伺服器取得可用的軟體版本。"/>
+		<phrase i="116" t="正在從自訂伺服器取得可用的軟體版本。"/>
+		<phrase i="117" t="尚未設定自訂伺服器，請在檢查有無更新檔之前設定自訂伺服器。"/>
+		<phrase i="118" t="尚未設定 Poly 代管伺服器，請在檢查有無更新檔之前設定 Poly 代管伺服器。"/>
+		<phrase i="119" t="Poly 代管伺服器已經提供軟體"/>
+		<phrase i="120" t="自訂伺服器已經提供軟體"/>
+		<phrase i="121" t="已經從 Poly 代管伺服器順利取得可用軟體。"/>
+		<phrase i="122" t="已經從自訂伺服器順利取得可用軟體。"/>
+		<phrase i="123" t=""/>
+		<phrase i="124" t="目前的軟體版本：%s&lt;br/&gt;所選的軟體版本：%s&lt;br/&gt;電話將%s成 Poly 代管伺服器上的軟體。&lt;br/&gt;確定要%s電話軟體嗎？"/>
+		<phrase i="125" t="目前的軟體版本：%s&lt;br/&gt;所選的軟體版本：%s&lt;br/&gt;電話將%s成自訂伺服器上的軟體。&lt;br/&gt;確定要%s電話軟體嗎？"/>
+		<phrase i="126" t="以%s升級電話軟體。"/>
+		<phrase i="127" t="無法從 Poly 代管伺服器取得可用軟體。"/>
+		<phrase i="128" t="無法從自訂伺服器取得可用軟體。"/>
+		<phrase i="129" t="您選取的軟體必須相容，而且與目前安裝的版本不同，電話才會重開機並更新。"/>
+		<phrase i="130" t="要求引數無效。"/>
+		<phrase i="131" t="PAC 檔案上傳成功。"/>
+		<phrase i="132" t="無法上傳 PAC 檔案。"/>
+		<phrase i="133" t="注意"/>
+		<phrase i="134" t="無組態更新檔。"/>
+		<phrase i="135" t="有效值為 %s ~ %s。"/>
+		<phrase i="136" t="數值無效！有效範圍是 %s ~ %s。"/>
+		<phrase i="137" t="尚未指定憑證下載 URL。"/>
+		<phrase i="138" t="憑證下載要求無效。"/>
+		<phrase i="139" t="已順利儲存 TLS 組態。"/>
+		<phrase i="140" t="無法儲存 TLS 組態。"/>
+		<phrase i="141" t="已順利刪除憑證。"/>
+		<phrase i="142" t="無法刪除憑證。"/>
+		<phrase i="143" t="正在安裝憑證..."/>
+		<phrase i="144" t="正在刪除憑證..."/>
+		<phrase i="145" t="請選取要上傳到電話的音效檔。"/>
+		<phrase i="146" t="請選取要上傳到電話的電話/擴充模組背景圖案檔。"/>
+		<phrase i="147" t="請選取要上傳到電話的電話背景圖案檔。"/>
+		<phrase i="148" t="請選取要上傳到電話的擴充模組背景圖案檔。"/>
+		<phrase i="149" t="是否要重新啟動電話？"/>
+		<phrase i="150" t="是否要將電話重新機？"/>
+		<phrase i="151" t="無法重新啟動電話。"/>
+		<phrase i="152" t="無法重開機電話。"/>
+		<phrase i="153" t="正在重新啟動電話，電話啟動後請重新整理瀏覽器。"/>
+		<phrase i="154" t="正在重新開機電話，電話啟動後請重新整理瀏覽器。"/>
+		<phrase i="155" t="最多允許 %s 個字元。"/>
+		<phrase i="156" t="還原成功，電話可能必須重新開機或重新啟動，請稍等幾秒鐘。"/>
+		<phrase i="157" t="電話可用空間不足，無法匯入備份檔。"/>
+		<phrase i="158" t="無法匯出電話備份檔。"/>
+		<phrase i="159" t="無法匯入組態檔。"/>
+		<phrase i="160" t="電話備份檔無效，請輸入有效檔案。"/>
+		<phrase i="161" t="已經修改組態參數，您要儲存變更過的組態嗎？&lt;br/&gt;選擇「儲存」即可儲存變更內容，而不還原檔案。&lt;br/&gt;選擇「還原」可捨棄所有變更內容，並還原檔案。"/>
+		<phrase i="162" t="已將電話組態順利還原為出廠設定。"/>
+		<phrase i="163" t="無法將電話組態還原為出廠設定。"/>
+		<phrase i="164" t="設定值將還原為出廠設定。&lt;br/&gt;您要還原嗎？"/>
+		<phrase i="165" t="最多允許 %s 個字元。"/>
+		<phrase i="166" t="無法將本頁重設為預設值。"/>
+		<phrase i="167" t="系統會刪除輸入值最前面和最後面的空格。"/>
+		<phrase i="168" t="若輸入內容都是空格，則視為留白。"/>
+		<phrase i="169" t="這些欄位可能需要電話重開機/重新啟動。" t.Trio_8800="這些欄位可能需要電話重新開機。"/>
+		<phrase i="170" t="組態參數可能需要電話重開機/重新啟動。" t.Trio_8800="組態參數可能需要電話重開機。"/>
+		<phrase i="171" t="群組組態"/>
+		<phrase i="172" t="本平台只支援含黑色背景的轉碼程式。"/>
+		<phrase i="173" t="%s 最近的變更內容無法生效，因為其他的優先級更高。"/>
+		<phrase i="174" t="請在儲存前清除本地來源值。"/>
+		<phrase i="175" t=""/>
+		<phrase i="176" t="您確定要永遠刪除電話的所有「%s」記錄檔項目嗎？"/>
+		<phrase i="177" t="無法更新自訂伺服器組態。"/>
+		<phrase i="178" t="無法與電話通訊。"/>
+		<phrase i="179" t=""/>
+		<phrase i="180" t="無法容納所輸入的代表線數。"/>
+		<phrase i="181" t=""/>
+		<phrase i="182" t=""/>
+		<phrase i="183" t="&lt;b&gt;使用者授權合約&lt;/b&gt;。本軟體受著作權法與國際公約條文的保障。您只擁有本軟體的使用權。本軟體並非賣斷，使用時需遵守產品隨附之 Polycom 使用者授權合約 (EULA)。若要詳讀相關使用者授權合約，請參閱產品說明文件，或 www.polycom.com 相關產品網頁提供的說明文件。&lt;b&gt;出口限制&lt;/b&gt;。Polycom、其員工及其代理人需遵守美國出口管制法，禁止或限制 (i) 與特定人士/單位交易，以及禁止或限制 (ii) 可出口的技術與服務類型和等級。您同意完全遵守美國及其他國家之所有法律與行政命令（出口管制法），避免將本軟體及其任何直接產品 (1) 違反出口管制法直接或間接輸出，或避免將本軟體及其任何直接產品 (2) 用於出口管制法禁止之任何目的，包括（但不限於）擴散核子、化學或生物武器。不得將本軟體或基礎資訊或技術下載（或以其他方式出口或轉出口）(i) 到古巴、北韓、伊朗、蘇丹、敘利亞或美國明令禁運的其他國家（或給其國民或居民），或 (ii) 給美國財政部特別指定國民名單，或美國商務部拒絕往來人士名單、未經確認名單、實體名單、防止核武擴散制裁命令或一般命令內指定的任何人。一旦下載或使用本軟體，即表示您同意前述條文，並聲明和保證您並非位於上述任何國家，不受上述任何國家或名單上的國民或居民控制，或不是上述任何國家或名單上之國民或居民，或未名列上述任何名單，且同意您必須負責取得所有必要的美國政府許可，以遵守美國法律。&lt;br/&gt;&lt;br/&gt;若您下載或安裝本軟體，即代表您同意受到上列相關使用者授權合約條款及限制與出口限制之拘束。若您不同意上列相關使用者授權合約與出口限制，請勿下載或安裝本軟體。"/>
+		<phrase i="184" t="授權合約"/>
+		<phrase i="185" t="不支援該音效檔副檔名。目前只支援 .wav 檔案。"/>
+		<phrase i="186" t="不支援該圖案檔副檔名。&lt;br/&gt;注意：目前只支援 .bmp、.jpg、.jpeg、.jpe、.jfif、.png。"/>
+		<phrase i="187" t="不支援該組態檔副檔名。目前只支援 .cfg 檔案。"/>
+		<phrase i="188" t="不支援該備份檔副檔名。目前只支援 .pbu 檔案。"/>
+		<phrase i="189" t="正在安裝 PAC 檔案..."/>
+		<phrase i="190" t="正在移除 PAC 檔案..."/>
+		<phrase i="191" t="正在移除背景圖案..."/>
+		<phrase i="192" t="已經超出背景圖案檔儲存容量限制。"/>
+		<phrase i="193" t="表中已經有空白列。"/>
+		<phrase i="194" t="無法取得目前的電話軟體版本。"/>
+		<phrase i="195" t="您要取消背景頁的變更內容嗎？"/>
+		<phrase i="196" t="所設定的應用程式捷徑 URL 數量達到上限。若要刪除應用程式捷徑，請選取一列並按一下「移除」。"/>
+		<phrase i="197" t="僅支援含黑色背景的轉碼程式。若使用其他轉碼程式，可能使性能和視訊品質下降。"/>
+		<phrase i="198" t="已順利將背景圖案檔上傳到電話。&lt;br/&gt;&lt;br/&gt;注意：無法將圖案檔上傳到佈建伺服器。&lt;br/&gt;電話重新開機/重新啟動時，將清除已上傳的圖案檔。" t.Trio_8800="已順利將背景圖案檔上傳到電話。&lt;br/&gt;&lt;br/&gt;請注意：無法上傳該圖案檔到佈建伺服器。&lt;br/&gt;電話重新開機時，將清除已上傳的圖案檔。"/>
+		<phrase i="199" t="已順利將音效檔上傳到電話。&lt;br/&gt;&lt;br/&gt;注意：無法將音效檔上傳到佈建伺服器。&lt;br/&gt;電話重新開機/重新啟動時，將清除已上傳的音效檔。" t.Trio_8800="已順利將音效檔上傳到電話。&lt;br/&gt;&lt;br/&gt;請注意：無法上傳該音效檔到佈建伺服器。&lt;br/&gt;電話重新開機時，將清除已上傳的音效檔。"/>
+		<phrase i="200" t="僅支援含白色背景的轉碼程式。若使用其他轉碼程式，可能使性能和視訊品質下降。"/>
+		<phrase i="201" t="正在移除音效檔..."/>
+		<phrase i="202" t="代表線數無效。"/>
+		<phrase i="203" t="尚未設定音效檔，若要設定或上傳鈴聲，請按一下右上角的「加號」圖示。"/>
+		<phrase i="204" t="尚未設定圖案檔，若要設定或上傳圖案，請按一下右上角的「加號」圖示。"/>
+		<phrase i="205" t="電話會用所選圓形按鈕旁邊的檔案名稱，當作背景圖案"/>
+		<phrase i="206" t=""/>
+		<phrase i="207" t="密碼不得空白。"/>
+		<phrase i="208" t="無法取得音效檔 。"/>
+		<phrase i="209" t="從電話機擷取音效檔時出現錯誤。"/>
+		<phrase i="210" t="請從電腦中選取一個檔案，或輸入音效檔的 URL。"/>
+		<phrase i="211" t="已經達到上限。"/>
+		<phrase i="212" t=""/>
+		<phrase i="213" t=""/>
+		<phrase i="214" t="新增背景"/>
+		<phrase i="215" t="編輯背景"/>
+		<phrase i="216" t="正在更新預覽..."/>
+		<phrase i="217" t="沒有「%s」電話圖案。"/>
+		<phrase i="218" t="從電話機擷取「%s」電話圖案時出現錯誤。"/>
+		<phrase i="219" t=""/>
+		<phrase i="220" t="輸入/選取有效的電話圖案。&lt;br/&gt;注意：目前只支援 .bmp、.jpg、.jpeg、.jpe、.jfif、.png。"/>
+		<phrase i="221" t="輸入/選取有效的電話圖案。&lt;br/&gt;注意：目前只支援 .bmp、.jpg、.jpeg、.jpe、.jfif。"/>
+		<phrase i="222" t="通話速率不可超過最高通話速率。"/>
+		<phrase i="223" t="您要儲存新的聯絡人資訊嗎？"/>
+		<phrase i="224" t="您要儲存新的 BLF 線路資訊嗎？"/>
+		<phrase i="225" t="聯絡人資訊已經變更。&lt;br/&gt;您要儲存聯絡人資訊嗎？"/>
+		<phrase i="226" t="已註冊線路資訊已經變更。&lt;br/&gt;您要儲存已註冊線路資訊嗎？"/>
+		<phrase i="227" t="BLF 線路資訊已經變更。&lt;br/&gt;您要儲存 BLF 線路資訊嗎？"/>
+		<phrase i="228" t="您要儲存新的功能鍵資訊嗎？"/>
+		<phrase i="229" t="功能鍵資訊已經變更。您要儲存功能鍵資訊嗎？"/>
+		<phrase i="230" t="禁止改變「已註冊線路」的順序。"/>
+		<phrase i="231" t="移動「BLF 線路」前請先移動「聯絡人」。"/>
+		<phrase i="232" t="若「非使用中線路和快速撥號鍵」清單中不包含 BLF 線路，則不允許移動「BLF 線路」。"/>
+		<phrase i="233" t="最多允許 10 個功能鍵。"/>
+		<phrase i="234" t="已經有「%s」功能鍵的標籤。"/>
+		<phrase i="235" t="已經有「%s」功能鍵的動作。"/>
+		<phrase i="236" t="已將此聯絡號碼指定給「%s」。"/>
+		<phrase i="237" t="已將此位址指定給「%s」BLF 線路。"/>
+		<phrase i="238" t="已註冊線路已滿。"/>
+		<phrase i="239" t="請輸入功能鍵標籤。"/>
+		<phrase i="240" t="請輸入功能鍵動作。&lt;br/&gt;&lt;br/&gt;您可在「動作」選取方塊中選擇選項，然後按一下「新增」按鈕，也可以勾選「編輯巨集程式碼」，然後手動輸入動作。"/>
+		<phrase i="241" t="輸入「位址」值。"/>
+		<phrase i="242" t="輸入「聯絡號碼」。"/>
+		<phrase i="243" t="功能鍵新增成功。"/>
+		<phrase i="244" t="聯絡人資訊新增成功。"/>
+		<phrase i="245" t="BLF 線路新增成功。"/>
+		<phrase i="246" t="聯絡人資訊更新成功："/>
+		<phrase i="247" t="BLF 線路更新成功："/>
+		<phrase i="248" t="已註冊線路更新成功："/>
+		<phrase i="249" t="功能鍵更新成功："/>
+		<phrase i="250" t="按一下 [是] 按鈕，開啟 [線路註冊] 頁。"/>
+		<phrase i="251" t="「使用中線路鍵和快速撥號鍵」選取方塊無法容納「%s」線路鍵（達到上限）。"/>
+		<phrase i="252" t="您要清除所有修改過的功能鍵組態嗎？ &lt;br/&gt;注意：這個動作能將功能鍵恢復成預設值。"/>
+		<phrase i="253" t="不支援此背景圖案檔。"/>
+		<phrase i="254" t="不支援該音效檔。"/>
+		<phrase i="255" t="已將 &lt;b&gt;%s&lt;/b&gt; 檔案設定成開機音效。刪除時會設定成「無」。&lt;br/&gt;&lt;br/&gt;"/>
+		<phrase i="256" t="已將 &lt;b&gt;%s&lt;/b&gt; 檔案設定成鈴聲類型。刪除時會設定成「低顫音」。&lt;br/&gt;&lt;br/&gt;"/>
+		<phrase i="257" t="電話上已經有 &lt;b&gt;%s&lt;/b&gt; 音效檔。"/>
+		<phrase i="258" t="沒有「%s」擴充模組圖案。"/>
+		<phrase i="259" t="從電話機擷取「%s」擴充模組圖案檔時出現錯誤。"/>
+		<phrase i="260" t="電話圖案：找不到路徑或圖案檔不存在。"/>
+		<phrase i="261" t="擴充模組圖案：找不到路徑或圖案檔不存在。"/>
+		<phrase i="262" t="&lt;br/&gt;請輸入/選取有效的圖案檔。"/>
+		<phrase i="263" t="正在驗證輸入的圖案 URL..."/>
+		<phrase i="264" t="電話中已經有所選的「%s」電話圖案。"/>
+		<phrase i="265" t="電話中已經有所選的「%s」擴充模組圖案。"/>
+		<phrase i="266" t="不支援該圖案檔副檔名。&lt;br/&gt;注意：目前只支援 .bmp、.jpg、.jpeg、.jpe、.jfif。"/>
+		<phrase i="267" t="已將所選背景用於電話目前的背景。刪除本背景圖案時，電話會顯示預設背景。"/>
+		<phrase i="268" t="已經達到背景圖案上限。"/>
+		<phrase i="269" t="下限是 %s 個字元，上限是 %s 個字元。"/>
+		<phrase i="270" t="下限是 %s 個字元。"/>
+		<phrase i="271" t="取消對%s設定的變更。"/>
+		<phrase i="272" t="清除在本網頁設定的組態。"/>
+		<phrase i="273" t="顯示所有設定的變更內容。"/>
+		<phrase i="274" t="將變更過的設定用於電話的所有頁。"/>
+		<phrase i="275" t=""/>
+		<phrase i="276" t="啟用 iLBC 功能時，4 向通話會縮減成 3 向通話。"/>
+		<phrase i="277" t="電話可使用 iLBC 或 G.729AB，但兩者不能同時並存。"/>
+		<phrase i="278" t="本電話機不支援所選的轉碼程式。"/>
+		<phrase i="279" t="管理員密碼錯誤。"/>
+		<phrase i="280" t="使用者密碼錯誤。"/>
+		<phrase i="281" t="新舊管理員密碼相同。"/>
+		<phrase i="282" t="新舊使用者密碼相同。"/>
+		<phrase i="283" t="新管理員密碼和確認管理員密碼不同。"/>
+		<phrase i="284" t="新使用者密碼和確認使用者密碼不同。"/>
+		<phrase i="285" t="清除所有自訂功能鍵，恢復預設功能鍵。"/>
+		<phrase i="286" t="預覽變更內容。"/>
+		<phrase i="287" t="重新整理記錄訊息。"/>
+		<phrase i="288" t="清除目前的記錄項目。"/>
+		<phrase i="289" t="按一下即可查閱、新增線路鍵功能。"/>
+		<phrase i="290" t="匯出所有來源的組態檔。"/>
+		<phrase i="291" t="取消新的功能鍵組態。"/>
+		<phrase i="292" t="取消新的線路鍵組態。"/>
+		<phrase i="293" t="下載目前的記錄檔。"/>
+		<phrase i="294" t="匯出所選來源的組態檔。"/>
+		<phrase i="295" t="新增 URL 目標。"/>
+		<phrase i="296" t="將本功能加入功能鍵。"/>
+		<phrase i="297" t="刪除 URL 目標。"/>
+		<phrase i="298" t="安裝所選的軟體版本。"/>
+		<phrase i="299" t="匯入組態檔。"/>
+		<phrase i="300" t="將電話備份檔套用到電話。"/>
+		<phrase i="301" t="將電話還原成出廠預設組態。"/>
+		<phrase i="302" t="檢查指定伺服器有無軟體更新檔。"/>
+		<phrase i="303" t="恢復所有欄位。"/>
+		<phrase i="304" t="刪除功能鍵。"/>
+		<phrase i="305" t="刪除線路鍵。"/>
+		<phrase i="306" t="將變更過的設定用於電話。"/>
+		<phrase i="307" t="按一下即可設定新的功能鍵。"/>
+		<phrase i="308" t="將電話組態還原成出廠預設值。"/>
+		<phrase i="309" t="按一下即可設定新的功能鍵。"/>
+		<phrase i="310" t="顯示所有群組的廣播組態。"/>
+		<phrase i="311" t="顯示所有頻道的 PTT 組態。"/>
+		<phrase i="312" t="SIP 伺服器位址無效。"/>
+		<phrase i="313" t="快速撥號聯絡人會永遠跟著 BLF 線路（如果有 BLF 線路）。"/>
+		<phrase i="314" t="由於設定變更，因此電話已重新開機/重新啟動。電話啟動後請重新整理瀏覽器。"/>
+		<phrase i="315" t="已順利將檔案上傳到電話。&lt;br/&gt;正將檔案上傳到設置伺服器..."/>
+		<phrase i="316" t="已順利將音效檔上傳到電話。注意：將檔案上傳到設置伺服器需要時間。&lt;br/&gt;若不上傳，電話重開機/重新啟動時就會刪除音效檔。" t.Trio_8800="已順利將音效檔上傳到電話。&lt;br/&gt;&lt;br/&gt;請注意：將檔案上傳到佈建伺服器需要時間。&lt;br/&gt;若不上傳，電話重新開機時就會刪除音效檔。"/>
+		<phrase i="317" t="已順利將背景圖案檔上傳到電話。注意：將檔案上傳到設置伺服器需要時間。&lt;br/&gt;若不上傳，電話重開機/重新啟動時就會刪除背景圖案檔。" t.Trio_8800="已順利將背景圖案檔上傳到電話。&lt;br/&gt;&lt;br/&gt;請注意：將檔案上傳到佈建伺服器需要時間。&lt;br/&gt;若不上傳，電話重新開機時就會刪除背景圖案檔。"/>
+		<phrase i="318" t="正在停用 %s 功能鍵，以後可能無法再次啟用這些功能鍵。"/>
+		<phrase i="319" t="由於電話上有未讀訊息，因此無法停用「訊息」鍵。"/>
+		<phrase i="320" t="下載語言文件失敗。"/>
+		<phrase i="321" t="無法剖析語言檔案。"/>
+		<phrase i="322" t="電話可用空間不足，無法匯入語言檔案。"/>
+		<phrase i="323" t="無法將語言檔案匯入電話機"/>
+		<phrase i="324" t="語言檔案匯入成功。"/>
+		<phrase i="325" t="不支援該語言檔案副檔名，目前只支援 .xml 檔案。"/>
+		<phrase i="326" t="無法從指定 URL 下載語言檔案"/>
+		<phrase i="327" t="顯示對話方塊，以便將語言檔案上傳到「網路組態公用程式」。"/>
+		<phrase i="328" t="電話可使用 iLBC 或 G.726QI，但兩者不能同時並存。您可以在「&lt;b&gt;%s&lt;/b&gt;」頁面停用 iLBC 轉碼程式。"/>
+		<phrase i="329" t="電話可使用 iLBC 或 G.726QI，但兩者不能同時並存。您可以在「&lt;b&gt;%s&lt;/b&gt;」頁面停用 G.726QI 轉碼程式。"/>
+		<phrase i="330" t="無法從開機伺服器下載語言檔案。&lt;br/&gt;&lt;br/&gt;您要從 Poly 代管伺服器下載嗎？"/>
+		<phrase i="331" t="正在從 Poly 代管伺服器下載語言檔案。"/>
+		<phrase i="332" t="清除升級伺服器的組態。"/>
+		<phrase i="333" t="您要清除升級伺服器的組態嗎？"/>
+		<phrase i="334" t="正在清除升級伺服器的組態。"/>
+		<phrase i="335" t="升級伺服器的組態清除成功。電話機從現在起將使用佈建伺服器的軟體映像檔。"/>
+		<phrase i="336" t="無法清除升級伺服器的組態。"/>
+		<phrase i="337" t="有效值為 %s ~ %s 或空白。"/>
+		<phrase i="338" t="組態"/>
+		<phrase i="339" t="SIP"/>
+		<phrase i="340" t="無法讀取您指定的 XML 檔案，請聯絡 Poly 代管伺服器管理員。"/>
+		<phrase i="341" t="無法讀取您指定的 XML 檔案，請聯絡自訂伺服器管理員。"/>
+		<phrase i="342" t="無法在 Poly 代管伺服器上找到這一型的電話機軟體。"/>
+		<phrase i="343" t="無法在自訂伺服器上找到這一型的電話機軟體。"/>
+		<phrase i="344" t="Poly 代管伺服器上沒有與本電話機相容的軟體。"/>
+		<phrase i="345" t="自訂伺服器上沒有與本電話機相容的軟體。"/>
+		<phrase i="346" t="顯示對話方塊，以便將音效檔上傳到電話機。"/>
+		<phrase i="347" t="音效檔匯入成功。"/>
+		<phrase i="348" t="無法從指定 URL 下載鈴聲檔案"/>
+		<phrase i="349" t="您要下載的檔案類型無效"/>
+		<phrase i="350" t="您要下載的檔案太大"/>
+		<phrase i="351" t="檔案大小是零"/>
+		<phrase i="352" t="已經有使用中的音效檔，目前無法下載。"/>
+		<phrase i="353" t="下載失敗。請再試一次。"/>
+		<phrase i="354" t="檔案大小超出上限。"/>
+		<phrase i="355" t="不支援此 .wav 檔案格式。"/>
+		<phrase i="356" t="「保留音樂」功能已被停用。"/>
+		<phrase i="357" t="所選的檔案下載成功。"/>
+		<phrase i="358" t=""/>
+		<phrase i="359" t="指定的檔案路徑無效。"/>
+		<phrase i="360" t="裝置的儲存空間用完。"/>
+		<phrase i="361" t="下載失敗，因為網路錯誤。"/>
+		<phrase i="362" t="記錄檔案空白。"/>
+		<phrase i="363" t="記錄檔案不存在。"/>
+		<phrase i="364" t="所選功能鍵已被同時設為閒置和非閒置狀態。之後若變更所選功能鍵的設定，則只能套用到閒置狀態的行為。"/>
+		<phrase i="365" t="所選功能鍵已被同時設為閒置和非閒置狀態。您無法修改，因為已經達到可設定功能鍵數目的上限。"/>
+		<phrase i="366" t="利用「網路組態公用程式」輸入帳號密碼並不安全，建議您使用電話機的介面輸入帳號密碼，或採用其他較安全的方式。"/>
+		<phrase i="367" t="要將已在 %s 號擴充模組上設定的線路下載成 PDF 檔嗎？"/>
+		<phrase i="368" t="無法將已在擴充模組上設定的線路匯出成 PDF 檔。"/>
+		<phrase i="369" t="無法取得系統狀態。"/>
+		<phrase i="370" t="由於正在通話中，所以目前無法執行這項作業。請在電話閒置時再試一次。"/>
+		<phrase i="371" t="頁面載入完成後，電話的通話狀態可能有所改變。如要取得最新組態，請重新整理本頁面。"/>
+		<phrase i="372" t="電話忙線中。請稍後再試一次。"/>
+		<phrase i="373" t="按一下來登入商務用 Skype"/>
+		<phrase i="374" t="按一下來登出商務用 Skype"/>
+		<phrase i="375" t="正在登入商務用 Skype"/>
+		<phrase i="376" t="正在登出"/>
+		<phrase i="377" t="已登入商務用 Skype"/>
+		<phrase i="378" t="商務用 Skype 驗證失敗。再次登入。"/>
+		<phrase i="379" t="未啟用商務用 Skype 簡易登入功能。"/>
+		<phrase i="380" t="通話期間無法登出。請先結束所有通話。"/>
+		<phrase i="381" t="電話並非處於已註冊狀態。"/>
+		<phrase i="382" t="電話處於已註冊狀態。"/>
+		<phrase i="383" t="電話已登入商務用 Skype。請稍候再試一次。"/>
+		<phrase i="384" t="正在擷取商務用 Skype 狀態資訊。"/>
+		<phrase i="385" t="裝置憑證金鑰路徑"/>
+		<phrase i="386" t="裝置憑證金鑰"/>
+		<phrase i="387" t="找不到裝置序號"/>
+		<phrase i="388" t="裝置金鑰下載中"/>
+		<phrase i="389" t="您要刪除「保留音樂」檔案嗎？"/>
+		<phrase i="390" t="無法移除使用中的音樂檔案。"/>
+		<phrase i="391" t="已順利刪除音樂檔案。"/>
+		<phrase i="392" t="無法移除音樂檔案。"/>
+		<phrase i="393" t="正在移除檔案..."/>
+		<phrase i="394" t="&lt;b&gt;請先儲存&lt;/b&gt;「保留音樂狀態」組態變更，再新增或移除音樂檔案。"/>
+		<phrase i="395" t="輸入登入位址"/>
+		<phrase i="396" t="輸入密碼"/>
+		<phrase i="397" t="輸入登入位址和密碼"/>
+		<phrase i="398" t="輸入分機號碼和 PIN 碼"/>
+		<phrase i="399" t="輸入使用者名稱"/>
+		<phrase i="400" t="正在重新啟動或重開機。現在無法登出。"/>
+		<phrase i="401" t="登入位址無效"/>
+		<phrase i="402" t="正在擷取基地台狀態。"/>
+		<phrase i="403" t="正在與基地台配對。請稍候..."/>
+		<phrase i="404" t="無法與基地台配對。"/>
+		<phrase i="405" t="無法與基地台取消配對。"/>
+		<phrase i="406" t="正在與基地台取消配對。請稍候..."/>
+		<phrase i="407" t="正在尋找基地台。請稍候..."/>
+		<phrase i="408" t="基地台處於註冊模式。請稍候..."/>
+		<phrase i="409" t="VVX D60 模組正在初始化"/>
+		<phrase i="410" t="無法擷取基地台狀態"/>
+		<phrase i="411" t="「網路組態公用程式」未與 VVX 同步。按一下「確定」來重新整理頁面。"/>
+		<phrase i="412" t="正在將 VVX D60 功能變更儲存到電話。"/>
+		<phrase i="413" t="無法與基地台取消配對。您無法停用這項功能。"/>
+		<phrase i="414" t="無法變更 VVX D60 功能設定。"/>
+		<phrase i="415" t="正在尋找基地台。請稍候...&lt;br/&gt; 偵測到的基地台數量：%s 個"/>
+		<phrase i="416" t="VVX 還無法偵測基地台。請稍後再試一次。"/>
+		<phrase i="417" t="無法傳送偵測訊息"/>
+		<phrase i="418" t="無法偵測子網路中的基地台。"/>
+		<phrase i="419" t="無法擷取自動偵測狀態"/>
+		<phrase i="420" t="輸入 VVX D60 IP 位址以開始配對。"/>
+		<phrase i="421" t="無法變更對講機狀態"/>
+		<phrase i="422" t="無法將取消配對要求傳送到 VVX。"/>
+		<phrase i="423" t="無法取得取消配對狀態。"/>
+		<phrase i="424" t="基地台為註冊模式。&lt;br/&gt;在話筒上，選取「功能表」&gt;「設定」&gt;「功能」&gt;「註冊」&gt;「註冊」來將話筒註冊到基地台上。"/>
+		<phrase i="425" t="基地台為註冊模式。在話筒上，選取「功能表」&gt;「設定」&gt;「功能」&gt;「註冊」&gt;「註冊」來將話筒註冊到基地台上。已註冊話筒：%s"/>
+		<phrase i="426" t="無法傳送註冊要求"/>
+		<phrase i="427" t="無法傳送註冊狀態要求"/>
+		<phrase i="428" t="無法結束註冊模式"/>
+		<phrase i="429" t="正在取得話筒詳細資料。請稍候"/>
+		<phrase i="430" t="無法傳送話筒取得要求"/>
+		<phrase i="431" t="所有處於群呼模式的話筒都發出嗶聲。話筒如果不在群呼模式就會停止發出嗶聲。"/>
+		<phrase i="432" t="無法傳送尋找要求"/>
+		<phrase i="433" t="正在取消註冊話筒。請稍候"/>
+		<phrase i="434" t="無法傳送取消註冊話筒要求"/>
+		<phrase i="435" t="無法取得話筒線路詳細資料"/>
+		<phrase i="436" t="沒有對應的線路"/>
+		<phrase i="437" t="PC 連接埠尚未執行。請將基地台連接到 VVX 的 PC 連接埠。"/>
+		<phrase i="438" t="無法與 PC 連接埠配對。請檢查裝置。"/>
+		<phrase i="439" t="無法傳送 PC 連接埠配對要求"/>
+		<phrase i="440" t="正在檢查 PC 連接埠。請稍候"/>
+		<phrase i="441" t="註冊已經到達上限。話筒數已經達到上限：5 支。您無法繼續註冊。已註冊話筒：5 支"/>
+		<phrase i="442" t="註冊視窗逾時。話筒註冊要求逾時。已註冊話筒：%s"/>
+		<phrase i="443" t="是否確定要取消註冊以下的話筒？&lt;br/&gt; 話筒%s：%s &lt;br/&gt; %s 已對應線路：%s"/>
+		<phrase i="444" t="確定要將基地台與各自話筒取消配對嗎？"/>
+		<phrase i="445" t="正在套用基地台名稱。"/>
+		<phrase i="446" t="正在套用話筒名稱。"/>
+		<phrase i="447" t="無法將名稱套用到基地台。"/>
+		<phrase i="448" t="無法套用話筒名稱"/>
+		<phrase i="449" t="無法與基地台取消配對，因為正在寫入基地台快閃記憶體。"/>
+		<phrase i="450" t="無法與基地台取消配對，因為正在通話。"/>
+		<phrase i="451" t="無法與基地台取消配對，因為正在更新軟體。"/>
+		<phrase i="452" t="此選項可啟用或停用 VVX D60 設定檔。變更將立即套用到電話。"/>
+		<phrase i="453" t="按一下來開始 VVX D60 記錄擷取"/>
+		<phrase i="454" t="按一下即可停止擷取 VVX D60 記錄檔。"/>
+		<phrase i="455" t="由於話筒正在使用中，因此無法取消註冊話筒。"/>
+		<phrase i="456" t="VVX D60 軟體更新中。請稍後再試一次。"/>
+		<phrase i="457" t="正在取消要求…"/>
+		<phrase i="458" t="未設定 VVX D60 設定檔。"/>
+		<phrase i="459" t="正在擷取 VVX D60 狀態資訊。"/>
+		<phrase i="460" t="VVX 未與基地台配對。"/>
+		<phrase i="461" t="無法連線到行事曆資料和其他 Exchange 服務。請重新輸入密碼。"/>
+		<phrase i="462" t="無法繼續執行。請結束所有通話後再試一次"/>
+		<phrase i="463" t="正在重新啟動/重新開機。無法重新登入。" t.Trio_8800="正在重新開機。無法重新登入。"/>
+		<phrase i="464" t="您輸入了相同的密碼。請輸入新密碼。"/>
+		<phrase i="465" t="是否要將系統記錄檔匯出到電腦？"/>
+		<phrase i="466" t="是否要將裝置重新開機？"/>
+		<phrase i="467" t="無法重新啟動裝置。"/>
+		<phrase i="468" t="無法重開機裝置。"/>
+		<phrase i="469" t="正在重新啟動裝置，裝置啟動後請重新整理瀏覽器。"/>
+		<phrase i="470" t="正在重新開機裝置，裝置啟動後請重新整理瀏覽器。"/>
+		<phrase i="471" t="是否要重新啟動裝置？"/>
+		<phrase i="472" t="現在無法更新伺服器 URL"/>
+		<phrase i="473" t="正在上傳記錄檔資訊"/>
+		<phrase i="474" t="記錄檔上傳成功"/>
+		<phrase i="475" t="記錄檔上傳失敗"/>
+		<phrase i="476" t="記錄檔上傳服務目前無法使用"/>
+		<phrase i="477" t="變更配對模式將會取消電話與電腦的配對。"/>
+		<phrase i="478" t="正在擷取資訊..."/>
+		<phrase i="479" t="要求失敗。"/>
+		<phrase i="480" t="正在擷取 Token 中。"/>
+		<phrase i="481" t="是否要將系統上的所有網路裝置重新開機？"/>
+		<phrase i="482" t="無法將系統上的所有網路裝置重新開機。"/>
+		<phrase i="483" t="已將系統上的所有網路裝置重新開機，所有裝置啟動後請重新整理瀏覽器。"/>
+		<phrase i="484" t="授權失敗。"/>
+		<phrase i="485" t="請在此登入。"/>
+		<phrase i="486" t="正在重新配對到基地台。請聯絡系統管理員以取消…"/>
+		<phrase i="487" t="正在重新配對到基地台…"/>
+		<phrase i="488" t="輸入有效的 VVX D60 MAC 位址以開始配對。"/>
+		<phrase i="489" t="正在更新最大話筒設定。"/>
+		<phrase i="490" t="無法取得 VVX D60 狀態資訊。"/>
+		<phrase i="491" t="「網路組態公用程式」未與 VVX 同步，按一下「確定」來重新整理瀏覽器。"/>
+		<phrase i="492" t="輸入 Exchange 電子郵件或網域"/>
+		<phrase i="493" t="輸入 Exchange 使用者"/>
+		<phrase i="494" t="輸入 Exchange 密碼"/>
+		<phrase i="495" t="正在進行 Exchange 認證更新"/>
+		<phrase i="496" t="輸入 PIN 碼"/>
+		<phrase i="497" t="裝置正在通話中，通話結束後裝置將重新啟動。裝置啟動後請重新整理瀏覽器。"/>
+		<phrase i="498" t="裝置正在通話中，通話結束後裝置將重新開機。裝置啟動後請重新整理瀏覽器。"/>
+		<phrase i="499" t="電話正在通話中，通話結束後電話將重新啟動。裝置啟動後請重新整理瀏覽器。"/>
+		<phrase i="500" t="電話正在通話中，通話結束後電話將重新開機。裝置啟動後請重新整理瀏覽器。"/>
+		<phrase i="501" t="系統正在通話中，通話結束後系統將重新開機。裝置啟動後請重新整理瀏覽器。"/>
+		<phrase i="502" t="裝置處於 CAP 模式。請聯絡系統管理員。"/>
+		<phrase i="503" t="匯出 PAC 檔案"/>
+		<phrase i="504" t="代理伺服器驗證失敗。更新您的帳號密碼"/>
+		<phrase i="505" t="自訂加密套件無效"/>
+		<phrase i="506" t="無法下載技術支援參考資料集。"/>
+		<phrase i="507" t="SCEP: 操作失敗"/>
+		<phrase i="508" t="SCEP: 組態錯誤"/>
+		<phrase i="509" t="SCEP: 由於網路錯誤而導致 CA 憑證操作失敗"/>
+		<phrase i="510" t="SCEP: 由於網路錯誤而導致註冊操作失敗"/>
+		<phrase i="511" t="SCEP: 未接收到 CA 功能"/>
+		<phrase i="512" t="SCEP: 未接收到 CA 憑證"/>
+		<phrase i="513" t="SCEP: 未接收到註冊回應"/>
+		<phrase i="514" t="SCEP: CA 憑證錯誤"/>
+		<phrase i="515" t="SCEP: 憑證錯誤"/>
+		<phrase i="516" t="SCEP: 識別到不受支援的演算法"/>
+		<phrase i="517" t="SCEP: 憑證完整性檢查失敗"/>
+		<phrase i="518" t="SCEP: 不受允許或不支援的交易"/>
+		<phrase i="519" t="SCEP: 憑證時間不符"/>
+		<phrase i="520" t="SCEP: 找不到相符的憑證"/>
+		<phrase i="521" t="SCEP: 建立自簽憑證時發生錯誤"/>
+		<phrase i="522" t="SCEP: 加密/解密憑證時發生錯誤"/>
+		<phrase i="523" t="正在進行通話時無法刪除 SCEP 憑證。"/>
+		<phrase i="524" t="正在擷取雲端狀態……"/>
+		<phrase i="525" t="雲端"/>
+		<phrase i="526" t="請稍候…"/>
+		<phrase i="527" t="網路斷線。無法取得 URL 和配對代碼。"/>
+		<phrase i="528" t="電話已拒絕該組態。部分組態含有指令碼元素。"/>
+		<phrase i="529" t="您所輸入的是預設密碼。請選擇一個不同的密碼。"/>
+		<phrase i="530" t="裝置已登入。請重新整理頁面。"/>
+		<phrase i="531" t="按一下來登入 Exchange 用戶端"/>
+		<phrase i="532" t="按一下來登出 Exchange 用戶端"/>
+		<phrase i="533" t="正在登入 Exchange 用戶端"/>
+	</jsPhrases>
+	<staticText>
+		<phrase i="0" t="修改密碼後，電話的登入密碼也會一起變更。"/>
+		<phrase i="1" t="按一下「重新整理」可查閱最近的電話記錄檔。"/>
+		<phrase i="2" t="系統會將所匯入的組態視為網路組態。"/>
+		<phrase i="3" t="&lt;b&gt;所有組態&lt;/b&gt;：匯出所有來源的組態參數（不含裝置設定）。"/>
+		<phrase i="4" t="&lt;b&gt;組態檔&lt;/b&gt;：匯出佈建伺服器上組態檔的參數。"/>
+		<phrase i="5" t="&lt;b&gt;本地&lt;/b&gt;：匯出在電話本機上設定的參數。"/>
+		<phrase i="6" t=""/>
+		<phrase i="7" t="&lt;b&gt;TR-069&lt;/b&gt;：匯出用 TR-069 設定的參數。"/>
+		<phrase i="8" t="&lt;b&gt;網頁&lt;/b&gt;：匯出用「網路組態公用程式」設定的參數。"/>
+		<phrase i="9" t="電話語音事件通知：請輸入要將電話語音事件通知傳送到哪個 URL，以及要通知哪一類的事件。通知將以 XML 格式傳送。"/>
+		<phrase i="10" t="清單上的第一個音效檔會成為電話開機音效，無法作為鈴聲，也不會顯示在電話上。"/>
+		<phrase i="11" t="備份檔包含所有設備來源的組態。"/>
+		<phrase i="12" t=""/>
+		<phrase i="13" t="應用程式捷徑：輸入應用程式的 URL 和應用程式名稱，電話的「應用程式」功能表會顯示這些捷徑。在電話上選取捷徑，以便在電話的瀏覽器上開啟相關網頁。"/>
+		<phrase i="14" t="&lt;b&gt;裝置設定&lt;/b&gt;：匯出電話機的網路設定、佈建設定和乙太網路設定。"/>
+		<phrase i="15" t="灰色背景的項目是預設功能鍵，不可更動。"/>
+		<phrase i="16" t="&lt;b&gt;SIP&lt;/b&gt;：匯出用 PPS-SIP（商務用 Skype）設定的參數。"/>
+		<phrase i="17" t="您無法透過「網路組態公用程式」停用有「*」標示的項目。若要停用功能鍵，請使用電話機的使用介面，或者組態檔中的參數。"/>
+		<phrase i="18" t="每個無線話筒可供對應 5 條線路。"/>
+		<phrase i="19" t="第一條線路一定要對應到 VVX 或 VVX 和話筒。"/>
+		<phrase i="20" t="共用線路可對應到一台裝置。"/>
+		<phrase i="21" t="變更線路對應選項會清除對應的本機電話組態。"/>
+		<phrase i="22" t="&lt;b&gt;雲端&lt;/b&gt;：匯出雲端組態公用程式中所設定的參數。"/>
+	</staticText>
+</dictionary>
